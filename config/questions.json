@@ -1,0 +1,242 @@
+[
+    {
+        "id":1,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question": "¿Cuál es el lugar más frío de la tierra?",
+        "correctAnswer": "La Antartida",
+        "possibleAnswers": "Groenlandia,La Antartida,Siveria,El Polo Artico"
+    },
+    {
+        "id":2,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Quién escribió La Odisea?",
+        "correctAnswer": "Homero",
+        "possibleAnswers": "Homero,Ulises,Aristoteles,William Shakespeare"
+    },
+    {
+        "id":3,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Mongolia?",
+        "correctAnswer": "Ulan Bator",
+        "possibleAnswers": "Ulan Bator,Nompen,Nirobi,Bridgetown"
+    },
+    {
+        "id":4,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el río más largo del mundo?",
+        "correctAnswer": "El Amazonas",
+        "possibleAnswers": "El Nilo,El Amazonas,El Rin,El Tiber"
+    },
+    {
+        "id":5,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Dónde originaron los juegos olímpicos?",
+        "correctAnswer": "En Grecia",
+        "possibleAnswers": "En Roma,En Grecia,En Inglaterra,En EEUU"
+    },
+    {
+        "id":6,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Qué tipo de animal es la ballena?",
+        "correctAnswer": "Mamifero",
+        "possibleAnswers": "Paquidermo,Felino,Mamifero,Pez"
+    },
+    {
+        "id":7,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Qué cantidad de huesos en el cuerpo humano?",
+        "correctAnswer": "206",
+        "possibleAnswers": "204,205,206,207"
+    },
+    {
+        "id":8,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cuándo acabó la II Guerra Mundial?",
+        "correctAnswer": "1945",
+        "possibleAnswers": "1914,1918,1939,1945"
+    },
+    {
+        "id":9,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Quién es el autor de el Quijote?",
+        "correctAnswer": "Miguel de Cervantes",
+        "possibleAnswers": "Miguel de Cervantes,William Shakespear,Julio Verne,Federico García Lorca"
+    },
+    {
+        "id":10,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Quién pintó “la última cena”?",
+        "correctAnswer": "Leonardo Da Vinci",
+        "possibleAnswers": "Salvador Dali,Miguel Angel,Vincent Van Gogh,Leonardo Da Vinci"
+    },
+    {
+        "id":11,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cómo se denomina el resultado de la multiplicación?",
+        "correctAnswer": "Producto",
+        "possibleAnswers": "Cociente,Producto,Resto"
+    },
+    {
+        "id":12,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cuál es el disco más vendido de la historia?",
+        "correctAnswer": "Thriller",
+        "possibleAnswers": "The Dark Side of the Moon,Thriller,Back in Black,Led Zeppelin IV"
+    },
+    {
+        "id":13,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Quién es el padre del psicoanálisis?",
+        "correctAnswer": "Sigmund Freud",
+        "possibleAnswers": "Jacques Lacan,Stanley Hall,Sigmund Freud"
+    },
+    {
+        "id":14,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Quién es el famoso Rey de Rock en los Estados Unidos?",
+        "correctAnswer": "Elvis Presley",
+        "possibleAnswers": "Chuck Berry,Richard Little,Jerry Lee Lewis,Elvis Presley"
+    },
+    {
+        "id":15,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el país más grande del mundo?",
+        "correctAnswer": "Rusia",
+        "possibleAnswers": "Estados Unidos,Canada,Brasil,Rusia"
+    },
+    {
+        "id":16,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Qué deporte practicaba Michael Jordan?",
+        "correctAnswer": "Basquet",
+        "possibleAnswers": "Basquet,Futbol,Rugby,Tennis"
+    },
+    {
+        "id":17,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿En qué año comenzó la II Guerra Mundial?",
+        "correctAnswer": "1939",
+        "possibleAnswers": "1914,1918,1939,1945"
+    },
+    {
+        "id":18,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"Si 50 es el 100%, ¿cuánto es el 90%?",
+        "correctAnswer": "45",
+        "possibleAnswers": "35,40,45"
+    },
+    {
+        "id":19,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cuál es tercer planeta en el sistema solar?",
+        "correctAnswer": "Tierra",
+        "possibleAnswers": "Venus,Tierra,Marte,Jupiter"
+    },
+    {
+        "id":20,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cuál es la moneda del Reino Unido?",
+        "correctAnswer": "Libra",
+        "possibleAnswers": "Peso,Euro,Libra,Lira"
+    },
+    {
+        "id":21,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cual es país más poblado de la Tierra?",
+        "correctAnswer": "China",
+        "possibleAnswers": "China,India,EEUU,Indonesia"
+    },
+    {
+        "id":22,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿En qué lugar del cuerpo se produce la insulina?",
+        "correctAnswer": "Pancreas",
+        "possibleAnswers": "Riñon,Pancreas,Higado,Vesicula"
+    },
+    {
+        "id":23,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Como se llama el cantante de Megadeth?",
+        "correctAnswer": "Dave Mustaine",
+        "possibleAnswers": "Robert Plant,Dave Mustaine,James Hetfield,Brian Johnson"
+    },
+    {
+        "id":24,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cuál es el color que representa la esperanza?",
+        "correctAnswer": "Verde",
+        "possibleAnswers": "Verde,Blanco,Celeste,Rojo"
+    },
+    {
+        "id":25,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Qué rama de la Ciencia estudia los animales?",
+        "correctAnswer": "Zoología",
+        "possibleAnswers": "Botánica,Zoología,Biología,Geología"
+    },
+    {
+        "id":26,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cómo se llama el himno nacional de Francia?",
+        "correctAnswer": "Marsellesa",
+        "possibleAnswers": "Marsellesa,Nkosi Sikelil'iAfrika,Hatikvah"
+    },
+    {
+        "id":27,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿De qué país es el futbolista Zlatan Ibrahimović?",
+        "correctAnswer": "Suecia",
+        "possibleAnswers": "Suecia,Israel,Iran,Portugal"
+    },
+    {
+        "id":28,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cuál es el nombre de la lengua oficial en china?",
+        "correctAnswer": "Mandarín",
+        "possibleAnswers": "Frances,Ingles,Mandarín"
+    },
+    {
+        "id":29,
+        "topic": "Cultura General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cómo se llama la estación espacial rusa?",
+        "correctAnswer": "Mir",
+        "possibleAnswers": "Mir,IIS"
+    },
+    {
+        "id":30,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Quién ganó el mundial de 2014?",
+        "correctAnswer": "Alemania",
+        "possibleAnswers": "Alemaia,Holanda,Brasil,Italia"
+    }
+]

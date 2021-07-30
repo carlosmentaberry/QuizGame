@@ -8,7 +8,7 @@ const StartGame = () => {
     juego = new Juego(questions, 0, "hard");
     juego.preguntas = [];
     console.log("participante registrado");
-    $('#app').html(ShowQuestion());
+    ShowQuestion();
   }
   $('#btnQuestions').show();
 }
@@ -22,7 +22,7 @@ const SetActiveNavItem = (item) => {
 const GetParticipant = () => {
   participant = JSON.parse(sessionStorage.getItem('participant'));
   if (participant != undefined) {
-    $("#userName").text(participant.name);
+    $("#userName").text(participant.name.toString().toLowerCase());
     CheckRole();
     return true;
   } else {
@@ -49,19 +49,26 @@ const SaveCredentials = () => {
   jQuery.noConflict();
   $('#exampleModal').modal('hide');
   console.log("saving credentials");
-  let name = $('[name="name"]')[0].value;
+  let name = $('[name="name"]')[0].value.toString().toLowerCase();
   let age = $('[name="age"]')[0].value;
   let sex = $('[name="sex"]')[0].value;
   let role = 'player';
-  if (name == "admin") {
-    role = 'admin';
-    $('#admin').show();
+  if(name != undefined || name != ''){
+    if (name.toString().toLowerCase() == "admin") {
+      role = 'admin';
+      $('#admin').show();
+    }
+  
+    participant = new Participant(name.toString().toLowerCase(), age, sex, role);
+    sessionStorage.setItem('participant', JSON.stringify(participant))
+    SetPuntaje();
+    ShowQuestion();
+    
+    $('.modal-backdrop').remove();
+  }else{
+    EndGame();
   }
-
-  participant = new Participant(name, age, sex, role);
-  sessionStorage.setItem('participant', JSON.stringify(participant))
-  SetPuntaje();
-
+  
 }
 
 const CheckRole = () => {
@@ -104,7 +111,7 @@ const ShowQuestion = () => {
   console.log("getting question");
   var questions = " ";
   let q = ShowRandomQuestion()[0];
-  juego.preguntas.push(q);
+  // juego.preguntas.push(q);
   let correctAnswer = q.correctAnswer;
   questions += `
     <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -135,7 +142,7 @@ const ShowQuestion = () => {
   <button type="button" id="btnQuestion" onclick="ShowQuestion();" class="btn btn-primary">Next Question</button>
   <button type="button" id="endGame" onclick="EndGame();" class="btn btn-primary">Finalizar juego</button>
         `
-  return questions;
+  $('#app').html(questions);
 }
 
 const validateResponse = (choise, correctAnswer) => {
@@ -154,27 +161,62 @@ const validateResponse = (choise, correctAnswer) => {
     SetPuntaje();
     document.getElementById(choise).className = "btn btn-success";
     $(element).attr('class', 'btn btn-success');
+    AnimateResponse(choise);
+    setTimeout(() => {
+      ShowQuestion();
+    }, 2000);
   } else {
     document.getElementById(choise).className = "btn btn-danger";
     $(element).attr('class', 'btn btn-danger');
   }
 }
 
+const AnimateResponse = (choise) => {
+  let element = document.getElementById(choise)
+  console.log(element);
+  let fwidth = 0;
+  let fheight = 0;
+  fwidth = $(element).outerWidth();
+  fheight = $(element).outerHeight();
+  console.log(fwidth,fheight);
+  $(element).animate({
+    height: fheight * 2 + 'px',
+    width: fwidth * 2 + 'px',
+    },
+    "fast",
+    function (){
+      console.log('fin de la animación');
+    }
+  );
+  
+  $(element).animate({
+    width: fwidth + "px",
+    height: fheight + "px"
+    },
+    "fast",
+    function (){
+      console.log('fin de la animación');
+    }
+  );
+}
+
 const saveToLocalStorage = (name, value) => {
   localStorage.clear();
-  localStorage.setItem(name, value);
+  localStorage.setItem(name.toString().toLowerCase(), value);
 }
 
 const EndGame = () => {
   juego = undefined;
   puntaje = 0;
   SetPuntaje();
+  let html = `<button onclick="StartGame()" id="btnQuestions" class="btn btn-primary">Jugar</button>`;
+  $('#app').html(html);
 }
 
 const SetPuntaje = () => {
   let html = "";
   if(participant != undefined){
-    html = `${participant.name} 
+    html = `${participant.name.toString().toLowerCase()} 
     <span class="badge rounded-pill bg-success">
       ${puntaje}
     </span>
@@ -220,44 +262,71 @@ function randomInteger(min, max) {
 const createSignUpForm = () => {
   console.log("createSignUpForm");
   let html = `
+
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Register new participant</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-            <div class="form-group">
-              <label for="participant-name" class="col-form-label">Name:</label>
-              <input type="text" class="form-control" id="participant-name" name="name" required>
+      <form id="formValidate" class="needs-validation" novalidate>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Register new participant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="participant-name">Name</label>
+                            <input type="text" class="form-control" id="participant-name" name="name" required>
+                            <div class="invalid-feedback">Please enter a name</div>
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="participant-age">Age</label>
+                            <input type="text" class="form-control" id="participant-age" name="age" required>
+                            <div class="invalid-feedback">Please enter an age</div>
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="participant-sex">Sex</label>
+                            <select class="custom-select" id="participant-sex" name="sex" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Masculino</option>
+                                <option>Femenino</option>
+                                <option>Otro</option>
+                            </select>
+                            <div class="invalid-feedback">Please enter a sex</div>
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button id="btnSubmit" type="submit" class="btn btn-primary" data-dismiss="modal" data-backdrop="false">Register</button>
+                </div>
             </div>
-            <div class="form-group">
-              <label for="participant-age" class="col-form-label">Age:</label>
-              <input type="text" class="form-control" id="participant-age" name="age" required>
-            </div>
-            <div class="form-group">
-              <label for="participant-sex" class="col-form-label">Sex:</label>
-              <input type="text" class="form-control" id="participant-sex" name="sex" required>
-            </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" onclick="SaveCredentials();" class="btn btn-primary">Register</button>
-          </div>
         </div>
-      </div>
+      </form>
     </div>
-
-    
-    `
-  $('#app').html(html);
+    <script>
+      $(function () {
+        $("#btnSubmit").on("click", function (e) {
+            var form = $("#formValidate")[0];
+            var isValid = form.checkValidity();
+            if (!isValid) {
+                e.preventDefault();
+                e.stopPropagation();
+            }else{
+              SaveCredentials();
+            }
+            form.classList.add('was-validated');
+            return false; // For testing only to stay on this page
+        });
+      });
+    </script>
+    `;
+    $('#app').html(html);
 }
-
 
 const getDefaultPage = () => {
   return '<p class="message">Nothing to See Here :)</p>';

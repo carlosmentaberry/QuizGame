@@ -38,3 +38,30 @@ const getProfilePage = () => {
 
     $("#app").html(html);
 }
+
+const AnimateProfilePage = () => {
+  
+    $('#btnQuestions').animate({
+      left: '250px',
+      opacity: '0.1',
+      height: '150px',
+      width: '250px',
+      },
+      "slow",
+      function (){
+        console.log('fin de la animación');
+      }
+    );
+    
+    $('#btnQuestions').animate({
+      left: '250px',
+      opacity: '1',
+      height: '48px',
+      width: '78px',
+      },
+      "slow",
+      function (){
+        console.log('fin de la animación');
+      }
+    );
+  }

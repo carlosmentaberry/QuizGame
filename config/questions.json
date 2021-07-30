@@ -5,7 +5,7 @@
         "image": "./assets/geography.png",
         "question": "¿Cuál es el lugar más frío de la tierra?",
         "correctAnswer": "La Antartida",
-        "possibleAnswers": "Groenlandia,La Antartida,Siveria,El Polo Artico"
+        "possibleAnswers": ["Groenlandia","La Antartida","Siveria","El Polo Artico"]
     },
     {
         "id":2,
@@ -13,7 +13,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Quién escribió La Odisea?",
         "correctAnswer": "Homero",
-        "possibleAnswers": "Homero,Ulises,Aristoteles,William Shakespeare"
+        "possibleAnswers": ["Homero","Ulises","Aristoteles","William Shakespeare"]
     },
     {
         "id":3,
@@ -21,7 +21,7 @@
         "image": "./assets/geography.png",
         "question":"¿Cuál es la capital de Mongolia?",
         "correctAnswer": "Ulan Bator",
-        "possibleAnswers": "Ulan Bator,Nompen,Nirobi,Bridgetown"
+        "possibleAnswers": ["Ulan Bator","Nompen","Nirobi","Bridgetown"]
     },
     {
         "id":4,
@@ -29,7 +29,7 @@
         "image": "./assets/geography.png",
         "question":"¿Cuál es el río más largo del mundo?",
         "correctAnswer": "El Amazonas",
-        "possibleAnswers": "El Nilo,El Amazonas,El Rin,El Tiber"
+        "possibleAnswers": ["El Nilo","El Amazonas","El Rin","El Tiber"]
     },
     {
         "id":5,
@@ -37,7 +37,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Dónde originaron los juegos olímpicos?",
         "correctAnswer": "En Grecia",
-        "possibleAnswers": "En Roma,En Grecia,En Inglaterra,En EEUU"
+        "possibleAnswers": ["En Roma","En Grecia","En Inglaterra","En EEUU"]
     },
     {
         "id":6,
@@ -45,7 +45,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Qué tipo de animal es la ballena?",
         "correctAnswer": "Mamifero",
-        "possibleAnswers": "Paquidermo,Felino,Mamifero,Pez"
+        "possibleAnswers": ["Paquidermo","Felino","Mamifero","Pez"]
     },
     {
         "id":7,
@@ -53,7 +53,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Qué cantidad de huesos en el cuerpo humano?",
         "correctAnswer": "206",
-        "possibleAnswers": "204,205,206,207"
+        "possibleAnswers": ["204","205","206","207"]
     },
     {
         "id":8,
@@ -61,7 +61,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuándo acabó la II Guerra Mundial?",
         "correctAnswer": "1945",
-        "possibleAnswers": "1914,1918,1939,1945"
+        "possibleAnswers": ["1914","1918","1939","1945"]
     },
     {
         "id":9,
@@ -69,7 +69,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Quién es el autor de el Quijote?",
         "correctAnswer": "Miguel de Cervantes",
-        "possibleAnswers": "Miguel de Cervantes,William Shakespear,Julio Verne,Federico García Lorca"
+        "possibleAnswers": ["Miguel de Cervantes","William Shakespear","Julio Verne","Federico García Lorca"]
     },
     {
         "id":10,
@@ -77,7 +77,7 @@
         "image": "./assets/art.png",
         "question":"¿Quién pintó “la última cena”?",
         "correctAnswer": "Leonardo Da Vinci",
-        "possibleAnswers": "Salvador Dali,Miguel Angel,Vincent Van Gogh,Leonardo Da Vinci"
+        "possibleAnswers": ["Salvador Dali","Miguel Angel","Vincent Van Gogh","Leonardo Da Vinci"]
     },
     {
         "id":11,
@@ -85,7 +85,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cómo se denomina el resultado de la multiplicación?",
         "correctAnswer": "Producto",
-        "possibleAnswers": "Cociente,Producto,Resto"
+        "possibleAnswers": ["Cociente","Producto","Resto"]
     },
     {
         "id":12,
@@ -93,7 +93,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es el disco más vendido de la historia?",
         "correctAnswer": "Thriller",
-        "possibleAnswers": "The Dark Side of the Moon,Thriller,Back in Black,Led Zeppelin IV"
+        "possibleAnswers": ["The Dark Side of the Moon","Thriller","Back in Black","Led Zeppelin IV"]
     },
     {
         "id":13,
@@ -101,7 +101,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Quién es el padre del psicoanálisis?",
         "correctAnswer": "Sigmund Freud",
-        "possibleAnswers": "Jacques Lacan,Stanley Hall,Sigmund Freud"
+        "possibleAnswers": ["Jacques Lacan","Stanley Hall","Sigmund Freud"]
     },
     {
         "id":14,
@@ -109,7 +109,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Quién es el famoso Rey de Rock en los Estados Unidos?",
         "correctAnswer": "Elvis Presley",
-        "possibleAnswers": "Chuck Berry,Richard Little,Jerry Lee Lewis,Elvis Presley"
+        "possibleAnswers": ["Chuck Berry","Richard Little","Jerry Lee Lewis","Elvis Presley"]
     },
     {
         "id":15,
@@ -117,7 +117,7 @@
         "image": "./assets/geography.png",
         "question":"¿Cuál es el país más grande del mundo?",
         "correctAnswer": "Rusia",
-        "possibleAnswers": "Estados Unidos,Canada,Brasil,Rusia"
+        "possibleAnswers": ["Estados Unidos","Canada","Brasil","Rusia"]
     },
     {
         "id":16,
@@ -125,7 +125,7 @@
         "image": "./assets/sport.png",
         "question":"¿Qué deporte practicaba Michael Jordan?",
         "correctAnswer": "Basquet",
-        "possibleAnswers": "Basquet,Futbol,Rugby,Tennis"
+        "possibleAnswers": ["Basquet","Futbol","Rugby","Tennis"]
     },
     {
         "id":17,
@@ -133,7 +133,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿En qué año comenzó la II Guerra Mundial?",
         "correctAnswer": "1939",
-        "possibleAnswers": "1914,1918,1939,1945"
+        "possibleAnswers": ["1914","1918","1939","1945"]
     },
     {
         "id":18,
@@ -141,7 +141,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"Si 50 es el 100%, ¿cuánto es el 90%?",
         "correctAnswer": "45",
-        "possibleAnswers": "35,40,45"
+        "possibleAnswers": ["35","40","45"]
     },
     {
         "id":19,
@@ -149,7 +149,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es tercer planeta en el sistema solar?",
         "correctAnswer": "Tierra",
-        "possibleAnswers": "Venus,Tierra,Marte,Jupiter"
+        "possibleAnswers": ["Venus","Tierra","Marte","Jupiter"]
     },
     {
         "id":20,
@@ -157,7 +157,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es la moneda del Reino Unido?",
         "correctAnswer": "Libra",
-        "possibleAnswers": "Peso,Euro,Libra,Lira"
+        "possibleAnswers": ["Peso","Euro","Libra","Lira"]
     },
     {
         "id":21,
@@ -165,7 +165,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cual es país más poblado de la Tierra?",
         "correctAnswer": "China",
-        "possibleAnswers": "China,India,EEUU,Indonesia"
+        "possibleAnswers": ["China","India","EEUU","Indonesia"]
     },
     {
         "id":22,
@@ -173,7 +173,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿En qué lugar del cuerpo se produce la insulina?",
         "correctAnswer": "Pancreas",
-        "possibleAnswers": "Riñon,Pancreas,Higado,Vesicula"
+        "possibleAnswers": ["Riñon","Pancreas","Higado","Vesicula"]
     },
     {
         "id":23,
@@ -181,7 +181,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Como se llama el cantante de Megadeth?",
         "correctAnswer": "Dave Mustaine",
-        "possibleAnswers": "Robert Plant,Dave Mustaine,James Hetfield,Brian Johnson"
+        "possibleAnswers": ["Robert Plant","Dave Mustaine","James Hetfield","Brian Johnson"]
     },
     {
         "id":24,
@@ -189,7 +189,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es el color que representa la esperanza?",
         "correctAnswer": "Verde",
-        "possibleAnswers": "Verde,Blanco,Celeste,Rojo"
+        "possibleAnswers": ["Verde","Blanco","Celeste","Rojo"]
     },
     {
         "id":25,
@@ -197,7 +197,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Qué rama de la Ciencia estudia los animales?",
         "correctAnswer": "Zoología",
-        "possibleAnswers": "Botánica,Zoología,Biología,Geología"
+        "possibleAnswers": ["Botánica","Zoología","Biología","Geología"]
     },
     {
         "id":26,
@@ -205,7 +205,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cómo se llama el himno nacional de Francia?",
         "correctAnswer": "Marsellesa",
-        "possibleAnswers": "Marsellesa,Nkosi Sikelil'iAfrika,Hatikvah"
+        "possibleAnswers": ["Marsellesa","Nkosi Sikelil'iAfrika","Hatikvah"]
     },
     {
         "id":27,
@@ -213,7 +213,7 @@
         "image": "./assets/sport.png",
         "question":"¿De qué país es el futbolista Zlatan Ibrahimović?",
         "correctAnswer": "Suecia",
-        "possibleAnswers": "Suecia,Israel,Iran,Portugal"
+        "possibleAnswers": ["Suecia","Israel","Iran","Portugal"]
     },
     {
         "id":28,
@@ -221,7 +221,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es el nombre de la lengua oficial en china?",
         "correctAnswer": "Mandarín",
-        "possibleAnswers": "Frances,Ingles,Mandarín"
+        "possibleAnswers": ["Frances","Ingles","Mandarín"]
     },
     {
         "id":29,
@@ -229,7 +229,7 @@
         "image": "./assets/culturagral.jpg",
         "question":"¿Cómo se llama la estación espacial rusa?",
         "correctAnswer": "Mir",
-        "possibleAnswers": "Mir,IIS"
+        "possibleAnswers": ["MIR","IIS"]
     },
     {
         "id":30,
@@ -237,6 +237,46 @@
         "image": "./assets/sport.png",
         "question":"¿Quién ganó el mundial de 2014?",
         "correctAnswer": "Alemania",
-        "possibleAnswers": "Alemaia,Holanda,Brasil,Italia"
+        "possibleAnswers": ["Alemania","Holanda","Brasil","Italia"]
+    },
+    {
+        "id":31,
+        "topic": "Geografía",
+        "image": "./assets/geography.png",
+        "question":"¿Cual es la capital de Argentina?",
+        "correctAnswer": "Buenos Aires",
+        "possibleAnswers": ["CABA","La Plata","Buenos Aires"]
+    },
+    {
+        "id":32,
+        "topic": "Geografía",
+        "image": "./assets/geography.png",
+        "question":"¿Cuantas provincias tiene Argentina?",
+        "correctAnswer": "23",
+        "possibleAnswers": ["21","22","23","24"]
+    },
+    {
+        "id":33,
+        "topic": "Geografía",
+        "image": "./assets/geography.png",
+        "question":"¿Cual es la capital de Catamarca?",
+        "correctAnswer": "San Fernando del Valle de Catamarca",
+        "possibleAnswers": ["San Fernando del Valle de Catamarca","Belén","Santa María"]
+    },
+    {
+        "id":34,
+        "topic": "Geografía",
+        "image": "./assets/geography.png",
+        "question":"¿Que provincias componen la región de cuyo?",
+        "correctAnswer": "San Juan, San Luis y Mendoza",
+        "possibleAnswers": ["San Juan, San Luis y La Rioja","San Juan, San Luis y Mendoza","San Juan, San Luis y Neuquen"]
+    },
+    {
+        "id":35,
+        "topic": "Geografía",
+        "image": "./assets/geography.png",
+        "question":"¿En qué provincia se encuentran Las Ruinas de San Ignacio?",
+        "correctAnswer": "Misiones",
+        "possibleAnswers": ["Salta","Jujuy","Corrientes","Misiones"]
     }
 ]

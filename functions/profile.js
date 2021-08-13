@@ -41,7 +41,7 @@ const getProfilePage = () => {
 
 const AnimateProfilePage = () => {
   
-    $('#btnQuestions').animate({
+    $('h5').animate({
       left: '250px',
       opacity: '0.1',
       height: '150px',
@@ -53,7 +53,7 @@ const AnimateProfilePage = () => {
       }
     );
     
-    $('#btnQuestions').animate({
+    $('h5').animate({
       left: '250px',
       opacity: '1',
       height: '48px',

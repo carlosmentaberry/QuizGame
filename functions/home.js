@@ -8,8 +8,11 @@ const getHomePage = () => {
     let html = `<button onclick="StartGame()" id="btnQuestions" class="btn btn-primary">Jugar</button>`;
     
     $("#app").html(html);
-    AnimateHomePage();
-    // console.log($('#btnQuestions').height);
+    if(juego != undefined){
+      ShowQuestion();
+    }else{
+      AnimateHomePage();
+    }
 }
 
 const AnimateHomePage = () => {

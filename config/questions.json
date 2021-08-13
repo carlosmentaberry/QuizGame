@@ -9,7 +9,7 @@
     },
     {
         "id":2,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Quién escribió La Odisea?",
         "correctAnswer": "Homero",
@@ -33,7 +33,7 @@
     },
     {
         "id":5,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Dónde originaron los juegos olímpicos?",
         "correctAnswer": "En Grecia",
@@ -41,7 +41,7 @@
     },
     {
         "id":6,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Qué tipo de animal es la ballena?",
         "correctAnswer": "Mamifero",
@@ -49,7 +49,7 @@
     },
     {
         "id":7,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Qué cantidad de huesos en el cuerpo humano?",
         "correctAnswer": "206",
@@ -57,7 +57,7 @@
     },
     {
         "id":8,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuándo acabó la II Guerra Mundial?",
         "correctAnswer": "1945",
@@ -65,7 +65,7 @@
     },
     {
         "id":9,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Quién es el autor de el Quijote?",
         "correctAnswer": "Miguel de Cervantes",
@@ -81,7 +81,7 @@
     },
     {
         "id":11,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cómo se denomina el resultado de la multiplicación?",
         "correctAnswer": "Producto",
@@ -89,7 +89,7 @@
     },
     {
         "id":12,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es el disco más vendido de la historia?",
         "correctAnswer": "Thriller",
@@ -97,7 +97,7 @@
     },
     {
         "id":13,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Quién es el padre del psicoanálisis?",
         "correctAnswer": "Sigmund Freud",
@@ -105,7 +105,7 @@
     },
     {
         "id":14,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Quién es el famoso Rey de Rock en los Estados Unidos?",
         "correctAnswer": "Elvis Presley",
@@ -129,7 +129,7 @@
     },
     {
         "id":17,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿En qué año comenzó la II Guerra Mundial?",
         "correctAnswer": "1939",
@@ -137,7 +137,7 @@
     },
     {
         "id":18,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"Si 50 es el 100%, ¿cuánto es el 90%?",
         "correctAnswer": "45",
@@ -145,7 +145,7 @@
     },
     {
         "id":19,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es tercer planeta en el sistema solar?",
         "correctAnswer": "Tierra",
@@ -153,7 +153,7 @@
     },
     {
         "id":20,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es la moneda del Reino Unido?",
         "correctAnswer": "Libra",
@@ -161,7 +161,7 @@
     },
     {
         "id":21,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cual es país más poblado de la Tierra?",
         "correctAnswer": "China",
@@ -169,7 +169,7 @@
     },
     {
         "id":22,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿En qué lugar del cuerpo se produce la insulina?",
         "correctAnswer": "Pancreas",
@@ -177,7 +177,7 @@
     },
     {
         "id":23,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Como se llama el cantante de Megadeth?",
         "correctAnswer": "Dave Mustaine",
@@ -185,7 +185,7 @@
     },
     {
         "id":24,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es el color que representa la esperanza?",
         "correctAnswer": "Verde",
@@ -193,7 +193,7 @@
     },
     {
         "id":25,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Qué rama de la Ciencia estudia los animales?",
         "correctAnswer": "Zoología",
@@ -201,11 +201,11 @@
     },
     {
         "id":26,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cómo se llama el himno nacional de Francia?",
         "correctAnswer": "Marsellesa",
-        "possibleAnswers": ["Marsellesa","Nkosi Sikelil'iAfrika","Hatikvah"]
+        "possibleAnswers": ["Marsellesa","Nkosi Sikelil´iAfrika","Hatikvah"]
     },
     {
         "id":27,
@@ -217,7 +217,7 @@
     },
     {
         "id":28,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cuál es el nombre de la lengua oficial en china?",
         "correctAnswer": "Mandarín",
@@ -225,10 +225,10 @@
     },
     {
         "id":29,
-        "topic": "Cultura General",
+        "topic": "Cultura_General",
         "image": "./assets/culturagral.jpg",
         "question":"¿Cómo se llama la estación espacial rusa?",
-        "correctAnswer": "Mir",
+        "correctAnswer": "MIR",
         "possibleAnswers": ["MIR","IIS"]
     },
     {
@@ -278,5 +278,725 @@
         "question":"¿En qué provincia se encuentran Las Ruinas de San Ignacio?",
         "correctAnswer": "Misiones",
         "possibleAnswers": ["Salta","Jujuy","Corrientes","Misiones"]
+    },
+    {
+        "id":36,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿En que siglo nació Van Gogh?",
+        "correctAnswer": "SIGLO XIX",
+        "possibleAnswers": ["SIGLO XX","SIGLO XIX","SIGLO XVII","SIGLO XVIII"]
+    },
+    {
+        "id":37,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿En que siglo se inició el Renacimiento?",
+        "correctAnswer": "SIGLO XV",
+        "possibleAnswers": ["SIGLO XVI","SIGLO XIV","SIGLO XV","SIGLO XIII"]
+    },
+    {
+        "id":38,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿En que año Pablo Picasso pintó el Guernica?",
+        "correctAnswer": "1937",
+        "possibleAnswers": ["1927","1957","1947","1937"]
+    },
+    {
+        "id":39,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿En qué arte destacó Isadora Duncan?",
+        "correctAnswer": "Danza",
+        "possibleAnswers": ["Pintura","Escultura","Danza"]
+    },
+    {
+        "id":40,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Qué parte de la capilla sixtina pintó Miguel Ángel?",
+        "correctAnswer": "El techo",
+        "possibleAnswers": ["Las paredes","El techo","Las columnas"]
+    },
+    {
+        "id":41,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Cuáles son los tres órdenes clásicos de la arquitectura clásica?",
+        "correctAnswer": "Dórico, jónico y corintio",
+        "possibleAnswers": ["Dórico, jónico y corintio","Mudéjar, neomudéjar y mozárabe","Masamento, fuste y capitel"]
+    },
+    {
+        "id":42,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Quién pintó Los fusilamientos del 3 de mayo?",
+        "correctAnswer": "Goya",
+        "possibleAnswers": ["Goya","Velázquez","Rembrandt"]
+    },
+    {
+        "id":43,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿A qué estilo corresponde la Catedral de Notre Dame de París?",
+        "correctAnswer": "Gótico",
+        "possibleAnswers": ["Románico","Barroco","Gótico"]
+    },
+    {
+        "id":44,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿A qué famoso escultor pertenece la obra El pensador?",
+        "correctAnswer": "Auguste Rodin",
+        "possibleAnswers": ["Auguste Rodin","Miguel Angel","Gian Lorenzo Bernini"]
+    },
+    {
+        "id":45,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Qué se conoce como el séptimo arte?",
+        "correctAnswer": "Cine",
+        "possibleAnswers": ["Arquitectura","Danza","Cine"]
+    },
+    {
+        "id":46,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿A qué compositor debemos Las bodas de Fígaro?",
+        "correctAnswer": "Amadeus Mozart",
+        "possibleAnswers": ["Ludwig van Beethoven","Amadeus Mozart","Johann Sebastian Bach"]
+    },
+    {
+        "id":47,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿A quién pertenece el famoso mural Niña con globo?",
+        "correctAnswer": "Banksy",
+        "possibleAnswers": ["Banksy","Robert Del Naja","Jean-Michel Basquiat"]
+    },
+    {
+        "id":48,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Qué personaje de cómic creó Bob Kane cuando tenía 18 años?",
+        "correctAnswer": "Batman",
+        "possibleAnswers": ["Spiderman","Dardervil","Batman","El Castigador"]
+    },
+    {
+        "id":49,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Cuántas mujeres aparecen en el cuadro Las señoritas de Avignon?",
+        "correctAnswer": "Cinco",
+        "possibleAnswers": ["Cinco","Tres","Seis","Cuatro"]
+    },
+    {
+        "id":50,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Quién es el arquitecto del Museo Guggenheim de Bilbao?",
+        "correctAnswer": "Frank Gehry",
+        "possibleAnswers": ["Frank Gehry","Norman Foster","Frank Lloyd Wright"]
+    },
+    {
+        "id":51,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Cuál es la basílica más grande de la cristiandad?",
+        "correctAnswer": "San Pedro de El Vaticano",
+        "possibleAnswers": ["La Catedral de Milán","La Catedral de Sevilla","San Pedro de El Vaticano"]
+    },
+    {
+        "id":52,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Quién escribió El viejo y el mar?",
+        "correctAnswer": "Ernest Hemingway",
+        "possibleAnswers": ["Norman Mailer","Ernest Hemingway","Gabriel García Márquez","Truman Capote"]
+    },
+    {
+        "id":53,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Quién es el autor de El retrato de Dorian Gray?",
+        "correctAnswer": "Oscar Wilde",
+        "possibleAnswers": ["Arthur Conan Doyle","George Orwell","Oscar Wilde","Charles Dickens"]
+    },
+    {
+        "id":54,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Quién es el autor de Moby Dick?",
+        "correctAnswer": "Herman Melville",
+        "possibleAnswers": ["Herman Melville","Henry David Thoreau","Ralph Waldo Emerson","Henry James"]
+    },
+    {
+        "id":55,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Qué obra de mármol de Miguel Ángel se encuentra en la Basílica de San Pedro?",
+        "correctAnswer": "La Piedad",
+        "possibleAnswers": ["Moisés","La Piedad","Capilla Sixtina","David"]
+    },
+    {
+        "id":56,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿En qué está esculpida la Venus de Milo?",
+        "correctAnswer": "Mármol",
+        "possibleAnswers": ["Mármol","Bronce","Piedra","Madera"]
+    },
+    {
+        "id":57,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Quién fue Antonio Lucio Vivaldi?",
+        "correctAnswer": "Violinista y Compositor del Barroco",
+        "possibleAnswers": ["Guitarrista Clásico","Tenor de Opera","Violinista y Compositor del Barroco","Clavesista Italiano"]
+    },
+    {
+        "id":58,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Quién es el autor de El principito?",
+        "correctAnswer": "Antoine de Saint-Exupery",
+        "possibleAnswers": ["Cuahutemoc Sanchez","Antoine de Saint-Exupery","Beatriz Espejo","Ninguna es correcta"]
+    },
+    {
+        "id":59,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Dónde nació Shakespeare?",
+        "correctAnswer": "Stratford-upon-Avon",
+        "possibleAnswers": ["Albacete","Surrey","New Castle","Stratford-upon-Avon"]
+    },
+    {
+        "id":59,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿A qué músico argentino lo apodaban El Flaco?",
+        "correctAnswer": "Luis Alberto Spinetta",
+        "possibleAnswers": ["Gustavo Cerati","Carlos Alberto García","Luis Alberto Spinetta","Carlos Solari"]
+    },
+    {
+        "id":60,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Cómo se llama el arte japones de la papiroflexia?",
+        "correctAnswer": "Origami",
+        "possibleAnswers": ["Haiku","Ikebana","Origami","Ukiyo-e"]
+    },
+    {
+        "id":60,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿De dónde era Diego Velázquez?",
+        "correctAnswer": "Sevilla",
+        "possibleAnswers": ["Madrid","Murcia","Sevilla","Toledo"]
+    },
+    {
+        "id":61,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Qué animal quería ser domesticado por El Principito?",
+        "correctAnswer": "Un zorro",
+        "possibleAnswers": ["Un perro","Un zorro","Un gato","Un lobo"]
+    },
+    {
+        "id":62,
+        "topic": "Arte",
+        "image": "./assets/art.png",
+        "question":"¿Qué artista aparece retratado en Las Meninas?",
+        "correctAnswer": "Velázquez",
+        "possibleAnswers": ["Velázquez","Miguel Ángel","Sorolla","Goya"]
+    },
+    {
+        "id":63,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Dónde está Transilvania?",
+        "correctAnswer": "Rumanía",
+        "possibleAnswers": ["Bulgaria","Rumania","Hungría","Ucrania"]
+    },
+    {
+        "id":64,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el país con menos habitantes del mundo?",
+        "correctAnswer": "El Vaticano",
+        "possibleAnswers": ["Monaco","El Vaticano","Tuvalu","San Marino"]
+    },
+    {
+        "id":65,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el océano más grande del mundo?",
+        "correctAnswer": "El océano Pacífico",
+        "possibleAnswers": ["El océano Atlántico","El océano Pacífico","El océano Índico","El océano Ártico"]
+    },
+    {
+        "id":67,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿En que continente se encuentra Chipre?",
+        "correctAnswer": "Europa",
+        "possibleAnswers": ["Asia","Europa","Oceanía","Africa"]
+    },
+    {
+        "id":68,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Antigua and Barbuda?",
+        "correctAnswer": "Saint John’s",
+        "possibleAnswers": ["Brigetown","Saint John’s","Praia","Belmopan"]
+    },
+    {
+        "id":69,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Togo?",
+        "correctAnswer": "Lome",
+        "possibleAnswers": ["Mogadishu","Lome","Maseru","Rabat"]
+    },
+    {
+        "id":70,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Nauru?",
+        "correctAnswer": "Yaren",
+        "possibleAnswers": ["Wellington","Yaren","Muscat","Islamabad"]
+    },
+    {
+        "id":71,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Bahamas?",
+        "correctAnswer": "Nassau",
+        "possibleAnswers": ["Nassau","San Jose","Saint George´s","La Havana"]
+    },
+    {
+        "id":72,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿En que continente se encuentra Bélgica?",
+        "correctAnswer": "Europa",
+        "possibleAnswers": ["Africa","Asia","America","Europa"]
+    },
+    {
+        "id":73,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál de estos colores no está en la bandera de Rumania?",
+        "correctAnswer": "Verde",
+        "possibleAnswers": ["Verde","Rojo","Amarillo","Azul"]
+    },
+    {
+        "id":74,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál de estos colores no está en la bandera de Italia?",
+        "correctAnswer": "Azul",
+        "possibleAnswers": ["Verde","Blanco","Rojo","Azul"]
+    },
+    {
+        "id":75,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál de estos colores no está en la bandera de Francia?",
+        "correctAnswer": "Verde",
+        "possibleAnswers": ["Verde","Blanco","Rojo","Azul"]
+    },
+    {
+        "id":76,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál de estos colores no está en la bandera de Angola?",
+        "correctAnswer": "Azul",
+        "possibleAnswers": ["Negro","Rojo","Amarillo","Azul"]
+    },
+    {
+        "id":77,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál de estos colores no está en la bandera de Colombia?",
+        "correctAnswer": "Negro",
+        "possibleAnswers": ["Negro","Rojo","Amarillo","Azul"]
+    },
+    {
+        "id":78,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál de estos colores no está en la bandera de Jamaica?",
+        "correctAnswer": "Azul",
+        "possibleAnswers": ["Negro","Verde","Amarillo","Azul"]
+    },
+    {
+        "id":79,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Moldavia?",
+        "correctAnswer": "Chisináu",
+        "possibleAnswers": ["Chisináu","Kiev","Maseru","Budapest"]
+    },
+    {
+        "id":80,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Eslovaquia?",
+        "correctAnswer": "Bratislava",
+        "possibleAnswers": ["Belgrado","Praga","Sofia","Bratislava"]
+    },
+    {
+        "id":81,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Croacia?",
+        "correctAnswer": "Zagreb",
+        "possibleAnswers": ["Varsovia","Bruselas","Zagreb","Kiev"]
+    },
+    {
+        "id":82,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Turquía?",
+        "correctAnswer": "Ankara",
+        "possibleAnswers": ["Ankara","Ámsterdam","Helsinki","Liubliana"]
+    },
+    {
+        "id":83,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es la capital de Albania?",
+        "correctAnswer": "Tirana",
+        "possibleAnswers": ["Tirana","Vilna","Yamena","Dublín"]
+    },
+    {
+        "id":84,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el idioma oficial de Andorra?",
+        "correctAnswer": "Catalán",
+        "possibleAnswers": ["Español","Catalán","Francés","Inglés"]
+    },
+    {
+        "id":85,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el idioma oficial de Mónaco?",
+        "correctAnswer": "Francés",
+        "possibleAnswers": ["Español","Catalán","Francés","Inglés"]
+    },
+    {
+        "id":86,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el idioma oficial de China?",
+        "correctAnswer": "Mandarín",
+        "possibleAnswers": ["Español","Frances","Mandarín","Inglés"]
+    },
+    {
+        "id":87,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el idioma oficial del Líbano?",
+        "correctAnswer": "Árabe",
+        "possibleAnswers": ["Español","Frances","Árabe","Inglés"]
+    },
+    {
+        "id":88,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el idioma oficial de Antigua y Barbuda?",
+        "correctAnswer": "Inglés",
+        "possibleAnswers": ["Español","Frances","Árabe","Inglés"]
+    },
+    {
+        "id":89,
+        "topic": "Geografia",
+        "image": "./assets/geography.png",
+        "question":"¿Cuál es el idioma oficial de Bahamas?",
+        "correctAnswer": "Inglés",
+        "possibleAnswers": ["Español","Frances","Árabe","Inglés"]
+    },
+    {
+        "id":90,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuánto dura un partido de fútbol?",
+        "correctAnswer": "90",
+        "possibleAnswers": ["60","90","100","120"]
+    },
+    {
+        "id":91,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Quién es el máximo goleador del FC Barcelona?",
+        "correctAnswer": "Lionel Messi",
+        "possibleAnswers": ["Lionel Messi","Gerard Piqué","Antoine Griezmann","Memphis Depay"]
+    },
+    {
+        "id":92,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuántos jugadores componen un equipo de rugby?",
+        "correctAnswer": "15",
+        "possibleAnswers": ["9","11","15","16"]
+    },
+    {
+        "id":93,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuántas Copas del Mundo ha ganado Italia?",
+        "correctAnswer": "4",
+        "possibleAnswers": ["4","3","5","6"]
+    },
+    {
+        "id":94,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuántos músculos tiene el cuerpo humano?",
+        "correctAnswer": "650",
+        "possibleAnswers": ["650","350","450","750"]
+    },
+    {
+        "id":95,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"Si juegas a la NFL ¿qué deporte practicas?",
+        "correctAnswer": "Fútbol americano",
+        "possibleAnswers": ["Fútbol americano","Fútbol","Box","Kick boxing"]
+    },
+    {
+        "id":96,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuánto dura un partido de rugby?",
+        "correctAnswer": "80",
+        "possibleAnswers": ["80","90","100","120"]
+    },
+    {
+        "id":97,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cada cuántos años se celebran los Juegos Olímpicos?",
+        "correctAnswer": "4",
+        "possibleAnswers": ["4","2","3","5"]
+    },
+    {
+        "id":98,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuál es el deporte nacional en Japón?",
+        "correctAnswer": "Sumo",
+        "possibleAnswers": ["Sumo","Judo","Jiu-jitsu","Aikido"]
+    },
+    {
+        "id":99,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿En qué país nacieron los dardos?",
+        "correctAnswer": "Inglaterra",
+        "possibleAnswers": ["Dinamarca","Inglaterra","Finlandia","Irlanda"]
+    },
+    {
+        "id":100,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Qué marca de raqueta usa Roger Federer?",
+        "correctAnswer": "Wilson",
+        "possibleAnswers": ["Wilson","Babolat","Prince","Head"]
+    },
+    {
+        "id":101,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Qué marca de raqueta usa Novak Djokovic?",
+        "correctAnswer": "Head",
+        "possibleAnswers": ["Wilson","Babolat","Prince","Head"]
+    },
+    {
+        "id":102,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuántas medallas de oro ganó Michael Phelps?",
+        "correctAnswer": "18",
+        "possibleAnswers": ["18","15","17","23"]
+    },
+    {
+        "id":103,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuántas balones de oro ganó Lionel Messi?",
+        "correctAnswer": "6",
+        "possibleAnswers": ["5","6","7","4"]
+    },
+    {
+        "id":104,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Qué país ganó el mundial de fútbol en México (1986)?",
+        "correctAnswer": "Argentina",
+        "possibleAnswers": ["Alemania","Argentina","Italia","México"]
+    },
+    {
+        "id":105,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuántas veces fue Michael Jordan campeón de la NBA?",
+        "correctAnswer": "6",
+        "possibleAnswers": ["6","9","12","15"]
+    },
+    {
+        "id":106,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿En que país nació Luis Suárez?",
+        "correctAnswer": "Uruguay",
+        "possibleAnswers": ["Argentina","Uruguay","Colombia","Paraguay"]
+    },
+    {
+        "id":107,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿En que país nació Franck Ribéry?",
+        "correctAnswer": "Francia",
+        "possibleAnswers": ["Francia","Marruecos","Suecia","Inglaterra"]
+    },
+    {
+        "id":108,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Que marca de raqueta usa Rafael Nadal?",
+        "correctAnswer": "Babolat",
+        "possibleAnswers": ["Wilson","Babolat","Prince","Head"]
+    },
+    {
+        "id":109,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Que deporte realiza Juan Pablo Montoya?",
+        "correctAnswer": "Fórmula1",
+        "possibleAnswers": ["Fórmula1","Boxeo","Fútbol","Canotaje"]
+    },
+    {
+        "id":110,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿En que país nació Andrés Iniesta?",
+        "correctAnswer": "España",
+        "possibleAnswers": ["España","Argentina","México","Francia"]
+    },
+    {
+        "id":111,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿En que país nació Andrea Pirlo?",
+        "correctAnswer": "Italia",
+        "possibleAnswers": ["Italia","Francia","Grecia","Rumania"]
+    },
+    {
+        "id":112,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Quién es considerado el mejor jugador histórico del club Nápoles de Italia?",
+        "correctAnswer": "Diego Armando Maradona",
+        "possibleAnswers": ["Diego Armando Maradona","Lorenzo Insigne","Hirving Lozano","Victor Osimhen"]
+    },
+    {
+        "id":113,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿En que país nació Gerard Piqué?",
+        "correctAnswer": "España",
+        "possibleAnswers": ["España","Francia","Albania","Portugal"]
+    },
+    {
+        "id":114,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿En que país nació Usain Bolt?",
+        "correctAnswer": "Jamaica",
+        "possibleAnswers": ["Jamaica","Ecuador","Brasil","Guatemala"]
+    },
+    {
+        "id":115,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿En que país nació Manny Pacquiao?",
+        "correctAnswer": "Filipinas",
+        "possibleAnswers": ["Filipinas","Vietnam","Camboya","Thailandia"]
+    },
+    {
+        "id":116,
+        "topic": "Deporte",
+        "image": "./assets/sport.png",
+        "question":"¿Cuántos jugadores hay en un equipo de béisbol?",
+        "correctAnswer": "9",
+        "possibleAnswers": ["7","9","11","5"]
+    },
+    {
+        "id":117,
+        "topic": "Cultura_General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cuándo acabó la I Guerra Mundial?",
+        "correctAnswer": "1918",
+        "possibleAnswers": ["1914","1918","1939","1945"]
+    },
+    {
+        "id":118,
+        "topic": "Cultura_General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Cuándo comenzó la I Guerra Mundial?",
+        "correctAnswer": "1914",
+        "possibleAnswers": ["1914","1918","1939","1945"]
+    },
+    {
+        "id":119,
+        "topic": "Cultura_General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Qué año llegó Cristóbal Colón a América?",
+        "correctAnswer": "1492",
+        "possibleAnswers": ["1492","1491","1493","1494"]
+    },
+    {
+        "id":120,
+        "topic": "Cultura_General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿En qué se especializa la cartografía?",
+        "correctAnswer": "Mapas",
+        "possibleAnswers": ["Mapas","Correspondencia","Estampillas","Monedas"]
+    },
+    {
+        "id":121,
+        "topic": "Cultura_General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Con qué se fabricaba el pergamino?",
+        "correctAnswer": "Piel de animales",
+        "possibleAnswers": ["Piel de animales","Papel","Madera","Hojas de árbol"]
+    },
+    {
+        "id":122,
+        "topic": "Cultura_General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Quién va a la cárcel?",
+        "correctAnswer": "El condenado",
+        "possibleAnswers": ["El imputado","El acusado","El condenado"]
+    },
+    {
+        "id":123,
+        "topic": "Cultura_General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿Quién escribió Hamlet?",
+        "correctAnswer": "William Shakespeare",
+        "possibleAnswers": ["William Shakespeare","Calderón de la Barca","Miguel de Cervantes","San Juan de la Cruz"]
+    },
+    {
+        "id":124,
+        "topic": "Cultura_General",
+        "image": "./assets/culturagral.jpg",
+        "question":"¿En que país nació Pablo Neruda?",
+        "correctAnswer": "Chile",
+        "possibleAnswers": ["Chile","Venezuela","Colombia","México"]
     }
 ]

@@ -1,43 +1,38 @@
 const Home = () => {
-    SetActiveNavItem("home");
-    $('#btnQuestions').show();
+  SetActiveNavItem("home");
+  getHomePage();
 }
-
 
 const getHomePage = () => {
-    let html = `<button onclick="StartGame()" id="btnQuestions" class="btn btn-primary">Jugar</button>`;
-    
-    $("#app").html(html);
-    if(juego != undefined){
-      ShowQuestion();
-    }else{
-      AnimateHomePage();
-    }
+  console.log("getting home");
+  $("#app").html(HOME_PAGE_HTML());
+  if (juego != undefined) {
+    console.log("juego != undefined");
+    ShowQuestion();
+  } else {
+    console.log("juego == undefined");
+    SlideDownAnimation('#homeDiv', 900);
+  }
 }
 
-const AnimateHomePage = () => {
-  
-    $('#btnQuestions').animate({
-      left: '250px',
-      opacity: '0.1',
-      height: '150px',
-      width: '250px',
-      },
-      "slow",
-      function (){
-        console.log('fin de la animación');
-      }
-    );
-    
-    $('#btnQuestions').animate({
-      left: '250px',
-      opacity: '1',
-      height: '48px',
-      width: '78px',
-      },
-      "slow",
-      function (){
-        console.log('fin de la animación');
-      }
-    );
-  }
+const SetActiveTopic = (item) => {
+  $('#Arte, #Cultura_General, #sport, #geography, #random').attr('class', 'list-group-item list-group-item-action');
+  $('#' + item).attr('class', 'list-group-item list-group-item-action active');
+  console.log("creating game");
+  console.log("topic: " + item);
+  topic = item;
+  setUpNewGame();
+}
+
+const setUpNewGame = () => {
+  console.log("questions");
+  console.log(questions);
+  juego = new Juego(questions, 0, difficulty, topic);
+  console.log("participante registrado");
+  console.log('JUEGO: ');
+  console.log(juego);
+  console.log('PREGUNTAS: ');
+  console.log(juego.preguntas);
+  ShowQuestion();
+}
+

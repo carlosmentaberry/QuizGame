@@ -11,22 +11,25 @@ const router = () => {
     if (pathToGo != undefined) {
         switch (pathToGo.action) {
             case routes[0].action:
+                console.log("home");
                 getHomePage();
                 break;
             case routes[1].action:
+                console.log("admin");
                 getAdminPage();
                 break;
             case routes[2].action:
+                console.log("about");
                 getAboutPage();
                 break;
             case routes[3].action:
+                console.log("profile");
                 getProfilePage();
                 break;
             default:
                 getDefaultPage();
+                console.log("default");
                 break;
         }
     }
-
-
 }

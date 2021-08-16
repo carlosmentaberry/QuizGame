@@ -516,7 +516,7 @@
         "topic": "Geografia",
         "image": "./assets/geography.png",
         "question":"¿Dónde está Transilvania?",
-        "correctAnswer": "Rumanía",
+        "correctAnswer": "Rumania",
         "possibleAnswers": ["Bulgaria","Rumania","Hungría","Ucrania"]
     },
     {

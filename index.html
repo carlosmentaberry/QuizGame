@@ -6,68 +6,76 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trivia</title>
+  
+  <!-- estilos -->
+  
 </head>
 
-<body  class="d-flex flex-column" style="height: 100%;" >
+<body class="d-flex flex-column" style="height: 100%;">
 
   <div id="page-content" style="flex: 1 0 auto;">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#/home">Trivia</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#/home">Trivia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a id="home" href="#/home" class="nav-link">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a id="admin" href="#/admin" class="nav-link" style="display: none;" onclick="Admin()">Admin</a>
-        </li>
-        <li class="nav-item">
-          <a id="about" href="#/about" class="nav-link" onclick="About()">About</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <ol class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle " id="userName" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Profile</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#/profile">Profile</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#/home" onclick="CerrarSesion()">Log off</a>
-          </div>
-        </ol>
-      </form>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a id="home" href="#/home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="admin" href="#/admin" class="nav-link" style="display: none;" onclick="Admin()">Admin</a>
+          </li>
+          <li class="nav-item">
+            <a id="about" href="#/about" class="nav-link" onclick="About()">About</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <ol class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " id="userName" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Profile</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#/profile">Profile</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#/home" onclick="CerrarSesion()">Log off</a>
+            </div>
+          </ol>
+        </form>
+      </div>
+    </nav>
+
+
+
+
+    <div id="app" class="" style="padding: 20px;">
+
     </div>
-  </nav>
-
-
-
-
-  <div id="app">
 
   </div>
-</div>
+
+
   <footer id="sticky-footer" class="flex-shrink-0 py-2  bg-light text-white-50">
     <div class="container text-center">
-      <small>Copyright &copy; </small>
-      <small class="text-muted">Carlos Mentaberry - 2021</small>
+      <small>Copyright &copy; - 2021</small>
+      <small class="text-muted">Carlos Mentaberry</small>
     </div>
   </footer>
-
-  <!-- estilos -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
   <!-- javascripts -->
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script> -->
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
 
+  <script src="./classes/flatHtmls.js"></script>
+  <script src="./functions/animations.js"></script>
+  <script src="./functions/utils.js"></script>
   <script src="./router/router.js"></script>
   <script src="./classes/juego.js"></script>
   <script src="./classes/participante.js"></script>
@@ -79,12 +87,10 @@
   <script src="./functions/home.js"></script>
   <script src="./functions/about.js"></script>
 
-  <!-- funciona sin internet -->
-  <!-- <script src="./libs/jquery-v3.6.0.js"></script> -->
+  
 
-  <!-- funciona con internet -->
-
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <script src="./index.js"></script>
 </body>

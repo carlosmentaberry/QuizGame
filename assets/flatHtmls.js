@@ -1,18 +1,38 @@
-let HOME_PAGE_HTML = () => {
+let HOME_PAGE_HTML = (width) => {
   let html = `
 <div id="homeDiv" class="jumbotron" style="min-width: 100%;">
   <h1 class="display-4">Hola!</h1>
   <p class="lead">Este es un juego de preguntas y respuestas!</p>
   <hr class="my-4">
   <p>Dale jugar y divertite un rato!</p>
-  <p class="lead"><button onclick="StartGame()" id="btnQuestions" style="width: 250px;height: 70px;" class="btn btn-primary">Jugar</button>
-  </p>
-</div>`;
+</div>
+
+<div class="btn-group-vertical btn-group-lg btn-block" role="group">
+  <button onclick="StartGame()" id="btnQuestions" class="btn btn-primary" style="${width};height: 50px;">Jugar</button>
+</div>
+
+`;
 return html;
 }
 
 let ABOUT_PAGE_HTML = () => {
-  let html = "<h1 id='aboutText'>App desarrollada por Carlos Mentaberry</h1>";
+  let html = `
+  <div id="aboutDiv" class="alert alert-secondary" role="alert">
+  <h4 class="alert-heading">Trivia</h4>
+  <hr>
+  <p>Camada: 16805 - Profesor: Harold Reyes</p>
+  <p>Fecha: junio-agosto de 2021</p>
+  <p>Dev: Carlos Mentaberry</p>
+  <p>Perfil profesional: <a target="_blank" href="https://www.linkedin.com/in/carlos-mentaberry/">LinkedIn</a></p>
+  <p>Repositorio: <a target="_blank" href="https://github.com/carlosmentaberry/QuizGame">github</a></p>
+  <hr>
+  <p class="mb-0">Proyecto final - Curso Javascript</p>
+</div>
+
+<div class="btn-group-vertical btn-group-lg btn-block" role="group">
+<button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar</button> 
+ </div>
+  `;
   return html;
 }
 
@@ -48,14 +68,12 @@ const GAME_RESULT_HTML = (resultData, width, porc) => {
                   <span class="badge badge-light badge-pill">${participant.role}</span>
                 </li>
               </ul>
-              <li class="list-group-item"><small class="text-muted">Dificultad: ${difficulty} - Puntaje: ${puntaje}</small></li>
+              <li class="list-group-item"><small class="text-muted">Dificultad: ${difficulty} - Puntaje: ${score}</small></li>
             </ul>
           </div>
-          <div class="card-footer bg-light">
-            <div class="btn-group-vertical btn-group-lg btn-block" role="group">
-            <button onclick="StartGame()" id="btnQuestions" class="btn btn-primary">Jugar de nuevo</button>
-             </div>
-          </div>
+          <div class="btn-group-vertical btn-group-lg btn-block" role="group">
+          <button onclick="StartGame()" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar de nuevo</button>
+           </div>
         </div>
       </div>
     </div>`;
@@ -69,18 +87,18 @@ const GET_HTML_MOBILE = () => {
           <div class="col">
             <div class="card h-100 text-center">
               <div class="card-header bg-light">
-              <h3 class="card-title">${juego.currentQuestion.question}</h3>
+              <h3 class="card-title">${game.currentQuestion.question}</h3>
               </div>
               <div class="card-body">
               <div id="countdown" style="min-height: 20px;"><br/></div>
-                <img src=${juego.currentQuestion.image} width="150px" height="150px" alt=${juego.currentQuestion.topic}>
+                <img src=${game.currentQuestion.image} width="150px" height="150px" alt=${game.currentQuestion.topic}>
                 <br/>
-                <small class="text-muted">Category: ${juego.currentQuestion.topic.replaceAll("_", " ")}</small>
+                <small class="text-muted">Category: ${game.currentQuestion.topic.replaceAll("_", " ")}</small>
               </div>
               <div class="card-footer bg-light">
                 <p class="card-text">Elegir una opción:</p>
                 <div class="btn-group-vertical btn-group-lg btn-block" role="group">
-                   ${shuffleArray(juego.currentQuestion.possibleAnswers).map(a => `
+                   ${shuffleArray(game.currentQuestion.possibleAnswers).map(a => `
                    ${getButtonClass(a)}`).join('')
     }
                  </div>
@@ -89,7 +107,7 @@ const GET_HTML_MOBILE = () => {
           </div>
         </div>
       <br/>
-      <button type="button" id="endGame" onclick="EndGame();" class="btn btn-danger btn-block">Finalizar juego</button>
+      <button type="button" id="endGame" onclick="EndGame();" style="height: 50px;" class="btn btn-danger btn-block">Finalizar juego</button>
       </div>
       `;
   return html;
@@ -106,18 +124,18 @@ const GET_HTML_WEB = () => {
       <div class="col">
         <div class="card h-100">
           <div class="card-header bg-light text-center">
-          <h3 class="card-title">${juego.currentQuestion.question}</h3>
+          <h3 class="card-title">${game.currentQuestion.question}</h3>
           </div>
           <div class="card-body text-center">
           <div id="countdown" style="min-height: 70px;"><br/></div>
-            <img src=${juego.currentQuestion.image} width="150px" height="150px" alt=${juego.currentQuestion.topic}>
+            <img src=${game.currentQuestion.image} width="150px" height="150px" alt=${game.currentQuestion.topic}>
             <br/>
-            <small class="text-muted">Category: ${juego.currentQuestion.topic.replaceAll("_", " ")}</small>
+            <small class="text-muted">Category: ${game.currentQuestion.topic.replaceAll("_", " ")}</small>
           </div>
           <div class="card-footer bg-light text-center">
             <p class="card-text">Elegir una opción:</p>
             <div class="btn-group" role="group">
-               ${shuffleArray(juego.currentQuestion.possibleAnswers).map(a =>
+               ${shuffleArray(game.currentQuestion.possibleAnswers).map(a =>
     `<br/><br/>
       ${getButtonClass(a)}`).join('')
     }
@@ -127,13 +145,12 @@ const GET_HTML_WEB = () => {
       </div>
     </div>
     <br/>
-    <button type="button" id="endGame" onclick="EndGame();" class="btn btn-danger">Finalizar juego</button>
+    <button type="button" id="endGame" onclick="EndGame();" style="height: 50px;" class="btn btn-danger">Finalizar juego</button>
   </div>`;
   return html;
 }
 
 const LOGIN_FORM_HTML = () => {
-  console.log("createSignUpForm");
   let html = `
   
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -190,7 +207,6 @@ const LOGIN_FORM_HTML = () => {
                   e.preventDefault();
                   e.stopPropagation();
               }else{
-                console.log("saving credentials");
                 SaveCredentials();
               }
               form.classList.add('was-validated');
@@ -202,7 +218,7 @@ const LOGIN_FORM_HTML = () => {
   $('#app').html(html);
 }
 
-const DIFFICULTY_SELECTOR_HTML = (width) => {
+const TOPIC_SELECTOR_HTML = (width) => {
   let html = `
   <div id="topic" class="row row-cols-1 row-cols-md-3 g-4" style="${width}">
   <div class="col">
@@ -230,7 +246,7 @@ const DIFFICULTY_SELECTOR_HTML = (width) => {
 }
 
 
-let TOPIC_SELECTOR_HTML = (width) => {
+let DIFFICULTY_SELECTOR_HTML = (width) => {
   let html = `
   <div id="difficulty" class="row row-cols-1 row-cols-md-3 g-4 " style="${width}">
     <div class="col">
@@ -281,14 +297,104 @@ ADMIN_PAGE_HTML = (width) => {
       </div>
     </div>
   </div>
+
+  <div class="btn-group-vertical btn-group-lg btn-block" role="group">
+  <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar</button> 
+   </div>
   `;
   return html;
 }
 
 
-GET_QUESTIONS_LIST_HTML = (q) => {
+GET_QUESTIONS_LIST_HTML_WEB = () => {
   let html = `
-  ${q.map(a =>
+  <div id="profileDiv" class="card text-center">
+    <div class="card-header">
+      <h5 class="card-title">Filtro</h5>
+    </div>
+    <div>
+      <div class="card-body">
+        <div class="d-flex justify-content-center">
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio1" onclick="filterQuestions('Arte')" name="customRadio"
+              class="custom-control-input">
+            <label class="custom-control-label" for="customRadio1" style="margin: 0px 100px 0px 0px;">Arte</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio2" onclick="filterQuestions('Deporte')" name="customRadio"
+              class="custom-control-input">
+            <label class="custom-control-label" for="customRadio2" style="margin: 0px 100px 0px 0px;">Deportes</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio3" onclick="filterQuestions('Cultura_General')" name="customRadio"
+              class="custom-control-input">
+            <label class="custom-control-label" for="customRadio3" style="margin: 0px 100px 0px 0px;">Cultura
+              general</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio4" onclick="filterQuestions('Geografia')" name="customRadio"
+              class="custom-control-input">
+            <label class="custom-control-label" for="customRadio4" style="margin: 0px 100px 0px 0px;">Geografia</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio5" onclick="filterQuestions('')" name="customRadio"
+              class="custom-control-input">
+            <label class="custom-control-label" for="customRadio5" style="margin: 0px 100px 0px 0px;">Todas</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer text-muted"><small class="text-muted">Filtro por categoría</small></div>
+    <div class="list-group" id="divFilteredQuestions"></div>
+  </div>
+  `;
+  return html;
+}
+
+GET_QUESTIONS_LIST_HTML_MOBILE = () => {
+  let html = `
+  <div id="profileDiv" class="card text-center" style="min-width: 90%">
+    <div class="card-header">
+      <h5>Filtro</h5>
+    </div>
+    <div>
+      <div class="card-body d-flex flex-wrap">
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio1" onclick="filterQuestions('Arte')" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio1" style="margin: 0px 100px 0px 0px;">Arte</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio2" onclick="filterQuestions('Deporte')" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio2" style="margin: 0px 100px 0px 0px;">Deportes</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio3" onclick="filterQuestions('Cultura_General')" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio3" style="margin: 0px 100px 0px 0px;">Cultura general</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio4" onclick="filterQuestions('Geografia')" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio4" style="margin: 0px 100px 0px 0px;">Geografia</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="customRadio5" onclick="filterQuestions('')" name="customRadio" class="custom-control-input">
+          <label class="custom-control-label" for="customRadio5" style="margin: 0px 100px 0px 0px;">Todas</label>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer text-muted">
+        <small class="text-muted">Filtro por categoría</small>
+    </div>
+    <div class="list-group" id="divFilteredQuestions">
+    </div>
+  </div>
+  `;
+  return html;
+}
+
+GET_FILTERED_QUESTIONS_LIST_HTML = () => {
+  let html = `
+  <br/>
+  ${filteredQuestions.map(a =>
     `<br/><br/>
     <div class="list-group">
       <a href="#" class="list-group-item list-group-item-action">
@@ -299,7 +405,7 @@ GET_QUESTIONS_LIST_HTML = (q) => {
         Options: 
         <p class="mb-1">${a.possibleAnswers}</p>
         
-        <img src=${a.image} width="150px" height="150px" alt=${q.topic}><br/>
+        <img src=${a.image} width="150px" height="150px" alt=${filteredQuestions.topic}><br/>
         <small class="text-muted">Correct answer: ${a.correctAnswer}</small>
       </a>
     </div>`).join('')
@@ -355,8 +461,8 @@ CREATE_QUESTION_ADMIN_PAGE_HTML = () => {
 
 
 
-const GET_PROFILE_PAGE_HTML = (p, width, puntaje) => {
-  return `<div class="card text-center" style="${width}">
+const GET_PROFILE_PAGE_HTML = (p, score) => {
+  return `<div id="profileDiv" class="card text-center" style="min-width: 90%;">
   <div class="card-header">
   <h5 class="card-title">Profile info</h5>
   </div>
@@ -364,32 +470,50 @@ const GET_PROFILE_PAGE_HTML = (p, width, puntaje) => {
     <ul class="list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center">
         <p class="card-text">User</p>
-        <span class="badge badge-light badge-pill">${p.name}</span>
+        <span class="badge badge-secondary badge-pill">${p.name}</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
         Age
-        <span class="badge badge-light badge-pill">${p.age}</span>
+        <span class="badge badge-secondary badge-pill">${p.age}</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
       Sex
-        <span class="badge badge-light badge-pill">${p.sex}</span>
+        <span class="badge badge-secondary badge-pill">${p.sex}</span>
       </li>
       <li class="list-group-item d-flex justify-content-between align-items-center">
       Role
-        <span class="badge badge-light badge-pill">${p.role}</span>
+        <span class="badge badge-secondary badge-pill">${p.role}</span>
       </li>
     </ul>
   </div>
   <div class="card-footer text-muted">
-      Puntaje: ${puntaje}
+      Puntaje: ${score}
   </div>
   </div>
   
-  <div class="card-footer bg-light">
   <div class="btn-group-vertical btn-group-lg btn-block" role="group">
-  <button onclick="getHomePage()" id="btnQuestions"class="btn btn-primary">Jugar</button> 
+  <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar</button> 
    </div>
-</div>
-  
+  `;
+}
+
+SET_SCORE_HTML = (name, score) => {
+  let html = `${name} 
+  <span class="badge rounded-pill bg-success">
+    ${score}
+  </span>`
+  return html;
+}
+
+
+const GET_NOTHING_TO_SEE_HERE_HTML = () =>{
+  return `<div id="profileDiv" class="card text-center" style="min-width: 90%;">
+            <div class="card-body">
+            Nothing to See Here :)
+            </div>
+          </div>
+    <div class="btn-group-vertical btn-group-lg btn-block" role="group">
+    <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar</button> 
+    </div>
   `;
 }

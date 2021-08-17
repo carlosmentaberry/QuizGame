@@ -3,9 +3,7 @@ const Admin = () => {
 }
 
 const CreateQuestion = () => {
-  console.log("creating question");
   jQuery.noConflict();
-  $('#addquestionmodal').modal('hide');
   let id = questions.length + 1;
 
   let topic = $('[name="topic"]')[0].value;
@@ -14,7 +12,6 @@ const CreateQuestion = () => {
 
   let possibleanswers = $('[name="possibleanswers"]')[0].value.toString().split(';');
   let question = new Pregunta(id, topic, quest, answer, possibleanswers);
-  console.log(question);
   AddQuestion(question);
 }
 
@@ -28,7 +25,6 @@ const CerrarSesion = () => {
 }
 
 const createNewQuestionForm = () => {
-  console.log("createNewQuestionForm");
   $('#app').html(CREATE_QUESTION_ADMIN_PAGE_HTML());
 }
 
@@ -59,7 +55,12 @@ const getAdminPage = () => {
 }
 
 const ShowAllQuestions = () => {
-
-  console.log("getting question");
-  $('#app').html(GET_QUESTIONS_LIST_HTML(questions));
+  if(!isMobile.any()){
+    $('#app').html(GET_QUESTIONS_LIST_HTML_WEB());
+  }else{
+    $('#app').html(GET_QUESTIONS_LIST_HTML_MOBILE());
+  }
+  
+  filterQuestions('');
+  $('#customRadio5').prop("checked", true);
 }

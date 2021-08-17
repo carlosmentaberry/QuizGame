@@ -6,7 +6,6 @@ const SlideDownAnimation = (object, speed) => {
             .css('opacity', 0.5)
             .animate({ opacity: 1 }, { queue: false, duration: 1000 });
     } catch (error) {
-        console.error(error);
     }
 }
 
@@ -19,10 +18,7 @@ const AnimateAdminPage = (message) => {
         height: '150px',
         width: '250px',
     },
-        "slow",
-        function () {
-            console.log('fin de la animación');
-        }
+        "slow"
     );
 
     $('.message').animate({
@@ -31,10 +27,7 @@ const AnimateAdminPage = (message) => {
         height: '150px',
         width: '250px',
     },
-        "slow",
-        function () {
-            console.log('fin de la animación');
-        }
+        "slow"
     );
 }
 
@@ -44,25 +37,28 @@ const AnimateResponse = (choise) => {
     let fheight = 0;
     fwidth = $("#" + choise).outerWidth();
     fheight = $("#" + choise).outerHeight();
-    console.log(fwidth, fheight);
-    
+
     $("#" + choise.toString().replaceAll(" ", "_")).animate({
         height: fheight * 2 + 'px',
         width: fwidth * 2 + 'px',
     },
-        "fast",
-        function () {
-            console.log('fin de la animación');
-        }
+        "fast"
     );
 
     $("#" + choise.toString().replaceAll(" ", "_")).animate({
         width: fwidth + "px",
         height: fheight + "px"
     },
-        "fast",
-        function () {
-            console.log('fin de la animación');
-        }
+        "fast"
     );
+}
+
+const animateCountDown = () => {
+    (function pulse(back) {
+        $('#countdown').animate(
+          {
+            'font-size': (back) ? '20px' : '35px',
+            opacity: (back) ? 1 : 0.5
+          }, 400, function () { pulse(!back) });
+      })(false);
 }

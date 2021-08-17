@@ -1,5 +1,5 @@
 
-class Pregunta {
+class Question {
     constructor(id, topic, image, question, correctAnswer, possibleAnswers){
         this.id = id
         this.topic = topic;

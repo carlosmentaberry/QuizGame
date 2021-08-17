@@ -1,7 +1,8 @@
 let questions;
-let puntaje = 0;
+let filteredQuestions =[];
+let score = 0;
 let participant;
-let juego;
+let game;
 let difficulty;
 let topic;
 let countDownStarted = false;
@@ -9,6 +10,7 @@ let changedQuestion = false;
 let timer;
 let nullParticipant = {
     name: "#",
+    profile: "Profile",
     age: "#",
     sex: "#",
     role: "#",

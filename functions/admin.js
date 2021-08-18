@@ -48,9 +48,11 @@ const getAdminPage = () => {
       SlideDownAnimation('#adminDiv', 500);
     } else {
       AnimateAdminPage(getDefaultPage());
+      SlideDownAnimation('#nothingHereDiv', 500);
     }
   } else {
     AnimateAdminPage(getDefaultPage());
+    SlideDownAnimation('#nothingHereDiv', 500);
   }
 }
 

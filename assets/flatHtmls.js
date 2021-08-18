@@ -71,11 +71,11 @@ const GAME_RESULT_HTML = (resultData, width, porc) => {
               <li class="list-group-item"><small class="text-muted">Dificultad: ${difficulty} - Puntaje: ${score}</small></li>
             </ul>
           </div>
-          <div class="btn-group-vertical btn-group-lg btn-block" role="group">
-          <button onclick="StartGame()" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar de nuevo</button>
-           </div>
         </div>
       </div>
+    </div>
+    <div class="btn-group-vertical btn-group-lg btn-block" role="group" style="margin: 10px 0px 0px 0px">
+    <button onclick="StartGame()" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar de nuevo</button>
     </div>`;
   return html;
 }
@@ -153,7 +153,7 @@ const GET_HTML_WEB = () => {
 const LOGIN_FORM_HTML = () => {
   let html = `
   
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="exampleModal"data-backdrop="static" tabindex="-1" role="dialog" data-keyboard="false" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <form id="formValidate" class="needs-validation" novalidate>
           <div class="modal-dialog" role="document">
               <div class="modal-content">
@@ -299,7 +299,7 @@ ADMIN_PAGE_HTML = (width) => {
   </div>
 
   <div class="btn-group-vertical btn-group-lg btn-block" role="group">
-  <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar</button> 
+  <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;margin: 10px 0px 0px 0px" class="btn btn-primary">Jugar</button> 
    </div>
   `;
   return html;
@@ -308,13 +308,12 @@ ADMIN_PAGE_HTML = (width) => {
 
 GET_QUESTIONS_LIST_HTML_WEB = () => {
   let html = `
-  <div id="profileDiv" class="card text-center">
+  <div id="questionsDiv" class="card text-center">
     <div class="card-header">
       <h5 class="card-title">Filtro</h5>
     </div>
     <div>
-      <div class="card-body">
-        <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center card-body">
           <div class="custom-control custom-radio">
             <input type="radio" id="customRadio1" onclick="filterQuestions('Arte')" name="customRadio"
               class="custom-control-input">
@@ -344,16 +343,15 @@ GET_QUESTIONS_LIST_HTML_WEB = () => {
         </div>
       </div>
     </div>
-    <div class="card-footer text-muted"><small class="text-muted">Filtro por categoría</small></div>
-    <div class="list-group" id="divFilteredQuestions"></div>
-  </div>
+      <div class="card-footer text-muted"><small class="text-muted">Filtro por categoría</small></div>
+      <div class="list-group" id="divFilteredQuestions"></div>
   `;
   return html;
 }
 
 GET_QUESTIONS_LIST_HTML_MOBILE = () => {
   let html = `
-  <div id="profileDiv" class="card text-center" style="min-width: 90%">
+  <div id="questionsDiv" class="card text-center" style="min-width: 90%">
     <div class="card-header">
       <h5>Filtro</h5>
     </div>
@@ -384,8 +382,8 @@ GET_QUESTIONS_LIST_HTML_MOBILE = () => {
     <div class="card-footer text-muted">
         <small class="text-muted">Filtro por categoría</small>
     </div>
-    <div class="list-group" id="divFilteredQuestions">
-    </div>
+  </div>
+  <div class="list-group" id="divFilteredQuestions">
   </div>
   `;
   return html;
@@ -397,7 +395,7 @@ GET_FILTERED_QUESTIONS_LIST_HTML = () => {
   ${filteredQuestions.map(a =>
     `<br/><br/>
     <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action">
+      <a href="" class="list-group-item list-group-item-action">
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">${a.id} - ${a.question}</h5>
           <small class="text-muted">Topic: ${a.topic}</small>
@@ -492,7 +490,7 @@ const GET_PROFILE_PAGE_HTML = (p, score) => {
   </div>
   
   <div class="btn-group-vertical btn-group-lg btn-block" role="group">
-  <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar</button> 
+  <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;margin: 10px 0px 0px 0px" class="btn btn-primary">Jugar</button> 
    </div>
   `;
 }
@@ -507,13 +505,13 @@ SET_SCORE_HTML = (name, score) => {
 
 
 const GET_NOTHING_TO_SEE_HERE_HTML = () =>{
-  return `<div id="profileDiv" class="card text-center" style="min-width: 90%;">
+  return `<div id="nothingHereDiv" class="card text-center" style="min-width: 90%;">
             <div class="card-body">
             Nothing to See Here :)
             </div>
           </div>
     <div class="btn-group-vertical btn-group-lg btn-block" role="group">
-    <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;" class="btn btn-primary">Jugar</button> 
+    <button onclick="goToHomePage();" id="btnQuestions" style="height: 50px;margin: 10px 0px 0px 0px" class="btn btn-primary">Jugar</button> 
     </div>
   `;
 }

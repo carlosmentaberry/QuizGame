@@ -219,6 +219,11 @@ const LOGIN_FORM_HTML = () => {
 }
 
 const TOPIC_SELECTOR_HTML = (width) => {
+  let art = "(" + questions.filter(q => q.topic == 'Arte').length + " preguntas)";
+  let sport = "(" + questions.filter(q => q.topic == 'Deporte').length + " preguntas)";
+  let culture = "(" + questions.filter(q => q.topic == 'Cultura_General').length + " preguntas)";
+  let geography = "(" + questions.filter(q => q.topic == 'Geografia').length + " preguntas)";
+  let random = "(" + questions.length + " preguntas)";
   let html = `
   <div id="topic" class="row row-cols-1 row-cols-md-3 g-4" style="${width}">
   <div class="col">
@@ -228,11 +233,11 @@ const TOPIC_SELECTOR_HTML = (width) => {
       </div>
       <div class="card-body">
         <div class="list-group">
-          <a href="#" id="Arte" onClick="SetActiveTopic('Arte')" class="list-group-item list-group-item-action">Arte</a>
-          <a href="#" id="Cultura_General" onClick="SetActiveTopic('Cultura_General')" class="list-group-item list-group-item-action">Cultura General</a>
-          <a href="#" id="Deporte" onClick="SetActiveTopic('Deporte')" class="list-group-item list-group-item-action">Deporte</a>
-          <a href="#" id="Geografia" onClick="SetActiveTopic('Geografia')" class="list-group-item list-group-item-action">Geografia</a>
-          <a href="#" id="random" onClick="SetActiveTopic('random')" class="list-group-item list-group-item-action active">Random</a>
+          <a href="#" id="Arte" onClick="SetActiveTopic('Arte')" class="list-group-item list-group-item-action">Arte ${art}</a>
+          <a href="#" id="Cultura_General" onClick="SetActiveTopic('Cultura_General')" class="list-group-item list-group-item-action">Cultura General ${culture}</a>
+          <a href="#" id="Deporte" onClick="SetActiveTopic('Deporte')" class="list-group-item list-group-item-action">Deporte ${sport}</a>
+          <a href="#" id="Geografia" onClick="SetActiveTopic('Geografia')" class="list-group-item list-group-item-action">Geografia ${geography}</a>
+          <a href="#" id="random" onClick="SetActiveTopic('random')" class="list-group-item list-group-item-action active">Random ${random}</a>
         </div>
       </div>
       <div class="card-footer">

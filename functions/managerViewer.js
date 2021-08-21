@@ -1,4 +1,5 @@
 const StartGame = () => {
+  CreateQuestions();
   EndGame();
   $('#app').html("");
   SetActiveNavItem("home");
@@ -123,7 +124,7 @@ const getButtonClass = (a) => {
       classname = "btn btn-danger";
       break;
     case "blanco":
-      classname = "btn btn-light";
+      classname = "btn btn-outline-dark";
       break;
     case "verde":
       classname = "btn btn-success";

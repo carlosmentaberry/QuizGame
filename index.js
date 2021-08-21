@@ -15,9 +15,8 @@ $(document).ready(function () {
 
 
 const CreateQuestions = () => {
-    if (questions == undefined) {
-        GetQuestionsFromJsonWithAjax();
-    }
+    questions = undefined;
+    GetQuestionsFromJsonWithAjax();
     return questions;
 }
 
@@ -29,7 +28,9 @@ const GetQuestionsFromJsonWithAjax = () => {
         url: URLJSON,
         success: function (response) {
             for (const row of response) {
-                let q = new Question(row.id, row.topic, row.image, row.question, row.correctAnswer, row.possibleAnswers);
+                let topic = './assets/' + row.topic + '.png';
+                let q = new Question(row.id, row.topic, topic, row.question, row.correctAnswer, row.possibleAnswers);
+                q.possibleAnswers.push(q.correctAnswer);
                 questions.push(q);
             }
             saveToLocalStorage("questions", JSON.stringify(shuffleArray(questions)));

@@ -312,6 +312,11 @@ ADMIN_PAGE_HTML = (width) => {
 
 
 GET_QUESTIONS_LIST_HTML_WEB = () => {
+  let art = "(" + questions.filter(q => q.topic == 'Arte').length + " preguntas)";
+  let sport = "(" + questions.filter(q => q.topic == 'Deporte').length + " preguntas)";
+  let culture = "(" + questions.filter(q => q.topic == 'Cultura_General').length + " preguntas)";
+  let geography = "(" + questions.filter(q => q.topic == 'Geografia').length + " preguntas)";
+  let random = "(" + questions.length + " preguntas)";
   let html = `
   <div id="questionsDiv" class="card text-center">
     <div class="card-header">
@@ -322,28 +327,28 @@ GET_QUESTIONS_LIST_HTML_WEB = () => {
           <div class="custom-control custom-radio">
             <input type="radio" id="customRadio1" onclick="filterQuestions('Arte')" name="customRadio"
               class="custom-control-input">
-            <label class="custom-control-label" for="customRadio1" style="margin: 0px 100px 0px 0px;">Arte</label>
+            <label class="custom-control-label" for="customRadio1" style="margin: 0px 100px 0px 0px;">Arte ${art}</label>
           </div>
           <div class="custom-control custom-radio">
             <input type="radio" id="customRadio2" onclick="filterQuestions('Deporte')" name="customRadio"
               class="custom-control-input">
-            <label class="custom-control-label" for="customRadio2" style="margin: 0px 100px 0px 0px;">Deportes</label>
+            <label class="custom-control-label" for="customRadio2" style="margin: 0px 100px 0px 0px;">Deportes ${sport}</label>
           </div>
           <div class="custom-control custom-radio">
             <input type="radio" id="customRadio3" onclick="filterQuestions('Cultura_General')" name="customRadio"
               class="custom-control-input">
             <label class="custom-control-label" for="customRadio3" style="margin: 0px 100px 0px 0px;">Cultura
-              general</label>
+              general ${culture}</label>
           </div>
           <div class="custom-control custom-radio">
             <input type="radio" id="customRadio4" onclick="filterQuestions('Geografia')" name="customRadio"
               class="custom-control-input">
-            <label class="custom-control-label" for="customRadio4" style="margin: 0px 100px 0px 0px;">Geografia</label>
+            <label class="custom-control-label" for="customRadio4" style="margin: 0px 100px 0px 0px;">Geografia ${geography}</label>
           </div>
           <div class="custom-control custom-radio">
             <input type="radio" id="customRadio5" onclick="filterQuestions('')" name="customRadio"
               class="custom-control-input">
-            <label class="custom-control-label" for="customRadio5" style="margin: 0px 100px 0px 0px;">Todas</label>
+            <label class="custom-control-label" for="customRadio5" style="margin: 0px 100px 0px 0px;">Todas ${random}</label>
           </div>
         </div>
       </div>

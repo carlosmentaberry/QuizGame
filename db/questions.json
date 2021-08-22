@@ -142,7 +142,7 @@
     {
         "id":21,
         "topic": "Cultura_General",
-        "question":"¿Cual es país más poblado de la Tierra?",
+        "question":"¿Cuál es país más poblado de la Tierra?",
         "correctAnswer": "China",
         "possibleAnswers": ["India","EEUU","Indonesia"]
     },
@@ -212,21 +212,21 @@
     {
         "id":31,
         "topic": "Geografia",
-        "question":"¿Cual es la capital de Argentina?",
+        "question":"¿Cuál es la capital de Argentina?",
         "correctAnswer": "Buenos Aires",
         "possibleAnswers": ["CABA","La Plata"]
     },
     {
         "id":32,
         "topic": "Geografia",
-        "question":"¿Cuantas provincias tiene Argentina?",
+        "question":"¿Cuántas provincias tiene Argentina?",
         "correctAnswer": "23",
         "possibleAnswers": ["21","22","24"]
     },
     {
         "id":33,
         "topic": "Geografia",
-        "question":"¿Cual es la capital de Catamarca?",
+        "question":"¿Cuál es la capital de Catamarca?",
         "correctAnswer": "San Fernando del Valle de Catamarca",
         "possibleAnswers": ["Belén","Santa María"]
     },
@@ -1367,7 +1367,7 @@
     {
         "id":195,
         "topic": "Cultura_General",
-        "question":"¿Cuantas horas dura un día en Júpiter?",
+        "question":"¿Cuántas horas dura un día en Júpiter?",
         "correctAnswer": "9",
         "possibleAnswers": ["15","17","23"]
     },
@@ -1395,7 +1395,7 @@
     {
         "id":199,
         "topic": "Geografia",
-        "question":"¿Cual es la capital de Somalia?",
+        "question":"¿Cuál es la capital de Somalia?",
         "correctAnswer": "Mogadiscio",
         "possibleAnswers": ["Kigali","Yaundé","Buyumbura"]
     },
@@ -1423,36 +1423,540 @@
     {
         "id":203,
         "topic": "Cultura_General",
-        "question":"¿Cuantos satélites tiene Saturno?",
+        "question":"¿Cuántos satélites tiene Saturno?",
         "correctAnswer": "82",
         "possibleAnswers": ["52","72","92"]
     },
     {
         "id":204,
         "topic": "Cultura_General",
-        "question":"¿Cuantos satélites tiene Júpiter?",
+        "question":"¿Cuántos satélites tiene Júpiter?",
         "correctAnswer": "79",
         "possibleAnswers": ["50","99","69"]
     },
     {
         "id":205,
         "topic": "Cultura_General",
-        "question":"¿Cuantos satélites tiene Neptuno?",
+        "question":"¿Cuántos satélites tiene Neptuno?",
         "correctAnswer": "14",
         "possibleAnswers": ["50","15","20"]
     },
     {
         "id":206,
         "topic": "Cultura_General",
-        "question":"¿Cuantos satélites tiene Marte?",
+        "question":"¿Cuántos satélites tiene Marte?",
         "correctAnswer": "2",
         "possibleAnswers": ["1","3","5"]
     },
     {
         "id":207,
         "topic": "Cultura_General",
-        "question":"¿Cuantos satélites tiene Urano?",
+        "question":"¿Cuántos satélites tiene Urano?",
         "correctAnswer": "27",
         "possibleAnswers": ["71","37","45"]
+    },
+    {
+        "id":208,
+        "topic": "Cultura_General",
+        "question":"¿Cuántos litros de sangre tiene una persona adulta?",
+        "correctAnswer": "Tiene entre 4 y 6 litros",
+        "possibleAnswers": ["Tiene entre 2 y 4 litros","Tiene entre 4 y 6 litros","Tiene 10 litros"]
+    },
+    {
+        "id":209,
+        "topic": "Cultura_General",
+        "question":"¿Quién es el autor de la frase <<Pienso, luego existo>>?",
+        "correctAnswer": "Descartes",
+        "possibleAnswers": ["Platón","Sócrates","Aristóteles"]
+    },
+    {
+        "id":210,
+        "topic": "Cultura_General",
+        "question":"La sal común está formada por dos elementos, ¿cuáles son?",
+        "correctAnswer": "Sodio y cloro",
+        "possibleAnswers": ["Sodio y potasio","Potasio y cloro","Sodio y carbono"]
+    },
+    {
+        "id":211,
+        "topic": "Deporte",
+        "question":"¿Cuántos jugadores por equipo participan en un partido de voleibol?",
+        "correctAnswer": "6",
+        "possibleAnswers": ["4","5","7"]
+    },
+    {
+        "id":212,
+        "topic": "Arte",
+        "question":"¿Quién pintó la obra Guernica?",
+        "correctAnswer": "Salvador Dalí",
+        "possibleAnswers": ["Diego Rivera","Pablo Picasso","Paul Cézanne"]
+    },
+    {
+        "id":213,
+        "topic": "Cultura_General",
+        "question":"¿Cuánto tiempo tarda la luz del Sol en llegar a la Tierra?",
+        "correctAnswer": "8 minutos",
+        "possibleAnswers": ["1 día","12 horas","8 segundos"]
+    },
+    {
+        "id":214,
+        "topic": "Cultura_General",
+        "question":"¿Cuánto tiempo tarda la luz del Sol en llegar a plutón?",
+        "correctAnswer": "5,47 hs",
+        "possibleAnswers": ["15,47 minutos ","1,47 días","10,47 hs"]
+    },
+    {
+        "id":215,
+        "topic": "Cultura_General",
+        "question":"¿En qué periodo de la prehistoria fue descubierto el fuego?",
+        "correctAnswer": "Paleolítico",
+        "possibleAnswers": ["Neolítico","Edad de piedra","Edad media"]
+    },
+    {
+        "id":216,
+        "topic": "Cultura_General",
+        "question":"¿A quién se le atribuye la frase <<Solo sé que no sé nada>>?",
+        "correctAnswer": "Sócrates",
+        "possibleAnswers": ["Nietszche","Aristóteles","Sófocles"]
+    },
+    {
+        "id":217,
+        "topic": "Cultura_General",
+        "question":"¿En qué país de África el español es la lengua oficial?",
+        "correctAnswer": "Guinea ecuatorial",
+        "possibleAnswers": ["Costa de Marfil","Sierra Leona","Cabo Verde","Liberia"]
+    },
+    {
+        "id":218,
+        "topic": "Cultura_General",
+        "question":"¿Qué hora es en inglés <<It is a quarter past six>>?",
+        "correctAnswer": "6:15",
+        "possibleAnswers": ["6:45","5:45","5:15"]
+    },
+    {
+        "id":219,
+        "topic": "Cultura_General",
+        "question":"¿Qué líder mundial quedó conocida como La Dama de Hierro?",
+        "correctAnswer": "Margaret Thatcher",
+        "possibleAnswers": ["Hillary Clinton","Dilma Rouseff","Christine Lagarde"]
+    },
+    {
+        "id":220,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es la religión monoteísta que cuenta con el mayor número de adeptos en el mundo?",
+        "correctAnswer": "Cristianismo",
+        "possibleAnswers": ["Judaísmo","Islamismo","Hinduismo"]
+    },
+    {
+        "id":220,
+        "topic": "Cultura_General",
+        "question":"¿Quién fue el primer hombre en pisar la Luna?",
+        "correctAnswer": "Neil Armstrong",
+        "possibleAnswers": ["Michael Collins","Buzz Aldrin","Yuri Gagarin"]
+    },
+    {
+        "id":220,
+        "topic": "Cultura_General",
+        "question":"¿Quién descubrió la vacuna contra la rabia y el proceso de pasteurización?",
+        "correctAnswer": "Louis Pasteur",
+        "possibleAnswers": ["Charles Darwin","Marie Curie","Edward Jenner","Antoine Lavoisier"]
+    },
+    {
+        "id":220,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el tipo sanguíneo considerado como donante universal?",
+        "correctAnswer": "Tipo O",
+        "possibleAnswers": ["Tipo A","Tipo B","Tipo AB"]
+    },
+    {
+        "id":220,
+        "topic": "Geografia",
+        "question":"¿Cuál es la capital de Australia?",
+        "correctAnswer": "Canberra",
+        "possibleAnswers": ["Melbourne","Sydney","Adelaide"]
+    },
+    {
+        "id":220,
+        "topic": "Cultura_General",
+        "question":"¿Qué animal gluglutea?",
+        "correctAnswer": "El pavo",
+        "possibleAnswers": ["El pato","La cacatúa","La garza"]
+    },
+    {
+        "id":220,
+        "topic": "Geografia",
+        "question":"¿En qué océano queda Madagascar?",
+        "correctAnswer": "Océano Índico",
+        "possibleAnswers": ["Océano Atlántico","Océano Pacífico","Océano Antártico"]
+    },
+    {
+        "id":220,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo quimico de la Plata?",
+        "correctAnswer": "Ag",
+        "possibleAnswers": ["Pl","Pt","Ar"]
+    },
+    {
+        "id":220,
+        "topic": "Cultura_General",
+        "question":"¿De qué grupo era vocalista Jim Morrison?",
+        "correctAnswer": "The Doors",
+        "possibleAnswers": ["The Police","Nirvana","Pink Floyd"]
+    },
+    {
+        "id":220,
+        "topic": "Cultura_General",
+        "question":"¿Por qué película recibió un premio Oscar Leonardo DiCaprio?",
+        "correctAnswer": "The revenant (2015)",
+        "possibleAnswers": ["El Lobo de Wall Street (2013)","Diamantes de sangre (2006)","Titanic (1997)"]
+    },
+    {
+        "id":230,
+        "topic": "Deporte",
+        "question":"¿Cuántos jugadores pueden participar por equipo en el basquetbol?",
+        "correctAnswer": "5",
+        "possibleAnswers": ["4","6","7"]
+    },
+    {
+        "id":231,
+        "topic": "Cultura_General",
+        "question":"¿Dónde se originaron los números arábigos?",
+        "correctAnswer": "India",
+        "possibleAnswers": ["Grecia","Arabia","Persia"]
+    },
+    {
+        "id":232,
+        "topic": "Cultura_General",
+        "question":"¿Cuántos metros tiene la torre Burj Khalifa?",
+        "correctAnswer": "828",
+        "possibleAnswers": ["628","928","728"]
+    },
+    {
+        "id":233,
+        "topic": "Cultura_General",
+        "question":"¿Quién escribió La Ilíada?",
+        "correctAnswer": "Homero",
+        "possibleAnswers": ["Ulises","Aristoteles","William Shakespeare"]
+    },
+    {
+        "id":234,
+        "topic": "Cultura_General",
+        "question":"¿Quién inventó la tabla periódica?",
+        "correctAnswer": "Dmitri Mendeléyev",
+        "possibleAnswers": ["Marie Curie","John Dalton","Niels Bohr"]
+    },
+    {
+        "id":235,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es la traducción de la frase “Carpe Diem?",
+        "correctAnswer": "Aprovecha el momento",
+        "possibleAnswers": ["Vive la Vida","Hazlo tu mismo"]
+    },
+    {
+        "id":236,
+        "topic": "Cultura_General",
+        "question":"¿Desde qué altura saltó Felix Baumgartner en 2012?",
+        "correctAnswer": "36km",
+        "possibleAnswers": ["436km","136km","236km"]
+    },
+    {
+        "id":237,
+        "topic": "Cultura_General",
+        "question":"¿Cuánto tiempo duró el periodo bélico conocido como la Guerra de los 100 años?",
+        "correctAnswer": "116 años",
+        "possibleAnswers": ["100 años","97 años","106 años"]
+    },
+    {
+        "id":238,
+        "topic": "Cultura_General",
+        "question":"¿Cuándo se celebra el día de la mujer?",
+        "correctAnswer": "8 de marzo",
+        "possibleAnswers": ["18 de marzo","18 abril","8 de junio"]
+    },
+    {
+        "id":239,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el nombre más conocido para el monóxido de dihidrógeno?",
+        "correctAnswer": "Agua",
+        "possibleAnswers": ["Soda","Agua Oxigenada","Alcohol"]
+    },
+    {
+        "id":240,
+        "topic": "Cultura_General",
+        "question":"¿Quién escribió la obra literaria Rayuela?",
+        "correctAnswer": "Julio Cortázar",
+        "possibleAnswers": ["Gabriel García Márquez","Mario Vargas Llosa","Ernesto Sábato"]
+    },
+    {
+        "id":241,
+        "topic": "Cultura_General",
+        "question":"¿Quién compuso la pieza de música clásica Marcha Turca?",
+        "correctAnswer": "Wolfgang Amadeus Mozart",
+        "possibleAnswers": ["Ludwig van Beethoven","Frédéric Chopin","Johann Sebastian Bach"]
+    },
+    {
+        "id":243,
+        "topic": "Geografia",
+        "question":"¿En qué país se encuentra la Gran Barrera de Coral?",
+        "correctAnswer": "En Australia",
+        "possibleAnswers": ["Hawái","Thailandia","Madagascar"]
+    },
+    {
+        "id":244,
+        "topic": "Cultura_General",
+        "question":"¿Quién pintó El Nacimiento de Venus en 1486?",
+        "correctAnswer": "Sandro Botticelli",
+        "possibleAnswers": ["Goya","Velázquez","Rembrandt"]
+    },
+    {
+        "id":245,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del estaño?",
+        "correctAnswer": "Sn",
+        "possibleAnswers": ["Es","En","St"]
+    },
+    {
+        "id":246,
+        "topic": "Cultura_General",
+        "question":"¿Quién inventó el compás geométrico?",
+        "correctAnswer": "Galileo Galilei",
+        "possibleAnswers": ["Euclides","Pitágoras","Carl Friederich Gauss"]
+    },
+    {
+        "id":247,
+        "topic": "Geografia",
+        "question":"¿En qué continente está Nueva Zelanda?",
+        "correctAnswer": "En Oceanía",
+        "possibleAnswers": ["En Europa","En América","En Asia"]
+    },
+    {
+        "id":248,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del Potasio?",
+        "correctAnswer": "K",
+        "possibleAnswers": ["P","Po","A"]
+    },
+    {
+        "id":249,
+        "topic": "Geografia",
+        "question":"¿Cuál es el mar Europeo más grande?",
+        "correctAnswer": "Mar Mediterraneo",
+        "possibleAnswers": ["Mar Báltico","Mar Negro","Mar Caspio"]
+    },
+    {
+        "id":250,
+        "topic": "Geografia",
+        "question":"¿Cuál es el país más grande África en extensión?",
+        "correctAnswer": "Argelia",
+        "possibleAnswers": ["Marruecos","Somalia","Ghana"]
+    },
+    {
+        "id":251,
+        "topic": "Cultura_General",
+        "question":"¿En qué país nació el famoso compositor Antonio Vivaldi?",
+        "correctAnswer": "En Italia",
+        "possibleAnswers": ["En Austria","En Francia","En España"]
+    },
+    {
+        "id":252,
+        "topic": "Arte",
+        "question":"¿Quién pintó la famosa obra El grito?",
+        "correctAnswer": "Edvard Munch",
+        "possibleAnswers": ["Salvador Dali","Miguel Angel","Vincent Van Gogh"]
+    },
+    {
+        "id":253,
+        "topic": "Geografia",
+        "question":"¿Cuál es el monte más alto de Europa?",
+        "correctAnswer": "Elbrus",
+        "possibleAnswers": ["Teide","Everest","K2"]
+    },
+    {
+        "id":254,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es la velocidad de la luz?",
+        "correctAnswer": "299.792.458 m/s",
+        "possibleAnswers": ["300.000.000 m/s","199.792.458 m/s"]
+    },
+    {
+        "id":255,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el animal terrestre más grande en la actualidad?",
+        "correctAnswer": "Elefante africano",
+        "possibleAnswers": ["Jirafa","Diplodocus","Ballena azul"]
+    },
+    {
+        "id":256,
+        "topic": "Cultura_General",
+        "question":"¿De qué grupo era vocalista Bon Scott?",
+        "correctAnswer": "AC/DC",
+        "possibleAnswers": ["The Doors","Pink Floyd","Iron Maiden"]
+    },
+    {
+        "id":257,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del mercurio?",
+        "correctAnswer": "Hg",
+        "possibleAnswers": ["M","Me","H"]
+    },
+    {
+        "id":258,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del fósforo?",
+        "correctAnswer": "P",
+        "possibleAnswers": ["F","Ph","Fh"]
+    },
+    {
+        "id":259,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del fósforo?",
+        "correctAnswer": "P",
+        "possibleAnswers": ["F","Ph","Fh"]
+    },
+    {
+        "id":260,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del sodio?",
+        "correctAnswer": "Na",
+        "possibleAnswers": ["N","So","S"]
+    },
+    {
+        "id":261,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del uranio?",
+        "correctAnswer": "U",
+        "possibleAnswers": ["Ur","Un","Uo"]
+    },
+    {
+        "id":262,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del iridio?",
+        "correctAnswer": "Ir",
+        "possibleAnswers": ["Id","I","Rd"]
+    },
+    {
+        "id":263,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del zinc?",
+        "correctAnswer": "Zn",
+        "possibleAnswers": ["Zi","Z","Zc"]
+    },
+    {
+        "id":264,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del magnesio?",
+        "correctAnswer": "Mn",
+        "possibleAnswers": ["Ma","M","Mg"]
+    },
+    {
+        "id":265,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del rodio?",
+        "correctAnswer": "Rh",
+        "possibleAnswers": ["Ro","Rd","R"]
+    },
+    {
+        "id":266,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del zirconio?",
+        "correctAnswer": "Zr",
+        "possibleAnswers": ["Zi","Zc","Zn"]
+    },
+    {
+        "id":267,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del cobre?",
+        "correctAnswer": "Cu",
+        "possibleAnswers": ["Co","C","Cb"]
+    },
+    {
+        "id":268,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del hierro?",
+        "correctAnswer": "Fe",
+        "possibleAnswers": ["F","Hi","He"]
+    },
+    {
+        "id":269,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del helio?",
+        "correctAnswer": "He",
+        "possibleAnswers": ["Hl","Hi","H"]
+    },
+    {
+        "id":270,
+        "topic": "Cultura_General",
+        "question":"¿Cuál es el símbolo químico del nitrógeno?",
+        "correctAnswer": "N",
+        "possibleAnswers": ["Ni","Nt","Ng"]
+    },
+    {
+        "id":271,
+        "topic": "Cultura_General",
+        "question":"¿En qué país nació Ludwig van Beethoven?",
+        "correctAnswer": "Alemania",
+        "possibleAnswers": ["Austria","Polonia","Rusia"]
+    },
+    {
+        "id":272,
+        "topic": "Cultura_General",
+        "question":"¿Quién compuso la canción Like a Rolling Stone?",
+        "correctAnswer": "Bob Dylan",
+        "possibleAnswers": ["Mick Jagger","The Rolling Stones","Rod Stewart"]
+    },
+    {
+        "id":273,
+        "topic": "Cultura_General",
+        "question":"¿En qué país nació Freddy Mercury?",
+        "correctAnswer": "Tanzania",
+        "possibleAnswers": ["India","Pakistán","Irán"]
+    },
+    {
+        "id":274,
+        "topic": "Cultura_General",
+        "question":"¿En qué país nació Céline Dion?",
+        "correctAnswer": "Canadá",
+        "possibleAnswers": ["Estados Unidos","Inglaterra","Austria"]
+    },
+    {
+        "id":275,
+        "topic": "Cultura_General",
+        "question":"¿En qué país nació Wolfgang Amadeus Mozart?",
+        "correctAnswer": "Austria",
+        "possibleAnswers": ["Alemania","Francia","Polonia"]
+    },
+    {
+        "id":276,
+        "topic": "Cultura_General",
+        "question":"¿En qué país nació Frédéric Chopin?",
+        "correctAnswer": "Polonia",
+        "possibleAnswers": ["Alemania","Francia","Austria"]
+    },
+    {
+        "id":277,
+        "topic": "Cultura_General",
+        "question":"¿Quién es el cantante de los Redonditos de Ricota?",
+        "correctAnswer": "Carlos Solari",
+        "possibleAnswers": ["Carlos García","Juan Carlos Baglieto"]
+    },
+    {
+        "id":278,
+        "topic": "Cultura_General",
+        "question":"¿Quién es el cantante de los Redonditos de Ricota?",
+        "correctAnswer": "Carlos Solari",
+        "possibleAnswers": ["Carlos García","Juan Carlos Baglieto"]
+    },
+    {
+        "id":279,
+        "topic": "Cultura_General",
+        "question":"En música, una blanca equivale a:",
+        "correctAnswer": "2 negras",
+        "possibleAnswers": ["2 corcheas","2 redondas","2 fusas"]
+    },
+    {
+        "id":280,
+        "topic": "Cultura_General",
+        "question":"En música, una fusa equivale a:",
+        "correctAnswer": "2 semi fusas",
+        "possibleAnswers": ["2 semi corcheas","2 corcheas"]
     }
 ]

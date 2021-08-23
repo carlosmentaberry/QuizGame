@@ -1,4 +1,5 @@
 const StartGame = () => {
+  questionNumber = 0;
   CreateQuestions();
   EndGame();
   $('#app').html("");
@@ -79,6 +80,8 @@ const CheckRole = () => {
 }
 
 const ShowQuestion = () => {
+  progressPorcentage = questionNumber * 100 / game.maxScore;
+  questionNumber += 1;
   var html = " ";
   game.currentQuestion = game.questions.pop();
   if (game.currentQuestion != undefined) {
@@ -106,8 +109,11 @@ const ShowQuestion = () => {
     if (porc > 41 && porc < 70) {
       html = GAME_RESULT_HTML(looseSoso, width, porc);
     }
-    if (porc > 71) {
+    if (porc > 71 && porc < 85) {
       html = GAME_RESULT_HTML(winner, width, porc);
+    }
+    if (porc > 85) {
+      html = GAME_RESULT_HTML(Best, width, porc);
     }
     $('#app').html(html);
   }
@@ -145,13 +151,15 @@ const validateResponse = (choise) => {
 
   clearInterval(timer);
   changedQuestion = true;
-  let correctAnswer = game.currentQuestion.correctAnswer.toString().replaceAll(" ", "_");
-  game.currentQuestion.possibleAnswers.forEach(x => $("#" + x.toString().replaceAll(" ", "_")).attr("disabled", true));
+  let correctAnswer = game.currentQuestion.correctAnswer.toString().replaceAll(" ", "_").replaceAll("&","and");
+  game.currentQuestion.possibleAnswers.forEach(x => $("#" + x.toString().replaceAll(" ", "_").replaceAll("&","and")).attr("disabled", true));
   
   let element = `#${choise}`;
   
-
+  timerProgressPorcentage = 0;
+  paintTimerProgress();
   if (choise == correctAnswer) {
+    showProgressAnswer(true);
     score++;
     game.score = score;
     SetScore();
@@ -161,6 +169,7 @@ const validateResponse = (choise) => {
     } catch (error) {
     }
   } else {
+    showProgressAnswer(false);
 
     if (choise && choise.length > 1) {
       document.getElementById(choise).className = "btn btn-danger";
@@ -181,7 +190,7 @@ const validateResponse = (choise) => {
 const cuentaRegresiva = (difficulty) => {
 
   let seconds = 0;
-
+  let totalSeconds = 0;
   if (!countDownStarted) {
     switch (difficulty) {
       case "hard":
@@ -194,11 +203,16 @@ const cuentaRegresiva = (difficulty) => {
         seconds = 20;
         break;
     }
+    totalSeconds = seconds;
     timer = null;
   }
+  timerProgressPorcentage = 1;
+  secs = 1;
   if (timer == null) {
     countDownStarted = true;
     timer = setInterval(function () {
+      timerProgressPorcentage = secs * 100 / totalSeconds;
+      $("#progressbarTimer").attr("style", "width: " + timerProgressPorcentage + "%");
       if (seconds <= 0) {
         clearInterval(timer);
         validateResponse("");
@@ -220,11 +234,42 @@ const cuentaRegresiva = (difficulty) => {
       }
 
       $('#countdown').css('color', getColor(seconds));
+      paintTimerProgress();
       seconds -= 1;
+      secs += 1;
     }, 1000);
   }
 }
 
+const showProgressAnswer = (value) => {
+  if(value){
+    $("#progressbarTimer").attr("class", "progress-bar progress-bar-striped bg-success");
+  }else{
+    $("#progressbarTimer").attr("class", "progress-bar progress-bar-striped bg-danger");
+  }
+}
+
+const paintTimerProgress = () => {
+  if(timerProgressPorcentage == 0 || timerProgressPorcentage == 100){
+    $("#progressbarTimer").attr("class", "progress-bar progress-bar-striped bg-danger");
+  }
+  if(timerProgressPorcentage > 0 && timerProgressPorcentage <= 15){
+    console.log(timerProgressPorcentage);
+    $("#progressbarTimer").attr("class", "progress-bar progress-bar-striped bg-success");
+  }
+  if(timerProgressPorcentage > 15 && timerProgressPorcentage <= 35){
+    $("#progressbarTimer").attr("class", "progress-bar progress-bar-striped");
+  }
+  if(timerProgressPorcentage > 35 && timerProgressPorcentage <= 65){
+    $("#progressbarTimer").attr("class", "progress-bar progress-bar-striped bg-info");
+  }
+  if(timerProgressPorcentage > 65 && timerProgressPorcentage <= 85){
+    $("#progressbarTimer").attr("class", "progress-bar progress-bar-striped bg-warning");
+  }
+  if(timerProgressPorcentage > 85){
+    $("#progressbarTimer").attr("class", "progress-bar progress-bar-striped bg-danger");
+  }
+}
 const getColor = (seconds) => {
   if (parseInt(seconds) > 5) {
     return 'black';

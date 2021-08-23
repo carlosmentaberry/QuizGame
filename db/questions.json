@@ -9,7 +9,7 @@
     {
         "id":2,
         "topic": "Cultura_General",
-        "question":"¿Quién escribió La Odisea?",
+        "question":"¿Quién escribió “La Odisea”?",
         "correctAnswer": "Homero",
         "possibleAnswers": ["Ulises","Aristoteles","William Shakespeare"]
     },
@@ -51,14 +51,14 @@
     {
         "id":8,
         "topic": "Cultura_General",
-        "question":"¿Cuándo acabó la II Guerra Mundial?",
+        "question":"¿Cuándo acabó la “II Guerra Mundial”?",
         "correctAnswer": "1945",
         "possibleAnswers": ["1914","1918","1939"]
     },
     {
         "id":9,
         "topic": "Cultura_General",
-        "question":"¿Quién es el autor de el Quijote?",
+        "question":"¿Quién es el autor de “El Quijote”?",
         "correctAnswer": "Miguel de Cervantes",
         "possibleAnswers": ["William Shakespear","Julio Verne","Federico García Lorca"]
     },
@@ -72,7 +72,7 @@
     {
         "id":11,
         "topic": "Ciencia",
-        "question":"¿Cómo se denomina el resultado de la multiplicación?",
+        "question":"Resultado de la multiplicación",
         "correctAnswer": "Producto",
         "possibleAnswers": ["Cociente","Resto"]
     },
@@ -93,7 +93,7 @@
     {
         "id":14,
         "topic": "Musica",
-        "question":"¿Quién es el famoso Rey de Rock en los Estados Unidos?",
+        "question":"¿Quién es el famoso “Rey de Rock en los Estados Unidos”?",
         "correctAnswer": "Elvis Presley",
         "possibleAnswers": ["Chuck Berry","Richard Little","Jerry Lee Lewis"]
     },
@@ -114,7 +114,7 @@
     {
         "id":17,
         "topic": "Cultura_General",
-        "question":"¿En qué año comenzó la II Guerra Mundial?",
+        "question":"¿En qué año comenzó la “II Guerra Mundial”?",
         "correctAnswer": "1939",
         "possibleAnswers": ["1914","1918","1945"]
     },
@@ -170,7 +170,7 @@
     {
         "id":25,
         "topic": "Cultura_General",
-        "question":"¿Qué rama de la Ciencia estudia los animales?",
+        "question":"¿Qué rama de la ciencia estudia los animales?",
         "correctAnswer": "Zoología",
         "possibleAnswers": ["Botánica","Biología","Geología"]
     },
@@ -226,9 +226,9 @@
     {
         "id":33,
         "topic": "Geografia",
-        "question":"¿Cuál es la capital de Catamarca?",
-        "correctAnswer": "San Fernando del Valle de Catamarca",
-        "possibleAnswers": ["Belén","Santa María"]
+        "question":"¿Cuál es la capital de Chubut?",
+        "correctAnswer": "Rawson",
+        "possibleAnswers": ["Resistencia","Santa Rosa"]
     },
     {
         "id":34,
@@ -240,7 +240,7 @@
     {
         "id":35,
         "topic": "Geografia",
-        "question":"¿En qué provincia se encuentran Las Ruinas de San Ignacio?",
+        "question":"¿En qué provincia se encuentran “Las Ruinas de San Ignacio”?",
         "correctAnswer": "Misiones",
         "possibleAnswers": ["Salta","Jujuy","Corrientes"]
     },
@@ -261,7 +261,7 @@
     {
         "id":38,
         "topic": "Arte",
-        "question":"¿En que año Pablo Picasso pintó el Guernica?",
+        "question":"¿En que año Pablo Picasso pintó “Guernica”?",
         "correctAnswer": "1937",
         "possibleAnswers": ["1927","1957","1947"]
     },
@@ -289,21 +289,21 @@
     {
         "id":42,
         "topic": "Arte",
-        "question":"¿Quién pintó Los fusilamientos del 3 de mayo?",
+        "question":"¿Quién pintó “Los fusilamientos del 3 de mayo”?",
         "correctAnswer": "Goya",
         "possibleAnswers": ["Velázquez","Rembrandt"]
     },
     {
         "id":43,
         "topic": "Arte",
-        "question":"¿A qué estilo corresponde la Catedral de Notre Dame de París?",
+        "question":"¿Qué estilo tiene la Catedral de Notre Dame de París?",
         "correctAnswer": "Gótico",
         "possibleAnswers": ["Románico","Barroco"]
     },
     {
         "id":44,
         "topic": "Arte",
-        "question":"¿A qué famoso escultor pertenece la obra El pensador?",
+        "question":"¿Quién esculpió la obra “El pensador”?",
         "correctAnswer": "Auguste Rodin",
         "possibleAnswers": ["Miguel Angel","Gian Lorenzo Bernini"]
     },
@@ -317,28 +317,28 @@
     {
         "id":46,
         "topic": "Musica",
-        "question":"¿A qué compositor debemos Las bodas de Fígaro?",
+        "question":"¿A qué compositor debemos “Las bodas de Fígaro”?",
         "correctAnswer": "Amadeus Mozart",
         "possibleAnswers": ["Ludwig van Beethoven","Johann Sebastian Bach"]
     },
     {
         "id":47,
         "topic": "Arte",
-        "question":"¿A quién pertenece el famoso mural Niña con globo?",
+        "question":"¿A quién pertenece el famoso mural “Niña con globo”?",
         "correctAnswer": "Banksy",
         "possibleAnswers": ["Robert Del Naja","Jean-Michel Basquiat"]
     },
     {
         "id":48,
         "topic": "Arte",
-        "question":"¿Qué personaje de cómic creó Bob Kane cuando tenía 18 años?",
+        "question":"¿Qué personaje de cómic creó Bob Kane a sus 18 años?",
         "correctAnswer": "Batman",
         "possibleAnswers": ["Spiderman","Dardervil","El Castigador"]
     },
     {
         "id":49,
         "topic": "Arte",
-        "question":"¿Cuántas mujeres aparecen en el cuadro Las señoritas de Avignon?",
+        "question":"¿Cuántas mujeres hay en el cuadro “Las señoritas de Avignon”?",
         "correctAnswer": "5",
         "possibleAnswers": ["3","6","4"]
     },
@@ -359,21 +359,21 @@
     {
         "id":52,
         "topic": "Arte",
-        "question":"¿Quién escribió El viejo y el mar?",
+        "question":"¿Quién escribió “El viejo y el mar”?",
         "correctAnswer": "Ernest Hemingway",
         "possibleAnswers": ["Norman Mailer","Gabriel García Márquez","Truman Capote"]
     },
     {
         "id":53,
         "topic": "Arte",
-        "question":"¿Quién es el autor de El retrato de Dorian Gray?",
+        "question":"¿Quién es el autor de “El retrato de Dorian Gray”?",
         "correctAnswer": "Oscar Wilde",
         "possibleAnswers": ["Arthur Conan Doyle","George Orwell","Charles Dickens"]
     },
     {
         "id":54,
         "topic": "Arte",
-        "question":"¿Quién es el autor de Moby Dick?",
+        "question":"¿Quién es el autor de “Moby Dick”?",
         "correctAnswer": "Herman Melville",
         "possibleAnswers": ["Henry David Thoreau","Ralph Waldo Emerson","Henry James"]
     },
@@ -387,7 +387,7 @@
     {
         "id":56,
         "topic": "Arte",
-        "question":"¿En qué está esculpida la Venus de Milo?",
+        "question":"¿En qué está esculpida la “Venus de Milo”?",
         "correctAnswer": "Mármol",
         "possibleAnswers": ["Bronce","Piedra","Madera"]
     },
@@ -401,7 +401,7 @@
     {
         "id":58,
         "topic": "Arte",
-        "question":"¿Quién es el autor de El principito?",
+        "question":"¿Quién es el autor de “El principito”?",
         "correctAnswer": "Antoine de Saint-Exupery",
         "possibleAnswers": ["Cuahutemoc Sanchez","Beatriz Espejo","Ninguna es correcta"]
     },
@@ -415,7 +415,7 @@
     {
         "id":59,
         "topic": "Musica",
-        "question":"¿A qué músico argentino lo apodaban El Flaco?",
+        "question":"¿A qué músico argentino lo apodaban “El Flaco”?",
         "correctAnswer": "Luis Alberto Spinetta",
         "possibleAnswers": ["Gustavo Cerati","Carlos Alberto García","Carlos Solari"]
     },
@@ -436,14 +436,14 @@
     {
         "id":61,
         "topic": "Arte",
-        "question":"¿Qué animal quería ser domesticado por El Principito?",
+        "question":"¿Qué animal quería ser domesticado por “El Principito”?",
         "correctAnswer": "Un zorro",
         "possibleAnswers": ["Un perro","Un gato","Un lobo"]
     },
     {
         "id":62,
         "topic": "Arte",
-        "question":"¿Qué artista aparece retratado en Las Meninas?",
+        "question":"¿Qué artista aparece retratado en “Las Meninas”?",
         "correctAnswer": "Velázquez",
         "possibleAnswers": ["Miguel Ángel","Sorolla","Goya"]
     },
@@ -513,42 +513,42 @@
     {
         "id":73,
         "topic": "Geografia",
-        "question":"¿Cuál de estos colores no está en la bandera de Rumania?",
+        "question":"¿Qué color no está en la bandera de Rumania?",
         "correctAnswer": "Verde",
         "possibleAnswers": ["Rojo","Amarillo","Azul"]
     },
     {
         "id":74,
         "topic": "Geografia",
-        "question":"¿Cuál de estos colores no está en la bandera de Italia?",
+        "question":"¿Qué color no está en la bandera de Italia?",
         "correctAnswer": "Azul",
         "possibleAnswers": ["Verde","Blanco","Rojo"]
     },
     {
         "id":75,
         "topic": "Geografia",
-        "question":"¿Cuál de estos colores no está en la bandera de Francia?",
+        "question":"¿Qué color no está en la bandera de Francia?",
         "correctAnswer": "Verde",
         "possibleAnswers": ["Blanco","Rojo","Azul"]
     },
     {
         "id":76,
         "topic": "Geografia",
-        "question":"¿Cuál de estos colores no está en la bandera de Angola?",
+        "question":"¿Qué color no está en la bandera de Angola?",
         "correctAnswer": "Azul",
         "possibleAnswers": ["Negro","Rojo","Amarillo"]
     },
     {
         "id":77,
         "topic": "Geografia",
-        "question":"¿Cuál de estos colores no está en la bandera de Colombia?",
+        "question":"¿Qué color no está en la bandera de Colombia?",
         "correctAnswer": "Negro",
         "possibleAnswers": ["Rojo","Amarillo","Azul"]
     },
     {
         "id":78,
         "topic": "Geografia",
-        "question":"¿Cuál de estos colores no está en la bandera de Jamaica?",
+        "question":"¿Qué color no está en la bandera de Jamaica?",
         "correctAnswer": "Azul",
         "possibleAnswers": ["Negro","Verde","Amarillo"]
     },
@@ -786,9 +786,9 @@
     {
         "id":112,
         "topic": "Deporte",
-        "question":"¿Quién es considerado el mejor jugador histórico del club Nápoles de Italia?",
-        "correctAnswer": "Diego Armando Maradona",
-        "possibleAnswers": ["Lorenzo Insigne","Hirving Lozano","Victor Osimhen"]
+        "question":"¿A que equipo se cambió Lionel Messi en 2021?",
+        "correctAnswer": "Al PSG",
+        "possibleAnswers": ["Al Real Madrid","Al Arsenal","Al Manchester"]
     },
     {
         "id":113,
@@ -821,14 +821,14 @@
     {
         "id":117,
         "topic": "Cultura_General",
-        "question":"¿Cuándo acabó la I Guerra Mundial?",
+        "question":"¿Cuándo acabó la “I Guerra Mundial”?",
         "correctAnswer": "1918",
         "possibleAnswers": ["1914","1939","1945"]
     },
     {
         "id":118,
         "topic": "Cultura_General",
-        "question":"¿Cuándo comenzó la I Guerra Mundial?",
+        "question":"¿Cuándo comenzó la “I Guerra Mundial”?",
         "correctAnswer": "1914",
         "possibleAnswers": ["1918","1939","1945"]
     },
@@ -863,7 +863,7 @@
     {
         "id":123,
         "topic": "Cultura_General",
-        "question":"¿Quién escribió Hamlet?",
+        "question":"¿Quién escribió “Hamlet”?",
         "correctAnswer": "William Shakespeare",
         "possibleAnswers": ["Calderón de la Barca","Miguel de Cervantes","San Juan de la Cruz"]
     },
@@ -905,14 +905,14 @@
     {
         "id":129,
         "topic": "Geografia",
-        "question":"Cuál es la ciudad italiana conocida como la novia del mar?",
+        "question":"Cuál es la ciudad italiana conocida como “La novia del mar”?",
         "correctAnswer": "Venecia",
         "possibleAnswers": ["Roma","Florencia","Amsterdam"]
     },
     {
         "id":130,
         "topic": "Cultura_General",
-        "question":"¿Quién era el general de los Nazis en la Segunda Guerra Mundial?",
+        "question":"¿Quién era el general de los Nazis en la “II Guerra Mundial”?",
         "correctAnswer": "Adolf Hitler",
         "possibleAnswers": ["Heinrich Himmler","Benito Mussolini"]
     },
@@ -989,7 +989,7 @@
     {
         "id":141,
         "topic": "Musica",
-        "question":"¿Quién compuso Los Conciertos de Brandeburgo?",
+        "question":"¿Quién compuso “Los Conciertos de Brandeburgo”?",
         "correctAnswer": "Bach",
         "possibleAnswers": ["Mozart","Beethoven","Vivaldi"]
     },
@@ -1010,21 +1010,21 @@
     {
         "id":144,
         "topic": "Ciencia",
-        "question":"¿Cómo se denomina al tipo de triángulo que tiene sus tres lados iguales?",
+        "question":"Triángulo que tiene sus tres lados iguales",
         "correctAnswer": "Equilátero",
         "possibleAnswers": ["Isósceles","Recto","Escaleno"]
     },
     {
         "id":145,
         "topic": "Ciencia",
-        "question":"¿Cómo se le denomina al centro de un átomo?",
+        "question":"Centro del átomo",
         "correctAnswer": "Núcleo",
         "possibleAnswers": ["Electrón","Neutrón","Protón"]
     },
     {
         "id":146,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Oro?",
+        "question":"Símbolo químico del Oro?",
         "correctAnswer": "Au",
         "possibleAnswers": ["Or","Ao","Ar"]
     },
@@ -1045,7 +1045,7 @@
     {
         "id":149,
         "topic": "Ciencia",
-        "question":"¿Qué rama de la Ciencia estudia las plantas?",
+        "question":"¿Qué rama de la ciencia estudia las plantas?",
         "correctAnswer": "Botánica",
         "possibleAnswers": ["Zoología","Mineralogía","Antropología"]
     },
@@ -1059,7 +1059,7 @@
     {
         "id":151,
         "topic": "Geografia",
-        "question":"¿En qué país se encuentra el famoso monumento Taj Mahal?",
+        "question":"¿En qué país se encuentra el famoso monumento “Taj Mahal”?",
         "correctAnswer": "India",
         "possibleAnswers": ["Indonesia","Thailandia","Filipinas"]
     },
@@ -1073,7 +1073,7 @@
     {
         "id":153,
         "topic": "Musica",
-        "question":"¿Qué músico es la canción Tears in Heaven?",
+        "question":"¿Qué músico es la canción “Tears in Heaven”?",
         "correctAnswer": "Eric Clapton",
         "possibleAnswers": ["Tom Johns","Elton John","Sting"]
     },
@@ -1094,14 +1094,14 @@
     {
         "id":156,
         "topic": "Ciencia",
-        "question":"¿Cómo se denomina al tipo de triángulo que tiene dos lados iguales?",
+        "question":"Triángulo que tiene dos lados iguales",
         "correctAnswer": "Isósceles",
         "possibleAnswers": ["Equilátero","Recto","Escaleno"]
     },
     {
         "id":157,
         "topic": "Ciencia",
-        "question":"¿Cómo se denomina al tipo de triángulo que tiene todos sus lados distintos?",
+        "question":"Triángulo que tiene todos sus lados distintos",
         "correctAnswer": "Escaleno",
         "possibleAnswers": ["Isósceles","Equilátero","Recto"]
     },
@@ -1150,21 +1150,21 @@
     {
         "id":164,
         "topic": "Cultura_General",
-        "question":"¿En qué año se produce la Revolución Francesa?",
+        "question":"¿En qué año se produce la “Revolución Francesa”?",
         "correctAnswer": "1789",
         "possibleAnswers": ["1879","1768","1798"]
     },
     {
         "id":165,
         "topic": "Cultura_General",
-        "question":"¿En qué año se inicia la Revolución Rusa?",
+        "question":"¿En qué año se inicia la “Revolución Rusa”?",
         "correctAnswer": "1917",
         "possibleAnswers": ["1915","1916","1918"]
     },
     {
         "id":166,
         "topic": "Cultura_General",
-        "question":"¿En qué año cayó el muro de Berlín?",
+        "question":"¿En qué año cayó “El muro de Berlín”?",
         "correctAnswer": "1989",
         "possibleAnswers": ["1990","1991","1987"]
     },
@@ -1178,14 +1178,14 @@
     {
         "id":168,
         "topic": "Cultura_General",
-        "question":"¿En qué país se encuentra el rascacielos más alto del mundo? (Burj Khalifa)",
+        "question":"¿En qué país está “Burj Khalifa”, el rascacielos más alto del mundo?",
         "correctAnswer": "Emiratos Árabes Unidos",
         "possibleAnswers": ["Estados Unidos","Hong Kong","Japón"]
     },
     {
         "id":169,
         "topic": "Musica",
-        "question":"¿Quién compuso la mítica canción Knockin’ on Heaven’s Door?",
+        "question":"¿Quién compuso la mítica canción “Knockin' on Heaven's Door”?",
         "correctAnswer": "Bob Dylan",
         "possibleAnswers": ["Avril Lavigne","Guns & Roses","David Bowie"]
     },
@@ -1220,7 +1220,7 @@
     {
         "id":174,
         "topic": "Arte",
-        "question":"¿Quién dirigió la trilogía de El Padrino?",
+        "question":"¿Quién dirigió la trilogía de “El Padrino”?",
         "correctAnswer": "Francis Ford Coppola",
         "possibleAnswers": ["Martin Scorsese","Quentin Tarantino","Cristopher Nolan"]
     },
@@ -1269,7 +1269,7 @@
     {
         "id":181,
         "topic": "Cultura_General",
-        "question":"¿Qué animal contagió a los humanos en la pandemia de peste negra?",
+        "question":"¿Qué animal contagió a los humanos en la pandemia de “La peste negra”?",
         "correctAnswer": "Las ratas",
         "possibleAnswers": ["Los murciélagos","Los gatos","Las vacas"]
     },
@@ -1339,7 +1339,7 @@
     {
         "id":191,
         "topic": "Cultura_General",
-        "question":"¿Qué es un narval?",
+        "question":"¿Qué es un “Narval”?",
         "correctAnswer": "Un cetáceo",
         "possibleAnswers": ["Un ave","Un mineral","Un árbol"]
     },
@@ -1353,14 +1353,14 @@
     {
         "id":193,
         "topic": "Cultura_General",
-        "question":"¿Cómo se llamaba la esposa de Ulises, el personaje de la Odisea creado por Homero?",
+        "question":"¿Cómo se llamaba la esposa de Ulises, el personaje de “La Odisea”?",
         "correctAnswer": "Penélope",
         "possibleAnswers": ["Cleopatra","Helena","Briseida"]
     },
     {
         "id":194,
         "topic": "Cultura_General",
-        "question":"Si tienes acrofobia ¿a qué le tienes miedo?",
+        "question":"Si tienes “acrofobia” ¿a qué le tienes miedo?",
         "correctAnswer": "Miedo a las alturas",
         "possibleAnswers": ["Miedo a los lugares abiertos","Miedo a volar","Miedo al espacio"]
     },
@@ -1374,7 +1374,7 @@
     {
         "id":196,
         "topic": "Deporte",
-        "question":"¿De qué país es originario el críquet?",
+        "question":"¿De qué país es originario “El críquet”?",
         "correctAnswer": "India",
         "possibleAnswers": ["Estados Unidos","Inglaterra","Francia"]
     },
@@ -1459,8 +1459,8 @@
         "id":208,
         "topic": "Cultura_General",
         "question":"¿Cuántos litros de sangre tiene una persona adulta?",
-        "correctAnswer": "Tiene entre 4 y 6 litros",
-        "possibleAnswers": ["Tiene entre 2 y 4 litros","Tiene entre 4 y 6 litros","Tiene 10 litros"]
+        "correctAnswer": "Entre 4 y 6 lts",
+        "possibleAnswers": ["Entre 2 y 4 lts","Entre 6 y 10 lts"]
     },
     {
         "id":209,
@@ -1486,9 +1486,9 @@
     {
         "id":212,
         "topic": "Arte",
-        "question":"¿Quién pintó la obra Guernica?",
-        "correctAnswer": "Salvador Dalí",
-        "possibleAnswers": ["Diego Rivera","Pablo Picasso","Paul Cézanne"]
+        "question":"¿Quién pintó la obra “Guernica”?",
+        "correctAnswer": "Pablo Picasso",
+        "possibleAnswers": ["Diego Rivera","Salvador Dalí","Paul Cézanne"]
     },
     {
         "id":213,
@@ -1514,7 +1514,7 @@
     {
         "id":216,
         "topic": "Cultura_General",
-        "question":"¿A quién se le atribuye la frase Solo sé que no sé nada?",
+        "question":"¿A quién se le atribuye la frase “Solo sé que no sé nada”?",
         "correctAnswer": "Sócrates",
         "possibleAnswers": ["Nietszche","Aristóteles","Sófocles"]
     },
@@ -1528,7 +1528,7 @@
     {
         "id":218,
         "topic": "Cultura_General",
-        "question":"¿Qué hora es en inglés It is a quarter past six?",
+        "question":"¿Qué hora es en inglés “It is a quarter past six”?",
         "correctAnswer": "6:15",
         "possibleAnswers": ["6:45","5:45","5:15"]
     },
@@ -1542,7 +1542,7 @@
     {
         "id":220,
         "topic": "Cultura_General",
-        "question":"¿Cuál es la religión monoteísta que cuenta con el mayor número de adeptos en el mundo?",
+        "question":"Religión monoteísta con el mayor número de adeptos en el mundo",
         "correctAnswer": "Cristianismo",
         "possibleAnswers": ["Judaísmo","Islamismo","Hinduismo"]
     },
@@ -1563,7 +1563,7 @@
     {
         "id":220,
         "topic": "Cultura_General",
-        "question":"¿Cuál es el tipo sanguíneo considerado como donante universal?",
+        "question":"¿Cuál es el tipo sanguíneo considerado como “donante universal”?",
         "correctAnswer": "Tipo O",
         "possibleAnswers": ["Tipo A","Tipo B","Tipo AB"]
     },
@@ -1577,7 +1577,7 @@
     {
         "id":220,
         "topic": "Cultura_General",
-        "question":"¿Qué animal gluglutea?",
+        "question":"¿Qué animal “gluglutea”?",
         "correctAnswer": "El pavo",
         "possibleAnswers": ["El pato","La cacatúa","La garza"]
     },
@@ -1591,7 +1591,7 @@
     {
         "id":220,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico de la Plata?",
+        "question":"Símbolo químico de la Plata?",
         "correctAnswer": "Ag",
         "possibleAnswers": ["Pl","Pt","Ar"]
     },
@@ -1619,7 +1619,7 @@
     {
         "id":231,
         "topic": "Cultura_General",
-        "question":"¿Dónde se originaron los números arábigos?",
+        "question":"¿Dónde se originaron los “números arábigos”?",
         "correctAnswer": "India",
         "possibleAnswers": ["Grecia","Arabia","Persia"]
     },
@@ -1661,7 +1661,7 @@
     {
         "id":237,
         "topic": "Cultura_General",
-        "question":"¿Cuánto tiempo duró el periodo bélico conocido como la Guerra de los 100 años?",
+        "question":"¿Cuánto tiempo duró el periodo bélico de “La Guerra de los 100 años”?",
         "correctAnswer": "116 años",
         "possibleAnswers": ["100 años","97 años","106 años"]
     },
@@ -1689,28 +1689,28 @@
     {
         "id":241,
         "topic": "Musica",
-        "question":"¿Quién compuso la pieza de música clásica Marcha Turca?",
+        "question":"¿Quién compuso la pieza de música clásica “Marcha Turca”?",
         "correctAnswer": "Wolfgang Amadeus Mozart",
         "possibleAnswers": ["Ludwig van Beethoven","Frédéric Chopin","Johann Sebastian Bach"]
     },
     {
         "id":243,
         "topic": "Geografia",
-        "question":"¿En qué país se encuentra la Gran Barrera de Coral?",
+        "question":"¿En qué país se encuentra “La Gran Barrera de Coral”?",
         "correctAnswer": "Australia",
         "possibleAnswers": ["Hawái","Thailandia","Madagascar"]
     },
     {
         "id":244,
         "topic": "Arte",
-        "question":"¿Quién pintó El Nacimiento de Venus en 1486?",
+        "question":"¿Quién pintó “El Nacimiento de Venus” en 1486?",
         "correctAnswer": "Sandro Botticelli",
         "possibleAnswers": ["Goya","Velázquez","Rembrandt"]
     },
     {
         "id":245,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Estaño?",
+        "question":"Símbolo químico del Estaño?",
         "correctAnswer": "Sn",
         "possibleAnswers": ["Es","En","St"]
     },
@@ -1731,7 +1731,7 @@
     {
         "id":248,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Potasio?",
+        "question":"Símbolo químico del Potasio?",
         "correctAnswer": "K",
         "possibleAnswers": ["P","Po","A"]
     },
@@ -1759,7 +1759,7 @@
     {
         "id":252,
         "topic": "Arte",
-        "question":"¿Quién pintó la famosa obra El grito?",
+        "question":"¿Quién pintó la famosa obra “El grito”?",
         "correctAnswer": "Edvard Munch",
         "possibleAnswers": ["Salvador Dali","Miguel Angel","Vincent Van Gogh"]
     },
@@ -1794,98 +1794,98 @@
     {
         "id":257,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Mercurio?",
+        "question":"Símbolo químico del Mercurio",
         "correctAnswer": "Hg",
         "possibleAnswers": ["M","Me","H"]
     },
     {
         "id":258,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Fósforo?",
+        "question":"Símbolo químico del Fósforo",
         "correctAnswer": "P",
         "possibleAnswers": ["F","Ph","Fh"]
     },
     {
         "id":259,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Plutonio?",
+        "question":"Símbolo químico del Plutonio",
         "correctAnswer": "Pu",
         "possibleAnswers": ["P","Pl","Pt"]
     },
     {
         "id":260,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Sodio?",
+        "question":"Símbolo químico del Sodio",
         "correctAnswer": "Na",
         "possibleAnswers": ["N","So","S"]
     },
     {
         "id":261,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Uranio?",
+        "question":"Símbolo químico del Uranio",
         "correctAnswer": "U",
         "possibleAnswers": ["Ur","Un","Uo"]
     },
     {
         "id":262,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Iridio?",
+        "question":"Símbolo químico del Iridio",
         "correctAnswer": "Ir",
         "possibleAnswers": ["Id","I","Rd"]
     },
     {
         "id":263,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Zinc?",
+        "question":"Símbolo químico del Zinc",
         "correctAnswer": "Zn",
         "possibleAnswers": ["Zi","Z","Zc"]
     },
     {
         "id":264,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Magnesio?",
+        "question":"Símbolo químico del Magnesio",
         "correctAnswer": "Mn",
         "possibleAnswers": ["Ma","M","Mg"]
     },
     {
         "id":265,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Rodio?",
+        "question":"Símbolo químico del Rodio",
         "correctAnswer": "Rh",
         "possibleAnswers": ["Ro","Rd","R"]
     },
     {
         "id":266,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Zirconio?",
+        "question":"Símbolo químico del Zirconio",
         "correctAnswer": "Zr",
         "possibleAnswers": ["Zi","Zc","Zn"]
     },
     {
         "id":267,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Cobre?",
+        "question":"Símbolo químico del Cobre",
         "correctAnswer": "Cu",
         "possibleAnswers": ["Co","C","Cb"]
     },
     {
         "id":268,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Hierro?",
+        "question":"Símbolo químico del Hierro",
         "correctAnswer": "Fe",
         "possibleAnswers": ["F","Hi","He"]
     },
     {
         "id":269,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Helio?",
+        "question":"Símbolo químico del Helio",
         "correctAnswer": "He",
         "possibleAnswers": ["Hl","Hi","H"]
     },
     {
         "id":270,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Nitrógeno?",
+        "question":"Símbolo químico del Nitrógeno",
         "correctAnswer": "N",
         "possibleAnswers": ["Ni","Nt","Ng"]
     },
@@ -1899,7 +1899,7 @@
     {
         "id":272,
         "topic": "Musica",
-        "question":"¿Quién compuso la canción Like a Rolling Stone?",
+        "question":"¿Quién compuso la canción “Like a Rolling Stone”?",
         "correctAnswer": "Bob Dylan",
         "possibleAnswers": ["Mick Jagger","The Rolling Stones","Rod Stewart"]
     },
@@ -1941,9 +1941,9 @@
     {
         "id":278,
         "topic": "Musica",
-        "question":"¿Quién es el cantante de los Redonditos de Ricota?",
-        "correctAnswer": "Carlos Solari",
-        "possibleAnswers": ["Carlos García","Juan Carlos Baglieto"]
+        "question":"¿Quién es el cantante de Metallica?",
+        "correctAnswer": "James Heatfield",
+        "possibleAnswers": ["Kirk Hammet","Dave Mustaine"]
     },
     {
         "id":279,
@@ -1990,35 +1990,35 @@
     {
         "id":285,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Paladio?",
+        "question":"Símbolo químico del Paladio",
         "correctAnswer": "Pd",
         "possibleAnswers": ["Pa","Pl","Po"]
     },
     {
         "id":286,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Bismuto?",
+        "question":"Símbolo químico del Bismuto",
         "correctAnswer": "Bi",
         "possibleAnswers": ["B","Bs","Bm"]
     },
     {
         "id":287,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Azufre?",
+        "question":"Símbolo químico del Azufre",
         "correctAnswer": "S",
         "possibleAnswers": ["A","Az","Su"]
     },
     {
         "id":288,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Cadmio?",
+        "question":"Símbolo químico del Cadmio",
         "correctAnswer": "Cd",
         "possibleAnswers": ["C","Ca","Cm"]
     },
     {
         "id":289,
         "topic": "Ciencia",
-        "question":"¿Cuál es el símbolo químico del Astato?",
+        "question":"Símbolo químico del Astato",
         "correctAnswer": "At",
         "possibleAnswers": ["As","T","Ta"]
     },

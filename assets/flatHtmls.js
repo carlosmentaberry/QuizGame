@@ -87,11 +87,14 @@ const GET_HTML_MOBILE = () => {
           <div class="col">
             <div class="card h-100 text-center">
               <div class="card-header bg-light">
-              <h3 class="card-title">${game.currentQuestion.question}</h3>
+              <h5 class="card-title">${game.currentQuestion.question}</h5>
+              </div>
+              <div class="progress">
+                <div id="progressbarTimer" class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: ${timerProgressPorcentage.toString()}%" aria-valuenow="${timerProgressPorcentage.toString()}" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <div class="card-body">
-              <div id="countdown" style="min-height: 20px;"><br/></div>
-                <img src=${game.currentQuestion.image} width="150px" height="150px" alt=${game.currentQuestion.topic}>
+              <div id="countdown" style="min-height: 20px;"></div>
+                <img src=${game.currentQuestion.image} width="130px" height="130px" alt=${game.currentQuestion.topic}>
                 <br/>
                 <small class="text-muted">Category: ${game.currentQuestion.topic.replaceAll("_", " ")}</small>
               </div>
@@ -100,8 +103,11 @@ const GET_HTML_MOBILE = () => {
                 <div class="btn-group-vertical btn-group-lg btn-block" role="group">
                    ${shuffleArray(game.currentQuestion.possibleAnswers).map(a => `
                    ${getButtonClass(a)}`).join('')
-    }
+                  }
                  </div>
+              </div>
+              <div class="progress">
+                <div id="progressbar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: ${progressPorcentage.toString()}%" aria-valuenow="${progressPorcentage.toString()}" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
@@ -126,6 +132,9 @@ const GET_HTML_WEB = () => {
           <div class="card-header bg-light text-center">
           <h3 class="card-title">${game.currentQuestion.question}</h3>
           </div>
+          <div class="progress">
+            <div id="progressbarTimer" class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: ${timerProgressPorcentage.toString()}%" aria-valuenow="${timerProgressPorcentage.toString()}" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
           <div class="card-body text-center">
           <div id="countdown" style="min-height: 70px;"><br/></div>
             <img src=${game.currentQuestion.image} width="150px" height="150px" alt=${game.currentQuestion.topic}>
@@ -136,10 +145,13 @@ const GET_HTML_WEB = () => {
             <p class="card-text">Elegir una opción:</p>
             <div class="btn-group" role="group">
                ${shuffleArray(game.currentQuestion.possibleAnswers).map(a =>
-    `<br/><br/>
-      ${getButtonClass(a)}`).join('')
-    }
+                `<br/><br/>
+                  ${getButtonClass(a)}`).join('')
+                }
              </div>
+          </div>
+          <div class="progress">
+            <div id="progressbar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: ${progressPorcentage}%" aria-valuenow="${progressPorcentage}" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
       </div>

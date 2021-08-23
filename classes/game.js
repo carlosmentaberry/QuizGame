@@ -28,14 +28,14 @@ class Game {
                 if(topic != "random"){
                     this.questions = questions.filter(x => x.topic == topic).slice(0, 10);
                 }else{
-                    this.questions = questions.slice(0, 10);
+                    this.questions = questions.slice(0, 20);
                 }
                 break;
             case "medium":
                 if(topic != "random"){
                     this.questions = questions.filter(x => x.topic == topic).slice(0, 5);
                 }else{
-                    this.questions = questions.slice(0, 5);
+                    this.questions = questions.slice(0, 15);
                 }
                 break;
 
@@ -43,7 +43,7 @@ class Game {
                 if(topic != "random"){
                     this.questions = questions.filter(x => x.topic == topic).slice(0, 3);
                 }else{
-                    this.questions = questions.slice(0, 3);
+                    this.questions = questions.slice(0, 10);
                 }
                 break;
         }

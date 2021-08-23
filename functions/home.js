@@ -17,10 +17,15 @@ const getHomePage = () => {
 }
 
 const SetActiveTopic = (item) => {
-  $('#Arte, #Cultura_General, #sport, #geography, #random').attr('class', 'list-group-item list-group-item-action');
+  $('#Arte, #Ciencia, #Musica, #Cultura_General, #Deporte, #Geografia, #Todas').attr('class', 'list-group-item list-group-item-action');
   $('#' + item).attr('class', 'list-group-item list-group-item-action active');
+  
+  if(item == "Todas"){
+    topic = "random";
+  }else{
+    topic = item;
+  }
 
-  topic = item;
   setTimeout(() => {
     setUpNewGame();
   }, 300);
@@ -37,6 +42,7 @@ const SetActiveDifficultyOptions = (item) => {
 }
 
 const setUpNewGame = () => {
+  console.log(topic);
   game = new Game(questions, 0, difficulty, topic);
   ShowQuestion();
 }

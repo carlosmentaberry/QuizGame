@@ -219,11 +219,6 @@ const LOGIN_FORM_HTML = () => {
 }
 
 const TOPIC_SELECTOR_HTML = (width) => {
-  let art = "(" + questions.filter(q => q.topic == 'Arte').length + " preguntas)";
-  let sport = "(" + questions.filter(q => q.topic == 'Deporte').length + " preguntas)";
-  let culture = "(" + questions.filter(q => q.topic == 'Cultura_General').length + " preguntas)";
-  let geography = "(" + questions.filter(q => q.topic == 'Geografia').length + " preguntas)";
-  let random = "(" + questions.length + " preguntas)";
   let html = `
   <div id="topic" class="row row-cols-1 row-cols-md-3 g-4" style="${width}">
   <div class="col">
@@ -233,11 +228,9 @@ const TOPIC_SELECTOR_HTML = (width) => {
       </div>
       <div class="card-body">
         <div class="list-group">
-          <a href="#" id="Arte" onClick="SetActiveTopic('Arte')" class="list-group-item list-group-item-action">Arte ${art}</a>
-          <a href="#" id="Cultura_General" onClick="SetActiveTopic('Cultura_General')" class="list-group-item list-group-item-action">Cultura General ${culture}</a>
-          <a href="#" id="Deporte" onClick="SetActiveTopic('Deporte')" class="list-group-item list-group-item-action">Deporte ${sport}</a>
-          <a href="#" id="Geografia" onClick="SetActiveTopic('Geografia')" class="list-group-item list-group-item-action">Geografia ${geography}</a>
-          <a href="#" id="random" onClick="SetActiveTopic('random')" class="list-group-item list-group-item-action active">Random ${random}</a>
+        ${getTopics(questions).map(t => 
+          `<a href="#" id="${t}" onClick="SetActiveTopic('${t}')" class="list-group-item list-group-item-action">${getTopicQuantity(t)}</a>
+        `).join(' ')}
         </div>
       </div>
       <div class="card-footer">
@@ -312,49 +305,23 @@ ADMIN_PAGE_HTML = (width) => {
 
 
 GET_QUESTIONS_LIST_HTML_WEB = () => {
-  let art = "(" + questions.filter(q => q.topic == 'Arte').length + " preguntas)";
-  let sport = "(" + questions.filter(q => q.topic == 'Deporte').length + " preguntas)";
-  let culture = "(" + questions.filter(q => q.topic == 'Cultura_General').length + " preguntas)";
-  let geography = "(" + questions.filter(q => q.topic == 'Geografia').length + " preguntas)";
-  let random = "(" + questions.length + " preguntas)";
   let html = `
   <div id="questionsDiv" class="card text-center">
     <div class="card-header">
       <h5 class="card-title">Filtro</h5>
     </div>
-    <div>
-      <div class="d-flex justify-content-center card-body">
-          <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio1" onclick="filterQuestions('Arte')" name="customRadio"
+    <div class="d-flex justify-content-center card-body">
+      ${getTopics(questions).map(t => 
+        `<div class="custom-control custom-radio">
+            <input type="radio" id="${t}" onclick="filterQuestions('${t}')" name="customRadio"
               class="custom-control-input">
-            <label class="custom-control-label" for="customRadio1" style="margin: 0px 100px 0px 0px;">Arte ${art}</label>
-          </div>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio2" onclick="filterQuestions('Deporte')" name="customRadio"
-              class="custom-control-input">
-            <label class="custom-control-label" for="customRadio2" style="margin: 0px 100px 0px 0px;">Deportes ${sport}</label>
-          </div>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio3" onclick="filterQuestions('Cultura_General')" name="customRadio"
-              class="custom-control-input">
-            <label class="custom-control-label" for="customRadio3" style="margin: 0px 100px 0px 0px;">Cultura
-              general ${culture}</label>
-          </div>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio4" onclick="filterQuestions('Geografia')" name="customRadio"
-              class="custom-control-input">
-            <label class="custom-control-label" for="customRadio4" style="margin: 0px 100px 0px 0px;">Geografia ${geography}</label>
-          </div>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio5" onclick="filterQuestions('')" name="customRadio"
-              class="custom-control-input">
-            <label class="custom-control-label" for="customRadio5" style="margin: 0px 100px 0px 0px;">Todas ${random}</label>
-          </div>
+            <label class="custom-control-label" for="${t}" style="margin: 0px 100px 0px 0px;">${getTopicQuantity(t)}</label>
         </div>
-      </div>
+      `).join(' ')}
     </div>
-      <div class="card-footer text-muted"><small class="text-muted">Filtro por categoría</small></div>
-      <div class="list-group" id="divFilteredQuestions"></div>
+    <div class="card-footer text-muted"><small class="text-muted">Filtro por categoría</small></div>
+  </div>
+  <div class="list-group" id="divFilteredQuestions"></div>
   `;
   return html;
 }
@@ -365,45 +332,26 @@ GET_QUESTIONS_LIST_HTML_MOBILE = () => {
     <div class="card-header">
       <h5>Filtro</h5>
     </div>
-    <div>
-      <div class="card-body d-flex flex-wrap">
-        <div class="custom-control custom-radio">
-          <input type="radio" id="customRadio1" onclick="filterQuestions('Arte')" name="customRadio" class="custom-control-input">
-          <label class="custom-control-label" for="customRadio1" style="margin: 0px 100px 0px 0px;">Arte</label>
-        </div>
-        <div class="custom-control custom-radio">
-          <input type="radio" id="customRadio2" onclick="filterQuestions('Deporte')" name="customRadio" class="custom-control-input">
-          <label class="custom-control-label" for="customRadio2" style="margin: 0px 100px 0px 0px;">Deportes</label>
-        </div>
-        <div class="custom-control custom-radio">
-          <input type="radio" id="customRadio3" onclick="filterQuestions('Cultura_General')" name="customRadio" class="custom-control-input">
-          <label class="custom-control-label" for="customRadio3" style="margin: 0px 100px 0px 0px;">Cultura general</label>
-        </div>
-        <div class="custom-control custom-radio">
-          <input type="radio" id="customRadio4" onclick="filterQuestions('Geografia')" name="customRadio" class="custom-control-input">
-          <label class="custom-control-label" for="customRadio4" style="margin: 0px 100px 0px 0px;">Geografia</label>
-        </div>
-        <div class="custom-control custom-radio">
-          <input type="radio" id="customRadio5" onclick="filterQuestions('')" name="customRadio" class="custom-control-input">
-          <label class="custom-control-label" for="customRadio5" style="margin: 0px 100px 0px 0px;">Todas</label>
-        </div>
-      </div>
+    <div class="card-body d-flex flex-wrap">
+      ${getTopics(questions).map(t => 
+        `<div class="custom-control custom-radio">
+          <input type="radio" id="${t}" onclick="filterQuestions('${t}')" name="customRadio"
+            class="custom-control-input">
+          <label class="custom-control-label" for="${t}" style="margin: 0px 100px 0px 0px;">${getTopicQuantity(t)}</label>
+        </div>`).join(' ')}
     </div>
-    <div class="card-footer text-muted">
-        <small class="text-muted">Filtro por categoría</small>
-    </div>
+    <div class="card-footer text-muted"><small class="text-muted">Filtro por categoría</small></div>
   </div>
-  <div class="list-group" id="divFilteredQuestions">
-  </div>
+  <br/>
+  <div class="list-group" id="divFilteredQuestions"></div>
   `;
   return html;
 }
 
 GET_FILTERED_QUESTIONS_LIST_HTML = () => {
   let html = `
-  <br/>
   ${filteredQuestions.map(a =>
-    `<br/><br/>
+    `<br/>
     <div class="list-group">
       <a href="" class="list-group-item list-group-item-action">
         <div class="d-flex w-100 justify-content-between">
@@ -413,10 +361,33 @@ GET_FILTERED_QUESTIONS_LIST_HTML = () => {
         Options: 
         <p class="mb-1">${a.possibleAnswers}</p>
         
-        <img src=${a.image} width="150px" height="150px" alt=${filteredQuestions.topic}><br/>
+        <img src=${a.image} width="150px" height="150px" alt=${a.topic}><br/>
         <small class="text-muted">Correct answer: ${a.correctAnswer}</small>
       </a>
-    </div>`).join('')
+    </div>`).join(' ')
+    }`;
+  return html;
+}
+
+GET_FILTERED_QUESTIONS_LIST_HTMLMOBILE = () => {
+  let html = `
+  ${filteredQuestions.map(a =>
+    `<div class="list-group text-center">
+      <a href="" class="list-group-item list-group-item-action">
+        <div class="text-center">
+          <h5 class="mb-1">${a.id} - ${a.question}</h5>
+        </div>
+        Options: 
+        <p class="mb-1">${a.possibleAnswers}</p>
+        
+        <img src=${a.image} width="150px" height="150px" alt=${a.topic}><br/>
+        <div class="d-flex w-100 justify-content-between">
+        <small class="text-muted">Correct answer: ${a.correctAnswer}</small>
+        <small class="text-muted">Topic: ${a.topic}</small>
+        </div>
+      </a>
+      <br/>
+    </div>`).join(' ')
     }`;
   return html;
 }

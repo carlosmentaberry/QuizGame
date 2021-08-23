@@ -29,7 +29,7 @@
     },
     {
         "id":5,
-        "topic": "Cultura_General",
+        "topic": "Deporte",
         "question":"¿Dónde originaron los juegos olímpicos?",
         "correctAnswer": "En Grecia",
         "possibleAnswers": ["En Roma","En Inglaterra","En EEUU"]
@@ -65,20 +65,20 @@
     {
         "id":10,
         "topic": "Arte",
-        "question":"¿Quién pintó “la última cena”?",
+        "question":"¿Quién pintó “La última cena”?",
         "correctAnswer": "Leonardo Da Vinci",
         "possibleAnswers": ["Salvador Dali","Miguel Angel","Vincent Van Gogh"]
     },
     {
         "id":11,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cómo se denomina el resultado de la multiplicación?",
         "correctAnswer": "Producto",
         "possibleAnswers": ["Cociente","Resto"]
     },
     {
         "id":12,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Cuál es el disco más vendido de la historia?",
         "correctAnswer": "Thriller",
         "possibleAnswers": ["The Dark Side of the Moon","Back in Black","Led Zeppelin IV"]
@@ -92,7 +92,7 @@
     },
     {
         "id":14,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Quién es el famoso Rey de Rock en los Estados Unidos?",
         "correctAnswer": "Elvis Presley",
         "possibleAnswers": ["Chuck Berry","Richard Little","Jerry Lee Lewis"]
@@ -120,14 +120,14 @@
     },
     {
         "id":18,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"Si 50 es el 100%, ¿cuánto es el 90%?",
         "correctAnswer": "45",
         "possibleAnswers": ["35","40"]
     },
     {
         "id":19,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuál es tercer planeta en el sistema solar?",
         "correctAnswer": "Tierra",
         "possibleAnswers": ["Venus","Marte","Júpiter"]
@@ -150,12 +150,12 @@
         "id":22,
         "topic": "Cultura_General",
         "question":"¿En qué lugar del cuerpo se produce la insulina?",
-        "correctAnswer": "Pancreas",
-        "possibleAnswers": ["Riñon","Higado","Vesicula"]
+        "correctAnswer": "El Pancreas",
+        "possibleAnswers": ["El Riñon","El Higado","La Vesicula"]
     },
     {
         "id":23,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Como se llama el cantante de Megadeth?",
         "correctAnswer": "Dave Mustaine",
         "possibleAnswers": ["Robert Plant","James Hetfield","Brian Johnson"]
@@ -165,7 +165,7 @@
         "topic": "Cultura_General",
         "question":"¿Cuál es el color que representa la esperanza?",
         "correctAnswer": "Verde",
-        "possibleAnswers": ["Blanco","Celeste","Rojo"]
+        "possibleAnswers": ["Blanco","Azul","Rojo"]
     },
     {
         "id":25,
@@ -176,7 +176,7 @@
     },
     {
         "id":26,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Cómo se llama el himno nacional de Francia?",
         "correctAnswer": "Marsellesa",
         "possibleAnswers": ["Nkosi Sikelil´iAfrika","Hatikvah"]
@@ -197,7 +197,7 @@
     },
     {
         "id":29,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cómo se llama la estación espacial rusa?",
         "correctAnswer": "MIR",
         "possibleAnswers": ["IIS"]
@@ -316,7 +316,7 @@
     },
     {
         "id":46,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿A qué compositor debemos Las bodas de Fígaro?",
         "correctAnswer": "Amadeus Mozart",
         "possibleAnswers": ["Ludwig van Beethoven","Johann Sebastian Bach"]
@@ -393,7 +393,7 @@
     },
     {
         "id":57,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿Quién fue Antonio Lucio Vivaldi?",
         "correctAnswer": "Violinista y Compositor del Barroco",
         "possibleAnswers": ["Guitarrista Clásico","Tenor de Opera","Clavesista Italiano"]
@@ -414,7 +414,7 @@
     },
     {
         "id":59,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿A qué músico argentino lo apodaban El Flaco?",
         "correctAnswer": "Luis Alberto Spinetta",
         "possibleAnswers": ["Gustavo Cerati","Carlos Alberto García","Carlos Solari"]
@@ -876,7 +876,7 @@
     },
     {
         "id":125,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿A qué distancia se encuentra la Tierra del Sol?",
         "correctAnswer": "150 Millones de kms",
         "possibleAnswers": ["150 mil Millones de kms","150 mil de kms","150 Billones de kms"]
@@ -981,14 +981,14 @@
     },
     {
         "id":140,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿En qué año murió Kurt Cobain?",
         "correctAnswer": "1994",
-        "possibleAnswers": ["1996","1994","1998","1992"]
+        "possibleAnswers": ["1996","1998","1992"]
     },
     {
         "id":141,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿Quién compuso Los Conciertos de Brandeburgo?",
         "correctAnswer": "Bach",
         "possibleAnswers": ["Mozart","Beethoven","Vivaldi"]
@@ -1002,35 +1002,35 @@
     },
     {
         "id":143,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuál es el primero de los números primos?",
         "correctAnswer": "2",
         "possibleAnswers": ["0","1","3"]
     },
     {
         "id":144,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cómo se denomina al tipo de triángulo que tiene sus tres lados iguales?",
         "correctAnswer": "Equilátero",
         "possibleAnswers": ["Isósceles","Recto","Escaleno"]
     },
     {
         "id":145,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cómo se le denomina al centro de un átomo?",
         "correctAnswer": "Núcleo",
         "possibleAnswers": ["Electrón","Neutrón","Protón"]
     },
     {
         "id":146,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del oro?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Oro?",
         "correctAnswer": "Au",
         "possibleAnswers": ["Or","Ao","Ar"]
     },
     {
         "id":147,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Qué se le agrega al hierro para hacer acero?",
         "correctAnswer": "Carbono",
         "possibleAnswers": ["Oxígeno","Nitrógeno","Cobalto"]
@@ -1044,7 +1044,7 @@
     },
     {
         "id":149,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Qué rama de la Ciencia estudia las plantas?",
         "correctAnswer": "Botánica",
         "possibleAnswers": ["Zoología","Mineralogía","Antropología"]
@@ -1072,14 +1072,14 @@
     },
     {
         "id":153,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿Qué músico es la canción Tears in Heaven?",
         "correctAnswer": "Eric Clapton",
         "possibleAnswers": ["Tom Johns","Elton John","Sting"]
     },
     {
         "id":154,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿La campana de Gauss está asociada a…?",
         "correctAnswer": "Las Probabilidades",
         "possibleAnswers": ["La Iglesia","El Cosmos","El Arte"]
@@ -1093,14 +1093,14 @@
     },
     {
         "id":156,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cómo se denomina al tipo de triángulo que tiene dos lados iguales?",
         "correctAnswer": "Isósceles",
         "possibleAnswers": ["Equilátero","Recto","Escaleno"]
     },
     {
         "id":157,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cómo se denomina al tipo de triángulo que tiene todos sus lados distintos?",
         "correctAnswer": "Escaleno",
         "possibleAnswers": ["Isósceles","Equilátero","Recto"]
@@ -1142,7 +1142,7 @@
     },
     {
         "id":163,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Qué instrumento tocaba Paco de Lucía?",
         "correctAnswer": "Guitarra",
         "possibleAnswers": ["Bajo","Violín","Piano"]
@@ -1171,7 +1171,7 @@
     {
         "id":167,
         "topic": "Cultura_General",
-        "question":"¿Quién dirigió El Lobo de Wall Street?",
+        "question":"¿Quién dirigió “El Lobo de Wall Street”?",
         "correctAnswer": "Martin Scorsese",
         "possibleAnswers": ["Quentin Tarantino","Francis Ford Coppola","Cristopher Nolan"]
     },
@@ -1184,28 +1184,28 @@
     },
     {
         "id":169,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿Quién compuso la mítica canción Knockin’ on Heaven’s Door?",
         "correctAnswer": "Bob Dylan",
         "possibleAnswers": ["Avril Lavigne","Guns & Roses","David Bowie"]
     },
     {
         "id":170,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿Quien fue el guitarrista de Queen?",
         "correctAnswer": "Brian May",
         "possibleAnswers": ["Jimmy Page","Richie Blackmore","Steve Morse"]
     },
     {
         "id":171,
-        "topic": "Arte",
+        "topic": "Musica",
         "question":"¿Cuál de estos no fue guitarrista de Megadeth?",
         "correctAnswer": "Steve Morse",
         "possibleAnswers": ["Glen Drover","Chris Broderick","Marty Friedman"]
     },
     {
         "id":172,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuál es el 6to planeta del sistema solar?",
         "correctAnswer": "Saturno",
         "possibleAnswers": ["Júpiter","Urano","Neptuno"]
@@ -1226,7 +1226,7 @@
     },
     {
         "id":175,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Quién descubrió la penicilina?",
         "correctAnswer": "Alexander Fleming",
         "possibleAnswers": ["Marie Curie","Alfred Nobel","Louis Pasteur"]
@@ -1261,7 +1261,7 @@
     },
     {
         "id":180,
-        "topic": "Cultura_General",
+        "topic": "Geografia",
         "question":"¿Cuál es la capital de Burundi?",
         "correctAnswer": "Buyumbura",
         "possibleAnswers": ["Praia","Yaundé","El Cairo"]
@@ -1289,7 +1289,7 @@
     },
     {
         "id":184,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuál es la estrella más cercana al Sol?",
         "correctAnswer": "Alfa Centauri",
         "possibleAnswers": ["Betelguese","Rigel","Arcturus"]
@@ -1303,14 +1303,14 @@
     },
     {
         "id":186,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Quién postuló las leyes del movimiento?",
         "correctAnswer": "Isaac Newton",
         "possibleAnswers": ["Stephen Hawking","Albert Einstein","Galileo Galilei"]
     },
     {
         "id":187,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuál es la segunda estrella más cercana al Sol?",
         "correctAnswer": "Próxima Centauri",
         "possibleAnswers": ["Alfa Centauri","Betelguese","Rigel"]
@@ -1331,7 +1331,7 @@
     },
     {
         "id":190,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Qué planeta del sistema solar tiene más lunas?",
         "correctAnswer": "Júpiter",
         "possibleAnswers": ["Saturno","Urano","Neptuno"]
@@ -1345,7 +1345,7 @@
     },
     {
         "id":192,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Cuántas teclas tiene un piano?",
         "correctAnswer": "88",
         "possibleAnswers": ["80","77","90"]
@@ -1366,7 +1366,7 @@
     },
     {
         "id":195,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuántas horas dura un día en Júpiter?",
         "correctAnswer": "9",
         "possibleAnswers": ["15","17","23"]
@@ -1375,7 +1375,7 @@
         "id":196,
         "topic": "Deporte",
         "question":"¿De qué país es originario el críquet?",
-        "correctAnswer": "La India",
+        "correctAnswer": "India",
         "possibleAnswers": ["Estados Unidos","Inglaterra","Francia"]
     },
     {
@@ -1422,35 +1422,35 @@
     },
     {
         "id":203,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuántos satélites tiene Saturno?",
         "correctAnswer": "82",
         "possibleAnswers": ["52","72","92"]
     },
     {
         "id":204,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuántos satélites tiene Júpiter?",
         "correctAnswer": "79",
         "possibleAnswers": ["50","99","69"]
     },
     {
         "id":205,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuántos satélites tiene Neptuno?",
         "correctAnswer": "14",
         "possibleAnswers": ["50","15","20"]
     },
     {
         "id":206,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuántos satélites tiene Marte?",
         "correctAnswer": "2",
         "possibleAnswers": ["1","3","5"]
     },
     {
         "id":207,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuántos satélites tiene Urano?",
         "correctAnswer": "27",
         "possibleAnswers": ["71","37","45"]
@@ -1465,13 +1465,13 @@
     {
         "id":209,
         "topic": "Cultura_General",
-        "question":"¿Quién es el autor de la frase <<Pienso, luego existo>>?",
+        "question":"¿Quién es el autor de la frase “Pienso, luego existo”?",
         "correctAnswer": "Descartes",
         "possibleAnswers": ["Platón","Sócrates","Aristóteles"]
     },
     {
         "id":210,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"La sal común está formada por dos elementos, ¿cuáles son?",
         "correctAnswer": "Sodio y cloro",
         "possibleAnswers": ["Sodio y potasio","Potasio y cloro","Sodio y carbono"]
@@ -1492,14 +1492,14 @@
     },
     {
         "id":213,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuánto tiempo tarda la luz del Sol en llegar a la Tierra?",
         "correctAnswer": "8 minutos",
         "possibleAnswers": ["1 día","12 horas","8 segundos"]
     },
     {
         "id":214,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuánto tiempo tarda la luz del Sol en llegar a plutón?",
         "correctAnswer": "5,47 hs",
         "possibleAnswers": ["15,47 minutos ","1,47 días","10,47 hs"]
@@ -1514,7 +1514,7 @@
     {
         "id":216,
         "topic": "Cultura_General",
-        "question":"¿A quién se le atribuye la frase <<Solo sé que no sé nada>>?",
+        "question":"¿A quién se le atribuye la frase Solo sé que no sé nada?",
         "correctAnswer": "Sócrates",
         "possibleAnswers": ["Nietszche","Aristóteles","Sófocles"]
     },
@@ -1528,14 +1528,14 @@
     {
         "id":218,
         "topic": "Cultura_General",
-        "question":"¿Qué hora es en inglés <<It is a quarter past six>>?",
+        "question":"¿Qué hora es en inglés It is a quarter past six?",
         "correctAnswer": "6:15",
         "possibleAnswers": ["6:45","5:45","5:15"]
     },
     {
         "id":219,
         "topic": "Cultura_General",
-        "question":"¿Qué líder mundial quedó conocida como La Dama de Hierro?",
+        "question":"¿Qué líder mundial quedó conocida como “La Dama de Hierro”?",
         "correctAnswer": "Margaret Thatcher",
         "possibleAnswers": ["Hillary Clinton","Dilma Rouseff","Christine Lagarde"]
     },
@@ -1555,7 +1555,7 @@
     },
     {
         "id":220,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Quién descubrió la vacuna contra la rabia y el proceso de pasteurización?",
         "correctAnswer": "Louis Pasteur",
         "possibleAnswers": ["Charles Darwin","Marie Curie","Edward Jenner","Antoine Lavoisier"]
@@ -1590,14 +1590,14 @@
     },
     {
         "id":220,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo quimico de la Plata?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico de la Plata?",
         "correctAnswer": "Ag",
         "possibleAnswers": ["Pl","Pt","Ar"]
     },
     {
         "id":220,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿De qué grupo era vocalista Jim Morrison?",
         "correctAnswer": "The Doors",
         "possibleAnswers": ["The Police","Nirvana","Pink Floyd"]
@@ -1626,20 +1626,20 @@
     {
         "id":232,
         "topic": "Cultura_General",
-        "question":"¿Cuántos metros tiene la torre Burj Khalifa?",
+        "question":"¿Cuántos metros tiene la torre “Burj Khalifa”?",
         "correctAnswer": "828",
         "possibleAnswers": ["628","928","728"]
     },
     {
         "id":233,
         "topic": "Cultura_General",
-        "question":"¿Quién escribió La Ilíada?",
+        "question":"¿Quién escribió “La Ilíada”?",
         "correctAnswer": "Homero",
         "possibleAnswers": ["Ulises","Aristoteles","William Shakespeare"]
     },
     {
         "id":234,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Quién inventó la tabla periódica?",
         "correctAnswer": "Dmitri Mendeléyev",
         "possibleAnswers": ["Marie Curie","John Dalton","Niels Bohr"]
@@ -1647,7 +1647,7 @@
     {
         "id":235,
         "topic": "Cultura_General",
-        "question":"¿Cuál es la traducción de la frase “Carpe Diem?",
+        "question":"¿Cuál es la traducción de la frase “Carpe Diem”?",
         "correctAnswer": "Aprovecha el momento",
         "possibleAnswers": ["Vive la Vida","Hazlo tu mismo"]
     },
@@ -1674,7 +1674,7 @@
     },
     {
         "id":239,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuál es el nombre más conocido para el monóxido de dihidrógeno?",
         "correctAnswer": "Agua",
         "possibleAnswers": ["Soda","Agua Oxigenada","Alcohol"]
@@ -1682,13 +1682,13 @@
     {
         "id":240,
         "topic": "Cultura_General",
-        "question":"¿Quién escribió la obra literaria Rayuela?",
+        "question":"¿Quién escribió la obra literaria “Rayuela”?",
         "correctAnswer": "Julio Cortázar",
         "possibleAnswers": ["Gabriel García Márquez","Mario Vargas Llosa","Ernesto Sábato"]
     },
     {
         "id":241,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Quién compuso la pieza de música clásica Marcha Turca?",
         "correctAnswer": "Wolfgang Amadeus Mozart",
         "possibleAnswers": ["Ludwig van Beethoven","Frédéric Chopin","Johann Sebastian Bach"]
@@ -1697,26 +1697,26 @@
         "id":243,
         "topic": "Geografia",
         "question":"¿En qué país se encuentra la Gran Barrera de Coral?",
-        "correctAnswer": "En Australia",
+        "correctAnswer": "Australia",
         "possibleAnswers": ["Hawái","Thailandia","Madagascar"]
     },
     {
         "id":244,
-        "topic": "Cultura_General",
+        "topic": "Arte",
         "question":"¿Quién pintó El Nacimiento de Venus en 1486?",
         "correctAnswer": "Sandro Botticelli",
         "possibleAnswers": ["Goya","Velázquez","Rembrandt"]
     },
     {
         "id":245,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del estaño?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Estaño?",
         "correctAnswer": "Sn",
         "possibleAnswers": ["Es","En","St"]
     },
     {
         "id":246,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Quién inventó el compás geométrico?",
         "correctAnswer": "Galileo Galilei",
         "possibleAnswers": ["Euclides","Pitágoras","Carl Friederich Gauss"]
@@ -1730,7 +1730,7 @@
     },
     {
         "id":248,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuál es el símbolo químico del Potasio?",
         "correctAnswer": "K",
         "possibleAnswers": ["P","Po","A"]
@@ -1751,7 +1751,7 @@
     },
     {
         "id":251,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿En qué país nació el famoso compositor Antonio Vivaldi?",
         "correctAnswer": "En Italia",
         "possibleAnswers": ["En Austria","En Francia","En España"]
@@ -1772,10 +1772,10 @@
     },
     {
         "id":254,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"¿Cuál es la velocidad de la luz?",
-        "correctAnswer": "299.792.458 m/s",
-        "possibleAnswers": ["300.000.000 m/s","199.792.458 m/s"]
+        "correctAnswer": "299.792.458 m-s",
+        "possibleAnswers": ["300.000.000 m-s","199.792.458 m-s"]
     },
     {
         "id":255,
@@ -1786,177 +1786,317 @@
     },
     {
         "id":256,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿De qué grupo era vocalista Bon Scott?",
-        "correctAnswer": "AC/DC",
+        "correctAnswer": "AC-DC",
         "possibleAnswers": ["The Doors","Pink Floyd","Iron Maiden"]
     },
     {
         "id":257,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del mercurio?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Mercurio?",
         "correctAnswer": "Hg",
         "possibleAnswers": ["M","Me","H"]
     },
     {
         "id":258,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del fósforo?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Fósforo?",
         "correctAnswer": "P",
         "possibleAnswers": ["F","Ph","Fh"]
     },
     {
         "id":259,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del fósforo?",
-        "correctAnswer": "P",
-        "possibleAnswers": ["F","Ph","Fh"]
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Plutonio?",
+        "correctAnswer": "Pu",
+        "possibleAnswers": ["P","Pl","Pt"]
     },
     {
         "id":260,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del sodio?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Sodio?",
         "correctAnswer": "Na",
         "possibleAnswers": ["N","So","S"]
     },
     {
         "id":261,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del uranio?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Uranio?",
         "correctAnswer": "U",
         "possibleAnswers": ["Ur","Un","Uo"]
     },
     {
         "id":262,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del iridio?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Iridio?",
         "correctAnswer": "Ir",
         "possibleAnswers": ["Id","I","Rd"]
     },
     {
         "id":263,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del zinc?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Zinc?",
         "correctAnswer": "Zn",
         "possibleAnswers": ["Zi","Z","Zc"]
     },
     {
         "id":264,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del magnesio?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Magnesio?",
         "correctAnswer": "Mn",
         "possibleAnswers": ["Ma","M","Mg"]
     },
     {
         "id":265,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del rodio?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Rodio?",
         "correctAnswer": "Rh",
         "possibleAnswers": ["Ro","Rd","R"]
     },
     {
         "id":266,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del zirconio?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Zirconio?",
         "correctAnswer": "Zr",
         "possibleAnswers": ["Zi","Zc","Zn"]
     },
     {
         "id":267,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del cobre?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Cobre?",
         "correctAnswer": "Cu",
         "possibleAnswers": ["Co","C","Cb"]
     },
     {
         "id":268,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del hierro?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Hierro?",
         "correctAnswer": "Fe",
         "possibleAnswers": ["F","Hi","He"]
     },
     {
         "id":269,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del helio?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Helio?",
         "correctAnswer": "He",
         "possibleAnswers": ["Hl","Hi","H"]
     },
     {
         "id":270,
-        "topic": "Cultura_General",
-        "question":"¿Cuál es el símbolo químico del nitrógeno?",
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Nitrógeno?",
         "correctAnswer": "N",
         "possibleAnswers": ["Ni","Nt","Ng"]
     },
     {
         "id":271,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿En qué país nació Ludwig van Beethoven?",
         "correctAnswer": "Alemania",
         "possibleAnswers": ["Austria","Polonia","Rusia"]
     },
     {
         "id":272,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Quién compuso la canción Like a Rolling Stone?",
         "correctAnswer": "Bob Dylan",
         "possibleAnswers": ["Mick Jagger","The Rolling Stones","Rod Stewart"]
     },
     {
         "id":273,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿En qué país nació Freddy Mercury?",
         "correctAnswer": "Tanzania",
         "possibleAnswers": ["India","Pakistán","Irán"]
     },
     {
         "id":274,
-        "topic": "Cultura_General",
-        "question":"¿En qué país nació Céline Dion?",
+        "topic": "Musica",
+        "question":"¿En qué país nació Celine Dion?",
         "correctAnswer": "Canadá",
         "possibleAnswers": ["Estados Unidos","Inglaterra","Austria"]
     },
     {
         "id":275,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿En qué país nació Wolfgang Amadeus Mozart?",
         "correctAnswer": "Austria",
         "possibleAnswers": ["Alemania","Francia","Polonia"]
     },
     {
         "id":276,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿En qué país nació Frédéric Chopin?",
         "correctAnswer": "Polonia",
         "possibleAnswers": ["Alemania","Francia","Austria"]
     },
     {
         "id":277,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Quién es el cantante de los Redonditos de Ricota?",
         "correctAnswer": "Carlos Solari",
         "possibleAnswers": ["Carlos García","Juan Carlos Baglieto"]
     },
     {
         "id":278,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"¿Quién es el cantante de los Redonditos de Ricota?",
         "correctAnswer": "Carlos Solari",
         "possibleAnswers": ["Carlos García","Juan Carlos Baglieto"]
     },
     {
         "id":279,
-        "topic": "Cultura_General",
+        "topic": "Musica",
         "question":"En música, una blanca equivale a:",
         "correctAnswer": "2 negras",
         "possibleAnswers": ["2 corcheas","2 redondas","2 fusas"]
     },
     {
         "id":280,
-        "topic": "Cultura_General",
+        "topic": "Ciencia",
         "question":"En música, una fusa equivale a:",
         "correctAnswer": "2 semi fusas",
         "possibleAnswers": ["2 semi corcheas","2 corcheas"]
+    },
+    {
+        "id":281,
+        "topic": "Ciencia",
+        "question":"1 Terabyte equivale a:",
+        "correctAnswer": "1024 Gigabytes",
+        "possibleAnswers": ["1024 Megabytes","1024 Megabytes","1024 Exabytes"]
+    },
+    {
+        "id":282,
+        "topic": "Ciencia",
+        "question":"1 Kilobyte equivale a:",
+        "correctAnswer": "1024 Bytes",
+        "possibleAnswers": ["1024 Bites","1024 Megabytes"]
+    },
+    {
+        "id":283,
+        "topic": "Ciencia",
+        "question":"1 Yottabyte equivale a:",
+        "correctAnswer": "1024 Zettabytes",
+        "possibleAnswers": ["1024 Terabytes","1024 Exabytes","1024 Petabytes"]
+    },
+    {
+        "id":284,
+        "topic": "Ciencia",
+        "question":"1 Zettabyte equivale a:",
+        "correctAnswer": "1024 Exabytes",
+        "possibleAnswers": ["1024 Terabytes","1024 Yottabyte","1024 Petabytes"]
+    },
+    {
+        "id":285,
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Paladio?",
+        "correctAnswer": "Pd",
+        "possibleAnswers": ["Pa","Pl","Po"]
+    },
+    {
+        "id":286,
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Bismuto?",
+        "correctAnswer": "Bi",
+        "possibleAnswers": ["B","Bs","Bm"]
+    },
+    {
+        "id":287,
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Azufre?",
+        "correctAnswer": "S",
+        "possibleAnswers": ["A","Az","Su"]
+    },
+    {
+        "id":288,
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Cadmio?",
+        "correctAnswer": "Cd",
+        "possibleAnswers": ["C","Ca","Cm"]
+    },
+    {
+        "id":289,
+        "topic": "Ciencia",
+        "question":"¿Cuál es el símbolo químico del Astato?",
+        "correctAnswer": "At",
+        "possibleAnswers": ["As","T","Ta"]
+    },
+    {
+        "id":290,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico P?",
+        "correctAnswer": "Fósforo",
+        "possibleAnswers": ["Flúor","Polonio","Plomo"]
+    },
+    {
+        "id":291,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Pb?",
+        "correctAnswer": "Plomo",
+        "possibleAnswers": ["Polonio","Paladio","Platino"]
+    },
+    {
+        "id":292,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico I?",
+        "correctAnswer": "Yodo",
+        "possibleAnswers": ["Iridio","Itrio","Indio"]
+    },
+    {
+        "id":293,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Y?",
+        "correctAnswer": "Itrio",
+        "possibleAnswers": ["Yodo","Iridio","Indio"]
+    },
+    {
+        "id":294,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Sb?",
+        "correctAnswer": "Antimonio",
+        "possibleAnswers": ["Estaño","Silicio","Selenio"]
+    },
+    {
+        "id":295,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Tl?",
+        "correctAnswer": "Talio",
+        "possibleAnswers": ["Telurio","Tulio","Terbio"]
+    },
+    {
+        "id":296,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Pu?",
+        "correctAnswer": "Plutonio",
+        "possibleAnswers": ["Plomo","Platino","Neptunio"]
+    },
+    {
+        "id":297,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Be?",
+        "correctAnswer": "Berilio",
+        "possibleAnswers": ["Boro","Bario","Bohrio"]
+    },
+    {
+        "id":298,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Mo?",
+        "correctAnswer": "Molibdeno",
+        "possibleAnswers": ["Meitnerio","Magnesio","Manganeso"]
+    },
+    {
+        "id":299,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Cs?",
+        "correctAnswer": "Cesio",
+        "possibleAnswers": ["Cerio","Cloro","Copernicio"]
+    },
+    {
+        "id":300,
+        "topic": "Ciencia",
+        "question":"¿A qué elemento pertenece el símbolo químico Sr?",
+        "correctAnswer": "Estroncio",
+        "possibleAnswers": ["Cerio","Samario","Escandio"]
     }
 ]

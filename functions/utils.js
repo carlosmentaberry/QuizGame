@@ -65,24 +65,43 @@ var isMobile = {
 };
 
 const filterQuestions = (element) => {
-    switch (element) {
-        case "Deporte":
-            filteredQuestions = questions.filter(x => x.topic == "Deporte");
-            break;
-        case "Cultura_General":
-            filteredQuestions = questions.filter(x => x.topic == "Cultura_General");
-            break;
-        case "Arte":
-            filteredQuestions = questions.filter(x => x.topic == "Arte");
-            break;
-        case "Geografia":
-            filteredQuestions = questions.filter(x => x.topic == "Geografia");
-            break;
-        default:
-            filteredQuestions = questions;
-            break;
+    if(element == "Todas"){
+        filteredQuestions = questions;
+    }else{
+        filteredQuestions = questions.filter(x => x.topic == element);
     }
-    
-    $('#divFilteredQuestions').html(GET_FILTERED_QUESTIONS_LIST_HTML());
+    if(isMobile.any()){
+        $('#divFilteredQuestions').html(GET_FILTERED_QUESTIONS_LIST_HTMLMOBILE());
+    }else{
+        $('#divFilteredQuestions').html(GET_FILTERED_QUESTIONS_LIST_HTML());
+    }
     return filteredQuestions;
 }
+
+const getTopicQuantity = (topic) => {
+    if(topic == "Todas"){
+        return "Todas (" + questions.length + " preguntas)";
+    }else{
+        return topic.toString().replace("_"," ") + " (" + questions.filter(q => q.topic == topic).length + " preguntas)";
+    }
+    
+}
+
+const getTopics = (questions) => {
+    let topics = [...new Set(questions.map(item => item.topic))];
+    topics.push("Todas");
+    return SortTopics(topics);
+}
+
+const SortTopics = (topics) => {
+    topics.sort(function(a, b){
+        var nameA=a.toLowerCase(), nameB=b.toLowerCase();
+        if (nameA < nameB)
+         return -1;
+        if (nameA > nameB)
+         return 1;
+        return 0;
+       });
+       return topics;
+}
+

@@ -63,6 +63,6 @@ const ShowAllQuestions = () => {
     $('#app').html(GET_QUESTIONS_LIST_HTML_MOBILE());
   }
   
-  filterQuestions('');
-  $('#customRadio5').prop("checked", true);
+  filterQuestions('Todas');
+  $('#Todas').prop("checked", true);
 }

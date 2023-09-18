@@ -22,7 +22,7 @@ let nullParticipant = {
 
 const looser = {
     img: {
-        path: "https://media1.tenor.com/images/e51a9bd7a012907e85135e3185d4c4c1/tenor.gif?itemid=10852716",
+        path: "https://c.tenor.com/1TOcjjsjz7sAAAAC/tenor.gif",
         width: "250px",
         alt: "burro",
         style: "padding: 2%;",
@@ -33,7 +33,7 @@ const looser = {
 
 const looseSoso = {
     img: {
-        path: "https://estaticos.muyinteresante.es/uploads/images/article/5536592a70a1ae8d775df846/dia-del-mono.jpg",
+        path: "https://media.tenor.com/oxLbQJD5vAwAAAAM/monkey-orangutan.gif",
         width: "250px",
         alt: "primate",
         style: "padding: 2%;",

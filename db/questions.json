@@ -9,7 +9,7 @@
     {
         "id":2,
         "topic": "Cultura_General",
-        "question":"¿Quién escribió “La Odisea”?",
+        "question":"¿Quién escribió La Odisea?",
         "correctAnswer": "Homero",
         "possibleAnswers": ["Ulises","Aristoteles","William Shakespeare"]
     },
@@ -51,21 +51,21 @@
     {
         "id":8,
         "topic": "Cultura_General",
-        "question":"¿Cuándo acabó la “II Guerra Mundial”?",
+        "question":"¿Cuándo acabó la II Guerra Mundial?",
         "correctAnswer": "1945",
         "possibleAnswers": ["1914","1918","1939"]
     },
     {
         "id":9,
         "topic": "Cultura_General",
-        "question":"¿Quién es el autor de “El Quijote”?",
+        "question":"¿Quién es el autor de El Quijote?",
         "correctAnswer": "Miguel de Cervantes",
         "possibleAnswers": ["William Shakespear","Julio Verne","Federico García Lorca"]
     },
     {
         "id":10,
         "topic": "Arte",
-        "question":"¿Quién pintó “La última cena”?",
+        "question":"¿Quién pintó La última cena?",
         "correctAnswer": "Leonardo Da Vinci",
         "possibleAnswers": ["Salvador Dali","Miguel Angel","Vincent Van Gogh"]
     },
@@ -93,7 +93,7 @@
     {
         "id":14,
         "topic": "Musica",
-        "question":"¿Quién es el famoso “Rey de Rock en los Estados Unidos”?",
+        "question":"¿Quién es el famoso Rey de Rock en los Estados Unidos?",
         "correctAnswer": "Elvis Presley",
         "possibleAnswers": ["Chuck Berry","Richard Little","Jerry Lee Lewis"]
     },
@@ -114,7 +114,7 @@
     {
         "id":17,
         "topic": "Cultura_General",
-        "question":"¿En qué año comenzó la “II Guerra Mundial”?",
+        "question":"¿En qué año comenzó la II Guerra Mundial?",
         "correctAnswer": "1939",
         "possibleAnswers": ["1914","1918","1945"]
     },
@@ -179,7 +179,7 @@
         "topic": "Musica",
         "question":"¿Cómo se llama el himno nacional de Francia?",
         "correctAnswer": "Marsellesa",
-        "possibleAnswers": ["Nkosi Sikelil´iAfrika","Hatikvah"]
+        "possibleAnswers": ["Nkosi Sikelil iAfrika","Hatikvah"]
     },
     {
         "id":27,
@@ -240,7 +240,7 @@
     {
         "id":35,
         "topic": "Geografia",
-        "question":"¿En qué provincia se encuentran “Las Ruinas de San Ignacio”?",
+        "question":"¿En qué provincia se encuentran Las Ruinas de San Ignacio?",
         "correctAnswer": "Misiones",
         "possibleAnswers": ["Salta","Jujuy","Corrientes"]
     },
@@ -261,7 +261,7 @@
     {
         "id":38,
         "topic": "Arte",
-        "question":"¿En que año Pablo Picasso pintó “Guernica”?",
+        "question":"¿En que año Pablo Picasso pintó Guernica?",
         "correctAnswer": "1937",
         "possibleAnswers": ["1927","1957","1947"]
     },
@@ -289,7 +289,7 @@
     {
         "id":42,
         "topic": "Arte",
-        "question":"¿Quién pintó “Los fusilamientos del 3 de mayo”?",
+        "question":"¿Quién pintó Los fusilamientos del 3 de mayo?",
         "correctAnswer": "Goya",
         "possibleAnswers": ["Velázquez","Rembrandt"]
     },
@@ -303,7 +303,7 @@
     {
         "id":44,
         "topic": "Arte",
-        "question":"¿Quién esculpió la obra “El pensador”?",
+        "question":"¿Quién esculpió la obra El pensador?",
         "correctAnswer": "Auguste Rodin",
         "possibleAnswers": ["Miguel Angel","Gian Lorenzo Bernini"]
     },
@@ -317,14 +317,14 @@
     {
         "id":46,
         "topic": "Musica",
-        "question":"¿A qué compositor debemos “Las bodas de Fígaro”?",
+        "question":"¿A qué compositor debemos Las bodas de Fígaro?",
         "correctAnswer": "Amadeus Mozart",
         "possibleAnswers": ["Ludwig van Beethoven","Johann Sebastian Bach"]
     },
     {
         "id":47,
         "topic": "Arte",
-        "question":"¿A quién pertenece el famoso mural “Niña con globo”?",
+        "question":"¿A quién pertenece el famoso mural Niña con globo?",
         "correctAnswer": "Banksy",
         "possibleAnswers": ["Robert Del Naja","Jean-Michel Basquiat"]
     },
@@ -338,7 +338,7 @@
     {
         "id":49,
         "topic": "Arte",
-        "question":"¿Cuántas mujeres hay en el cuadro “Las señoritas de Avignon”?",
+        "question":"¿Cuántas mujeres hay en el cuadro Las señoritas de Avignon?",
         "correctAnswer": "5",
         "possibleAnswers": ["3","6","4"]
     },
@@ -359,21 +359,21 @@
     {
         "id":52,
         "topic": "Arte",
-        "question":"¿Quién escribió “El viejo y el mar”?",
+        "question":"¿Quién escribió El viejo y el mar?",
         "correctAnswer": "Ernest Hemingway",
         "possibleAnswers": ["Norman Mailer","Gabriel García Márquez","Truman Capote"]
     },
     {
         "id":53,
         "topic": "Arte",
-        "question":"¿Quién es el autor de “El retrato de Dorian Gray”?",
+        "question":"¿Quién es el autor de El retrato de Dorian Gray?",
         "correctAnswer": "Oscar Wilde",
         "possibleAnswers": ["Arthur Conan Doyle","George Orwell","Charles Dickens"]
     },
     {
         "id":54,
         "topic": "Arte",
-        "question":"¿Quién es el autor de “Moby Dick”?",
+        "question":"¿Quién es el autor de Moby Dick?",
         "correctAnswer": "Herman Melville",
         "possibleAnswers": ["Henry David Thoreau","Ralph Waldo Emerson","Henry James"]
     },
@@ -387,7 +387,7 @@
     {
         "id":56,
         "topic": "Arte",
-        "question":"¿En qué está esculpida la “Venus de Milo”?",
+        "question":"¿En qué está esculpida la Venus de Milo?",
         "correctAnswer": "Mármol",
         "possibleAnswers": ["Bronce","Piedra","Madera"]
     },
@@ -401,7 +401,7 @@
     {
         "id":58,
         "topic": "Arte",
-        "question":"¿Quién es el autor de “El principito”?",
+        "question":"¿Quién es el autor de El principito?",
         "correctAnswer": "Antoine de Saint-Exupery",
         "possibleAnswers": ["Cuahutemoc Sanchez","Beatriz Espejo","Ninguna es correcta"]
     },
@@ -415,7 +415,7 @@
     {
         "id":59,
         "topic": "Musica",
-        "question":"¿A qué músico argentino lo apodaban “El Flaco”?",
+        "question":"¿A qué músico argentino lo apodaban El Flaco?",
         "correctAnswer": "Luis Alberto Spinetta",
         "possibleAnswers": ["Gustavo Cerati","Carlos Alberto García","Carlos Solari"]
     },
@@ -436,14 +436,14 @@
     {
         "id":61,
         "topic": "Arte",
-        "question":"¿Qué animal quería ser domesticado por “El Principito”?",
+        "question":"¿Qué animal quería ser domesticado por El Principito?",
         "correctAnswer": "Un zorro",
         "possibleAnswers": ["Un perro","Un gato","Un lobo"]
     },
     {
         "id":62,
         "topic": "Arte",
-        "question":"¿Qué artista aparece retratado en “Las Meninas”?",
+        "question":"¿Qué artista aparece retratado en Las Meninas?",
         "correctAnswer": "Velázquez",
         "possibleAnswers": ["Miguel Ángel","Sorolla","Goya"]
     },
@@ -479,7 +479,7 @@
         "id":68,
         "topic": "Geografia",
         "question":"¿Cuál es la capital de Antigua and Barbuda?",
-        "correctAnswer": "Saint John’s",
+        "correctAnswer": "Saint Johns",
         "possibleAnswers": ["Brigetown","Praia","Belmopan"]
     },
     {
@@ -501,7 +501,7 @@
         "topic": "Geografia",
         "question":"¿Cuál es la capital de Bahamas?",
         "correctAnswer": "Nassau",
-        "possibleAnswers": ["San Jose","Saint George´s","La Havana"]
+        "possibleAnswers": ["San Jose","Saint Georges","La Havana"]
     },
     {
         "id":72,
@@ -730,7 +730,7 @@
     {
         "id":104,
         "topic": "Deporte",
-        "question":"¿Qué país ganó el mundial de fútbol en México (1986)?",
+        "question":"¿Qué país ganó el mundial de fútbol en México - 1986?",
         "correctAnswer": "Argentina",
         "possibleAnswers": ["Alemania","Italia","México"]
     },
@@ -821,14 +821,14 @@
     {
         "id":117,
         "topic": "Cultura_General",
-        "question":"¿Cuándo acabó la “I Guerra Mundial”?",
+        "question":"¿Cuándo acabó la I Guerra Mundial?",
         "correctAnswer": "1918",
         "possibleAnswers": ["1914","1939","1945"]
     },
     {
         "id":118,
         "topic": "Cultura_General",
-        "question":"¿Cuándo comenzó la “I Guerra Mundial”?",
+        "question":"¿Cuándo comenzó la I Guerra Mundial?",
         "correctAnswer": "1914",
         "possibleAnswers": ["1918","1939","1945"]
     },
@@ -863,7 +863,7 @@
     {
         "id":123,
         "topic": "Cultura_General",
-        "question":"¿Quién escribió “Hamlet”?",
+        "question":"¿Quién escribió Hamlet?",
         "correctAnswer": "William Shakespeare",
         "possibleAnswers": ["Calderón de la Barca","Miguel de Cervantes","San Juan de la Cruz"]
     },
@@ -905,14 +905,14 @@
     {
         "id":129,
         "topic": "Geografia",
-        "question":"Cuál es la ciudad italiana conocida como “La novia del mar”?",
+        "question":"Cuál es la ciudad italiana conocida como La novia del mar?",
         "correctAnswer": "Venecia",
         "possibleAnswers": ["Roma","Florencia","Amsterdam"]
     },
     {
         "id":130,
         "topic": "Cultura_General",
-        "question":"¿Quién era el general de los Nazis en la “II Guerra Mundial”?",
+        "question":"¿Quién era el general de los Nazis en la II Guerra Mundial?",
         "correctAnswer": "Adolf Hitler",
         "possibleAnswers": ["Heinrich Himmler","Benito Mussolini"]
     },
@@ -969,7 +969,7 @@
         "id":138,
         "topic": "Cultura_General",
         "question":"¿Qué es un melómano?",
-        "correctAnswer": "Un amante de la música",
+        "correctAnswer": "Un amante de la Musica",
         "possibleAnswers": ["Un amante del cine","Un amante de los cómics","Un amante de la radio"]
     },
     {
@@ -989,7 +989,7 @@
     {
         "id":141,
         "topic": "Musica",
-        "question":"¿Quién compuso “Los Conciertos de Brandeburgo”?",
+        "question":"¿Quién compuso Los Conciertos de Brandeburgo?",
         "correctAnswer": "Bach",
         "possibleAnswers": ["Mozart","Beethoven","Vivaldi"]
     },
@@ -1059,7 +1059,7 @@
     {
         "id":151,
         "topic": "Geografia",
-        "question":"¿En qué país se encuentra el famoso monumento “Taj Mahal”?",
+        "question":"¿En qué país se encuentra el famoso monumento Taj Mahal?",
         "correctAnswer": "India",
         "possibleAnswers": ["Indonesia","Thailandia","Filipinas"]
     },
@@ -1068,12 +1068,12 @@
         "topic": "Cultura_General",
         "question":"¿Qué se colecciona en una hemeroteca?",
         "correctAnswer": "Revistas y Periódicos",
-        "possibleAnswers": ["Libros","Discos de música","Billetes de dinero"]
+        "possibleAnswers": ["Libros","Discos de Musica","Billetes de dinero"]
     },
     {
         "id":153,
         "topic": "Musica",
-        "question":"¿Qué músico es la canción “Tears in Heaven”?",
+        "question":"¿Qué músico es la canción Tears in Heaven?",
         "correctAnswer": "Eric Clapton",
         "possibleAnswers": ["Tom Johns","Elton John","Sting"]
     },
@@ -1150,42 +1150,42 @@
     {
         "id":164,
         "topic": "Cultura_General",
-        "question":"¿En qué año se produce la “Revolución Francesa”?",
+        "question":"¿En qué año se produce la Revolución Francesa?",
         "correctAnswer": "1789",
         "possibleAnswers": ["1879","1768","1798"]
     },
     {
         "id":165,
         "topic": "Cultura_General",
-        "question":"¿En qué año se inicia la “Revolución Rusa”?",
+        "question":"¿En qué año se inicia la Revolución Rusa?",
         "correctAnswer": "1917",
         "possibleAnswers": ["1915","1916","1918"]
     },
     {
         "id":166,
         "topic": "Cultura_General",
-        "question":"¿En qué año cayó “El muro de Berlín”?",
+        "question":"¿En qué año cayó El muro de Berlín?",
         "correctAnswer": "1989",
         "possibleAnswers": ["1990","1991","1987"]
     },
     {
         "id":167,
         "topic": "Cultura_General",
-        "question":"¿Quién dirigió “El Lobo de Wall Street”?",
+        "question":"¿Quién dirigió El Lobo de Wall Street?",
         "correctAnswer": "Martin Scorsese",
         "possibleAnswers": ["Quentin Tarantino","Francis Ford Coppola","Cristopher Nolan"]
     },
     {
         "id":168,
         "topic": "Cultura_General",
-        "question":"¿En qué país está “Burj Khalifa”, el rascacielos más alto del mundo?",
+        "question":"¿En qué país está Burj Khalifa, el rascacielos más alto del mundo?",
         "correctAnswer": "Emiratos Árabes Unidos",
         "possibleAnswers": ["Estados Unidos","Hong Kong","Japón"]
     },
     {
         "id":169,
         "topic": "Musica",
-        "question":"¿Quién compuso la mítica canción “Knockin' on Heaven's Door”?",
+        "question":"¿Quién compuso la mítica canción Knockin' on Heaven's Door?",
         "correctAnswer": "Bob Dylan",
         "possibleAnswers": ["Avril Lavigne","Guns & Roses","David Bowie"]
     },
@@ -1220,7 +1220,7 @@
     {
         "id":174,
         "topic": "Arte",
-        "question":"¿Quién dirigió la trilogía de “El Padrino”?",
+        "question":"¿Quién dirigió la trilogía de El Padrino?",
         "correctAnswer": "Francis Ford Coppola",
         "possibleAnswers": ["Martin Scorsese","Quentin Tarantino","Cristopher Nolan"]
     },
@@ -1269,7 +1269,7 @@
     {
         "id":181,
         "topic": "Cultura_General",
-        "question":"¿Qué animal contagió a los humanos en la pandemia de “La peste negra”?",
+        "question":"¿Qué animal contagió a los humanos en la pandemia de La peste negra?",
         "correctAnswer": "Las ratas",
         "possibleAnswers": ["Los murciélagos","Los gatos","Las vacas"]
     },
@@ -1339,7 +1339,7 @@
     {
         "id":191,
         "topic": "Cultura_General",
-        "question":"¿Qué es un “Narval”?",
+        "question":"¿Qué es un Narval?",
         "correctAnswer": "Un cetáceo",
         "possibleAnswers": ["Un ave","Un mineral","Un árbol"]
     },
@@ -1353,14 +1353,14 @@
     {
         "id":193,
         "topic": "Cultura_General",
-        "question":"¿Cómo se llamaba la esposa de Ulises, el personaje de “La Odisea”?",
+        "question":"¿Cómo se llamaba la esposa de Ulises, el personaje de La Odisea?",
         "correctAnswer": "Penélope",
         "possibleAnswers": ["Cleopatra","Helena","Briseida"]
     },
     {
         "id":194,
         "topic": "Cultura_General",
-        "question":"Si tienes “acrofobia” ¿a qué le tienes miedo?",
+        "question":"Si tienes acrofobia ¿a qué le tienes miedo?",
         "correctAnswer": "Miedo a las alturas",
         "possibleAnswers": ["Miedo a los lugares abiertos","Miedo a volar","Miedo al espacio"]
     },
@@ -1374,7 +1374,7 @@
     {
         "id":196,
         "topic": "Deporte",
-        "question":"¿De qué país es originario “El críquet”?",
+        "question":"¿De qué país es originario El críquet?",
         "correctAnswer": "India",
         "possibleAnswers": ["Estados Unidos","Inglaterra","Francia"]
     },
@@ -1402,7 +1402,7 @@
     {
         "id":200,
         "topic": "Deporte",
-        "question":"¿Cuál es el clásico rival del Flamengo (BRA)?",
+        "question":"¿Cuál es el clásico rival del Flamengo - BRA?",
         "correctAnswer": "Corinthians",
         "possibleAnswers": ["Palmeiras","Cruzeiro ","São Paulo"]
     },
@@ -1465,7 +1465,7 @@
     {
         "id":209,
         "topic": "Cultura_General",
-        "question":"¿Quién es el autor de la frase “Pienso, luego existo”?",
+        "question":"¿Quién es el autor de la frase Pienso, luego existo?",
         "correctAnswer": "Descartes",
         "possibleAnswers": ["Platón","Sócrates","Aristóteles"]
     },
@@ -1486,7 +1486,7 @@
     {
         "id":212,
         "topic": "Arte",
-        "question":"¿Quién pintó la obra “Guernica”?",
+        "question":"¿Quién pintó la obra Guernica?",
         "correctAnswer": "Pablo Picasso",
         "possibleAnswers": ["Diego Rivera","Salvador Dalí","Paul Cézanne"]
     },
@@ -1501,8 +1501,8 @@
         "id":214,
         "topic": "Ciencia",
         "question":"¿Cuánto tiempo tarda la luz del Sol en llegar a plutón?",
-        "correctAnswer": "5,47 hs",
-        "possibleAnswers": ["15,47 minutos ","1,47 días","10,47 hs"]
+        "correctAnswer": "5 hs 47 min",
+        "possibleAnswers": ["15 hs 47 min","1 dia 5 hs","10 hs 47 min"]
     },
     {
         "id":215,
@@ -1514,7 +1514,7 @@
     {
         "id":216,
         "topic": "Cultura_General",
-        "question":"¿A quién se le atribuye la frase “Solo sé que no sé nada”?",
+        "question":"¿A quién se le atribuye la frase Solo sé que no sé nada?",
         "correctAnswer": "Sócrates",
         "possibleAnswers": ["Nietszche","Aristóteles","Sófocles"]
     },
@@ -1528,14 +1528,14 @@
     {
         "id":218,
         "topic": "Cultura_General",
-        "question":"¿Qué hora es en inglés “It is a quarter past six”?",
+        "question":"¿Qué hora es en inglés It is a quarter past six?",
         "correctAnswer": "6:15",
         "possibleAnswers": ["6:45","5:45","5:15"]
     },
     {
         "id":219,
         "topic": "Cultura_General",
-        "question":"¿Qué líder mundial quedó conocida como “La Dama de Hierro”?",
+        "question":"¿Qué líder mundial quedó conocida como La Dama de Hierro?",
         "correctAnswer": "Margaret Thatcher",
         "possibleAnswers": ["Hillary Clinton","Dilma Rouseff","Christine Lagarde"]
     },
@@ -1563,7 +1563,7 @@
     {
         "id":220,
         "topic": "Cultura_General",
-        "question":"¿Cuál es el tipo sanguíneo considerado como “donante universal”?",
+        "question":"¿Cuál es el tipo sanguíneo considerado como donante universal?",
         "correctAnswer": "Tipo O",
         "possibleAnswers": ["Tipo A","Tipo B","Tipo AB"]
     },
@@ -1577,7 +1577,7 @@
     {
         "id":220,
         "topic": "Cultura_General",
-        "question":"¿Qué animal “gluglutea”?",
+        "question":"¿Qué animal gluglutea?",
         "correctAnswer": "El pavo",
         "possibleAnswers": ["El pato","La cacatúa","La garza"]
     },
@@ -1606,8 +1606,8 @@
         "id":220,
         "topic": "Cultura_General",
         "question":"¿Por qué película recibió un premio Oscar Leonardo DiCaprio?",
-        "correctAnswer": "The revenant (2015)",
-        "possibleAnswers": ["El Lobo de Wall Street (2013)","Diamantes de sangre (2006)","Titanic (1997)"]
+        "correctAnswer": "The revenant - 2015",
+        "possibleAnswers": ["El Lobo de Wall Street - 2013","Diamantes de sangre - 2006","Titanic - 1997"]
     },
     {
         "id":230,
@@ -1619,21 +1619,21 @@
     {
         "id":231,
         "topic": "Cultura_General",
-        "question":"¿Dónde se originaron los “números arábigos”?",
+        "question":"¿Dónde se originaron los números arábigos?",
         "correctAnswer": "India",
         "possibleAnswers": ["Grecia","Arabia","Persia"]
     },
     {
         "id":232,
         "topic": "Cultura_General",
-        "question":"¿Cuántos metros tiene la torre “Burj Khalifa”?",
+        "question":"¿Cuántos metros tiene la torre Burj Khalifa?",
         "correctAnswer": "828",
         "possibleAnswers": ["628","928","728"]
     },
     {
         "id":233,
         "topic": "Cultura_General",
-        "question":"¿Quién escribió “La Ilíada”?",
+        "question":"¿Quién escribió La Ilíada?",
         "correctAnswer": "Homero",
         "possibleAnswers": ["Ulises","Aristoteles","William Shakespeare"]
     },
@@ -1647,7 +1647,7 @@
     {
         "id":235,
         "topic": "Cultura_General",
-        "question":"¿Cuál es la traducción de la frase “Carpe Diem”?",
+        "question":"¿Cuál es la traducción de la frase Carpe Diem?",
         "correctAnswer": "Aprovecha el momento",
         "possibleAnswers": ["Vive la Vida","Hazlo tu mismo"]
     },
@@ -1661,7 +1661,7 @@
     {
         "id":237,
         "topic": "Cultura_General",
-        "question":"¿Cuánto tiempo duró el periodo bélico de “La Guerra de los 100 años”?",
+        "question":"¿Cuánto tiempo duró el periodo bélico de La Guerra de los 100 años?",
         "correctAnswer": "116 años",
         "possibleAnswers": ["100 años","97 años","106 años"]
     },
@@ -1682,28 +1682,28 @@
     {
         "id":240,
         "topic": "Cultura_General",
-        "question":"¿Quién escribió la obra literaria “Rayuela”?",
+        "question":"¿Quién escribió la obra literaria Rayuela?",
         "correctAnswer": "Julio Cortázar",
         "possibleAnswers": ["Gabriel García Márquez","Mario Vargas Llosa","Ernesto Sábato"]
     },
     {
         "id":241,
         "topic": "Musica",
-        "question":"¿Quién compuso la pieza de música clásica “Marcha Turca”?",
+        "question":"¿Quién compuso la pieza de Musica clásica Marcha Turca?",
         "correctAnswer": "Wolfgang Amadeus Mozart",
         "possibleAnswers": ["Ludwig van Beethoven","Frédéric Chopin","Johann Sebastian Bach"]
     },
     {
         "id":243,
         "topic": "Geografia",
-        "question":"¿En qué país se encuentra “La Gran Barrera de Coral”?",
+        "question":"¿En qué país se encuentra La Gran Barrera de Coral?",
         "correctAnswer": "Australia",
         "possibleAnswers": ["Hawái","Thailandia","Madagascar"]
     },
     {
         "id":244,
         "topic": "Arte",
-        "question":"¿Quién pintó “El Nacimiento de Venus” en 1486?",
+        "question":"¿Quién pintó El Nacimiento de Venus en 1486?",
         "correctAnswer": "Sandro Botticelli",
         "possibleAnswers": ["Goya","Velázquez","Rembrandt"]
     },
@@ -1759,7 +1759,7 @@
     {
         "id":252,
         "topic": "Arte",
-        "question":"¿Quién pintó la famosa obra “El grito”?",
+        "question":"¿Quién pintó la famosa obra El grito?",
         "correctAnswer": "Edvard Munch",
         "possibleAnswers": ["Salvador Dali","Miguel Angel","Vincent Van Gogh"]
     },
@@ -1899,7 +1899,7 @@
     {
         "id":272,
         "topic": "Musica",
-        "question":"¿Quién compuso la canción “Like a Rolling Stone”?",
+        "question":"¿Quién compuso la canción Like a Rolling Stone?",
         "correctAnswer": "Bob Dylan",
         "possibleAnswers": ["Mick Jagger","The Rolling Stones","Rod Stewart"]
     },
@@ -1948,14 +1948,14 @@
     {
         "id":279,
         "topic": "Musica",
-        "question":"En música, una blanca equivale a:",
+        "question":"En Musica, una blanca equivale a:",
         "correctAnswer": "2 negras",
         "possibleAnswers": ["2 corcheas","2 redondas","2 fusas"]
     },
     {
         "id":280,
         "topic": "Ciencia",
-        "question":"En música, una fusa equivale a:",
+        "question":"En Musica, una fusa equivale a:",
         "correctAnswer": "2 semi fusas",
         "possibleAnswers": ["2 semi corcheas","2 corcheas"]
     },
@@ -2098,5 +2098,510 @@
         "question":"¿A qué elemento pertenece el símbolo químico Sr?",
         "correctAnswer": "Estroncio",
         "possibleAnswers": ["Cerio","Samario","Escandio"]
+    },
+    {
+        "id": 301,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es el proceso natural por el cual los organismos vivos dan lugar a otros de su misma especie?",
+        "correctAnswer": "Reproducción",
+        "possibleAnswers": ["Crecimiento", "Metamorfosis", "Mutación"]
+    },
+    {
+        "id": 302,
+        "topic": "Geografia",
+        "question": "¿Cuál es el país más grande del mundo por área?",
+        "correctAnswer": "Rusia",
+        "possibleAnswers": ["China", "Estados Unidos", "Canadá"]
+    },
+    {
+        "id": 303,
+        "topic": "Deporte",
+        "question": "¿En qué deporte se utiliza una pelota de béisbol?",
+        "correctAnswer": "Béisbol",
+        "possibleAnswers": ["Fútbol", "Baloncesto", "Hockey"]
+    },
+    {
+        "id": 304,
+        "topic": "Arte",
+        "question": "¿Quién pintó la Mona Lisa?",
+        "correctAnswer": "Leonardo da Vinci",
+        "possibleAnswers": ["Pablo Picasso", "Vincent van Gogh", "Michelangelo"]
+    },
+    {
+        "id": 305,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el elemento químico más ligero?",
+        "correctAnswer": "Hidrógeno",
+        "possibleAnswers": ["Helio", "Oxígeno", "Nitrógeno"]
+    },
+    {
+        "id": 306,
+        "topic": "Musica",
+        "question": "¿Quién es conocido como el 'Rey del Pop'?",
+        "correctAnswer": "Michael Jackson",
+        "possibleAnswers": ["Elvis Presley", "Prince", "Madonna"]
+    },
+    {
+        "id": 307,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Japón?",
+        "correctAnswer": "Tokio",
+        "possibleAnswers": ["Osaka", "Kyoto", "Nagoya"]
+    },
+    {
+        "id": 308,
+        "topic": "Geografia",
+        "question": "¿Cuál es el río más largo de Europa?",
+        "correctAnswer": "El Volga",
+        "possibleAnswers": ["El Danubio", "El Rin", "El Támesis"]
+    },
+    {
+        "id": 309,
+        "topic": "Deporte",
+        "question": "¿En qué deporte se utiliza una raqueta para golpear una pelota sobre una red?",
+        "correctAnswer": "Tenis",
+        "possibleAnswers": ["Golf", "Ping Pong", "Badminton"]
+    },
+    {
+        "id": 310,
+        "topic": "Arte",
+        "question": "¿Quién pintó 'La noche estrellada'?",
+        "correctAnswer": "Vincent van Gogh",
+        "possibleAnswers": ["Pablo Picasso", "Leonardo da Vinci", "Edvard Munch"]
+    },
+    {
+        "id": 311,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía?",
+        "correctAnswer": "Fotosíntesis",
+        "possibleAnswers": ["Respiración", "Fermentación", "Digestión"]
+    },
+    {
+        "id": 312,
+        "topic": "Musica",
+        "question": "¿Quién es el guitarrista líder de la legendaria banda de rock 'Queen'?",
+        "correctAnswer": "Brian May",
+        "possibleAnswers": ["Jimmy Page", "Angus Young", "David Gilmour"]
+    },
+    {
+        "id": 313,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se fundó la Organización de las Naciones Unidas - ONU?",
+        "correctAnswer": "1945",
+        "possibleAnswers": ["1918", "1939", "1955"]
+    },
+    {
+        "id": 314,
+        "topic": "Geografia",
+        "question": "¿Cuál es la montaña más alta del mundo?",
+        "correctAnswer": "Monte Everest",
+        "possibleAnswers": ["Monte Kilimanjaro", "Monte McKinley", "Monte Aconcagua"]
+    },
+    {
+        "id": 315,
+        "topic": "Deporte",
+        "question": "¿Cuál es el deporte conocido como 'el deporte rey'?",
+        "correctAnswer": "Fútbol",
+        "possibleAnswers": ["Tenis", "Baloncesto", "Golf"]
+    },
+    {
+        "id": 316,
+        "topic": "Arte",
+        "question": "¿Quién pintó 'La última cena'?",
+        "correctAnswer": "Leonardo da Vinci",
+        "possibleAnswers": ["Pablo Picasso", "Vincent van Gogh", "Michelangelo"]
+    },
+    {
+        "id": 317,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el elemento químico más abundante en el universo?",
+        "correctAnswer": "Hidrógeno",
+        "possibleAnswers": ["Helio", "Oxígeno", "Nitrógeno"]
+    },
+    {
+        "id": 318,
+        "topic": "Musica",
+        "question": "¿Cuál es el álbum más vendido de todos los tiempos?",
+        "correctAnswer": "Thriller - de Michael Jackson",
+        "possibleAnswers": ["Dark Side of the Moon - de Pink Floyd", "Abbey Road - de The Beatles", "Back in Black - de AC-DC"]
+    },
+    {
+        "id": 319,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es el océano más grande del mundo?",
+        "correctAnswer": "Océano Pacífico",
+        "possibleAnswers": ["Océano Atlántico", "Océano Índico", "Mar Mediterráneo"]
+    },
+    {
+        "id": 320,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es el país más poblado del mundo?",
+        "correctAnswer": "China",
+        "possibleAnswers": ["India", "Estados Unidos", "Brasil"]
+    },
+    {
+        "id": 321,
+        "topic": "Arte",
+        "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+        "correctAnswer": "Miguel de Cervantes",
+        "possibleAnswers": ["William Shakespeare", "Leo Tolstoy", "Charles Dickens"]
+    },
+    {
+        "id": 322,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es el metal más abundante en la corteza terrestre?",
+        "correctAnswer": "Aluminio",
+        "possibleAnswers": ["Hierro", "Cobre", "Oro"]
+    },
+    {
+        "id": 323,
+        "topic": "Cultura_General",
+        "question": "¿En qué continente se encuentra Egipto?",
+        "correctAnswer": "África",
+        "possibleAnswers": ["Asia", "Europa", "Oceanía"]
+    },
+    {
+        "id": 324,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es el planeta más grande del sistema solar?",
+        "correctAnswer": "Júpiter",
+        "possibleAnswers": ["Marte", "Venus", "Saturno"]
+    },
+    {
+        "id": 325,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Francia?",
+        "correctAnswer": "París",
+        "possibleAnswers": ["Londres", "Madrid", "Roma"]
+    },
+    {
+        "id": 326,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del agua?",
+        "correctAnswer": "H2O",
+        "possibleAnswers": ["CO2", "O2", "NH3"]
+    },
+    {
+        "id": 327,
+        "topic": "Geografia",
+        "question": "¿Cuál es el río más largo de América del Norte?",
+        "correctAnswer": "Misisipi",
+        "possibleAnswers": ["Amazonas", "Nilo", "Yangtsé"]
+    },
+    {
+        "id": 328,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "correctAnswer": "1776",
+        "possibleAnswers": ["1492", "1776", "1865", "1918"]
+    },
+    {
+        "id": 329,
+        "topic": "Arte",
+        "question": "¿Quién escribió 'Romeo y Julieta'?",
+        "correctAnswer": "William Shakespeare",
+        "possibleAnswers": ["Miguel de Cervantes", "Leo Tolstoy", "Charles Dickens"]
+    },
+    {
+        "id": 330,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el metal más pesado en la tabla periódica?",
+        "correctAnswer": "Uranio",
+        "possibleAnswers": ["Hierro", "Cobre", "Aluminio"]
+    },
+    {
+        "id": 331,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del carbono?",
+        "correctAnswer": "C",
+        "possibleAnswers": ["O2", "H2O", "N"]
+    },
+    {
+        "id": 332,
+        "topic": "Ciencia",
+        "question": "¿Cuál es la unidad básica de la materia?",
+        "correctAnswer": "Átomo",
+        "possibleAnswers": ["Molécula", "Célula", "Proteína"]
+    },
+    {
+        "id": 333,
+        "topic": "Ciencia",
+        "question": "¿Cuál es la fuerza que mantiene a los pies en el suelo y a la Luna orbitando alrededor de la Tierra?",
+        "correctAnswer": "Gravedad",
+        "possibleAnswers": ["Electromagnetismo", "Fuerza nuclear fuerte", "Fuerza centrífuga"]
+    },
+    {
+        "id": 334,
+        "topic": "Ciencia",
+        "question": "¿Qué gas es esencial para la respiración de los seres humanos?",
+        "correctAnswer": "Oxígeno",
+        "possibleAnswers": ["Nitrógeno", "Dióxido de carbono", "Hidrógeno"]
+    },
+    {
+        "id": 335,
+        "topic": "Ciencia",
+        "question": "¿Cuál es la capa más externa de la Tierra?",
+        "correctAnswer": "Corteza",
+        "possibleAnswers": ["Manto", "Núcleo externo", "Núcleo interno"]
+    },
+    {
+        "id": 336,
+        "topic": "Cultura_General",
+        "question": "¿Quién fue el líder de la Revolución Rusa en 1917?",
+        "correctAnswer": "Vladimir Lenin",
+        "possibleAnswers": ["Joseph Stalin", "Leon Trotsky", "Mikhail Gorbachev"]
+    },
+    {
+        "id": 337,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se proclamó la independencia de México?",
+        "correctAnswer": "1821",
+        "possibleAnswers": ["1810", "1848", "1867"]
+    },
+    {
+        "id": 338,
+        "topic": "Cultura_General",
+        "question": "¿Quién fue la primera mujer en volar en solitario a través del Atlántico?",
+        "correctAnswer": "Amelia Earhart",
+        "possibleAnswers": ["Beryl Markham", "Jacqueline Cochran", "Valentina Tereshkova"]
+    },
+    {
+        "id": 339,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se celebró la Revolución Francesa?",
+        "correctAnswer": "1789",
+        "possibleAnswers": ["1765", "1805", "1820"]
+    },
+    {
+        "id": 340,
+        "topic": "Cultura_General",
+        "question": "¿Quién fue el líder de la Revolución Cubana en 1959?",
+        "correctAnswer": "Fidel Castro",
+        "possibleAnswers": ["Ernesto 'Che' Guevara", "Fulgencio Batista", "Raul Castro"]
+    },
+    {
+        "id": 341,
+        "topic": "Cultura_General",
+        "question": "¿Cuál fue el primer país en lanzar una sonda espacial, la Sputnik 1, en 1957?",
+        "correctAnswer": "Unión Soviética",
+        "possibleAnswers": ["Estados Unidos", "China", "Francia"]
+    },
+    {
+        "id": 342,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se celebró la Revolución Mexicana?",
+        "correctAnswer": "1910",
+        "possibleAnswers": ["1810", "1821", "1848"]
+    },
+    {
+        "id": 343,
+        "topic": "Cultura_General",
+        "question": "¿Cuál fue el primer país en enviar a un ser humano al espacio?",
+        "correctAnswer": "Unión Soviética",
+        "possibleAnswers": ["Estados Unidos", "China", "Francia"]
+    },
+    {
+        "id": 344,
+        "topic": "Cultura_General",
+        "question": "¿Qué líder político y activista sudafricano fue liberado de prisión en 1990 tras 27 años?",
+        "correctAnswer": "Nelson Mandela",
+        "possibleAnswers": ["Desmond Tutu", "F.W. de Klerk", "Steve Biko"]
+    },
+    {
+        "id": 345,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se firmó el Tratado de Versalles, poniendo fin a la Primera Guerra Mundial?",
+        "correctAnswer": "1919",
+        "possibleAnswers": ["1914", "1917", "1921"]
+    },
+    {
+        "id": 346,
+        "topic": "Cultura_General",
+        "question": "¿Cuál fue el nombre de la nave en la que Cristóbal Colón llegó al Nuevo Mundo en 1492?",
+        "correctAnswer": "La Santa María",
+        "possibleAnswers": ["La Pinta", "La Niña", "La Victoria"]
+    },
+    {
+        "id": 347,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se firmó la Declaración de Derechos Humanos de las Naciones Unidas?",
+        "correctAnswer": "1948",
+        "possibleAnswers": ["1919", "1945", "1955"]
+    },
+    {
+        "id": 348,
+        "topic": "Cultura_General",
+        "question": "¿Cuál fue el período de persecución política y social conocido como la 'Caza de Brujas' en Estados Unidos?",
+        "correctAnswer": "La era McCarthy",
+        "possibleAnswers": ["La era Nixon", "La era Roosevelt", "La era Lincoln"]
+    },
+    {
+        "id": 349,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se inauguró oficialmente el Canal de Suez?",
+        "correctAnswer": "1869",
+        "possibleAnswers": ["1801", "1850", "1905"]
+    },
+    {
+        "id": 350,
+        "topic": "Cultura_General",
+        "question": "¿Cuál fue el nombre de la nave en la que Cristóbal Colón llegó al Nuevo Mundo en 1492?",
+        "correctAnswer": "La Santa María",
+        "possibleAnswers": ["La Pinta", "La Niña", "La Victoria"]
+    },
+    {
+        "id": 351,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "correctAnswer": "1776",
+        "possibleAnswers": ["1789", "1804", "1865"]
+    },
+    {
+        "id": 352,
+        "topic": "Cultura_General",
+        "question": "¿Qué líder político y activista sudafricano fue liberado de prisión en 1990 tras 27 años?",
+        "correctAnswer": "Nelson Mandela",
+        "possibleAnswers": ["F.W. de Klerk", "Steve Biko", "Desmond Tutu"]
+    },
+    {
+        "id": 353,
+        "topic": "Cultura_General",
+        "question": "¿En qué año se inauguró oficialmente el Canal de Suez?",
+        "correctAnswer": "1869",
+        "possibleAnswers": ["1801", "1850", "1905"]
+    },
+    {
+        "id": 354,
+        "topic": "Cultura_General",
+        "question": "¿En qué año comenzó la Guerra Civil de los Estados Unidos?",
+        "correctAnswer": "1861",
+        "possibleAnswers": ["1776", "1812", "1898"]
+    },
+    {
+        "id": 355,
+        "topic": "Cultura_General",
+        "question": "¿Quién fue el presidente de Estados Unidos durante la Guerra de Vietnam?",
+        "correctAnswer": "Lyndon B. Johnson",
+        "possibleAnswers": ["Richard Nixon", "John F. Kennedy", "Dwight D. Eisenhower"]
+    },
+    {
+        "id": 356,
+        "topic": "Cultura_General",
+        "question": "¿En qué continente se encuentra la región de Siberia?",
+        "correctAnswer": "Asia",
+        "possibleAnswers": ["Europa", "África", "Oceanía"]
+    },
+    {
+        "id": 357,
+        "topic": "Cultura_General",
+        "question": "¿Quién fue el líder de la Revolución Cubana que derrocó a Fulgencio Batista en 1959?",
+        "correctAnswer": "Fidel Castro",
+        "possibleAnswers": ["Ernesto 'Che' Guevara", "Fulgencio Batista", "Raul Castro"]
+    },
+    {
+        "id": 358,
+        "topic": "Cultura_General",
+        "question": "¿Cuál fue el evento que marcó el inicio de la Primera Guerra Mundial en 1914?",
+        "correctAnswer": "El asesinato de Archiduque Francisco Fernando de Austria",
+        "possibleAnswers": ["El hundimiento del Lusitania", "El ataque a Pearl Harbor", "El Tratado de Versalles"]
+    },
+    {
+        "id": 359,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es el órgano más grande del cuerpo humano?",
+        "correctAnswer": "La piel",
+        "possibleAnswers": ["El corazón", "El hígado", "Los pulmones"]
+    },
+    {
+        "id": 360,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía?",
+        "correctAnswer": "Fotosíntesis",
+        "possibleAnswers": ["Respiración", "Fermentación", "Digestión"]
+    },
+    {
+        "id": 361,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es el elemento químico más abundante en la Tierra?",
+        "correctAnswer": "Oxígeno",
+        "possibleAnswers": ["Hidrógeno", "Nitrógeno", "Carbono"]
+    },
+    {
+        "id": 362,
+        "topic": "Cultura_General",
+        "question": "¿Qué componente de la sangre es responsable del transporte de oxígeno a las células del cuerpo?",
+        "correctAnswer": "Hemoglobina",
+        "possibleAnswers": ["Glucosa", "Insulina", "Adrenalina"]
+    },
+    {
+        "id": 363,
+        "topic": "Ciencia",
+        "question": "¿Cuál es la capa más externa de la Tierra?",
+        "correctAnswer": "Litosfera",
+        "possibleAnswers": ["Manto", "Núcleo", "Atmósfera"]
+    },
+    {
+        "id": 364,
+        "topic": "Ciencia",
+        "question": "¿Qué elemento químico es fundamental para la vida y se encuentra en todas las proteínas?",
+        "correctAnswer": "Nitrógeno",
+        "possibleAnswers": ["Carbono", "Oxígeno", "Hidrógeno"]
+    },
+    {
+        "id": 365,
+        "topic": "Ciencia",
+        "question": "¿Cuál es la fuerza que mantiene a los objetos en la Tierra atrayéndolos hacia su centro?",
+        "correctAnswer": "Gravedad",
+        "possibleAnswers": ["Magnetismo", "Fricción", "Elasticidad"]
+    },
+    {
+        "id": 366,
+        "topic": "Ciencia",
+        "question": "¿Cuál es la capa más interna de la Tierra, compuesta principalmente de hierro y níquel?",
+        "correctAnswer": "Núcleo",
+        "possibleAnswers": ["Manto", "Corteza", "Litosfera"]
+    },
+    {
+        "id": 367,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el proceso mediante el cual las plantas obtienen energía de los alimentos?",
+        "correctAnswer": "Fermentación",
+        "possibleAnswers": ["Fotosíntesis", "Respiración", "Digestión"]
+    },
+    {
+        "id": 368,
+        "topic": "Ciencia",
+        "question": "¿Qué gas es esencial para la fotosíntesis de las plantas?",
+        "correctAnswer": "Dióxido de carbono - CO2",
+        "possibleAnswers": ["Oxígeno - O2", "Hidrógeno - H2", "Nitrógeno - N2", "Dióxido de carbono - CO2"]
+    },
+    {
+        "id": 369,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el proceso mediante el cual los seres vivos obtienen energía de los alimentos?",
+        "correctAnswer": "Respiración",
+        "possibleAnswers": ["Digestión", "Fermentación", "Fotosíntesis"]
+    },
+    {
+        "id": 370,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el planeta más cercano al Sol en nuestro sistema solar?",
+        "correctAnswer": "Mercurio",
+        "possibleAnswers": ["Venus", "Tierra", "Marte"]
+    },
+    {
+        "id": 371,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Australia?",
+        "correctAnswer": "Canberra",
+        "possibleAnswers": ["Sídney", "Melbourne", "Brisbane"]
+    },
+    {
+        "id": 372,
+        "topic": "Cultura_General",
+        "question": "¿Cuál es la montaña más alta del mundo?",
+        "correctAnswer": "El Monte Everest",
+        "possibleAnswers": ["El Kilimanjaro", "El Aconcagua", "El Monte McKinley"]
     }
+    
 ]

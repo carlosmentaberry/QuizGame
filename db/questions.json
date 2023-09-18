@@ -2934,101 +2934,587 @@
     },
     {
         "id": 419,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Mozambique?",
         "correctAnswer": "Maputo",
         "possibleAnswers": ["Lusaka", "Harare", "Pretoria"]
     },
     {
         "id": 420,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Nauru?",
         "correctAnswer": "Yaren",
         "possibleAnswers": ["Tarawa", "Funafuti", "Honiara"]
     },
     {
         "id": 421,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Filipinas?",
         "correctAnswer": "Manila",
         "possibleAnswers": ["Bangkok", "Hanoi", "Kuala Lumpur"]
     },
     {
         "id": 422,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Nepal?",
         "correctAnswer": "Katmandú",
         "possibleAnswers": ["Dhaka", "Thimphu", "Kabul"]
     },
     {
         "id": 423,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Mauricio?",
         "correctAnswer": "Port Louis",
         "possibleAnswers": ["Victoria", "Antananarivo", "Saint-Denis"]
     },
     {
         "id": 424,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Papúa Nueva Guinea?",
         "correctAnswer": "Port Moresby",
         "possibleAnswers": ["Suva", "Honiara", "Funafuti"]
     },
     {
         "id": 425,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Fiji?",
         "correctAnswer": "Suva",
         "possibleAnswers": ["Apia", "Honiara", "Port Moresby"]
     },
     {
         "id": 426,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Vanuatu?",
         "correctAnswer": "Port Vila",
         "possibleAnswers": ["Suva", "Nuku'alofa", "Majuro"]
     },
     {
         "id": 427,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de las Islas Salomón?",
         "correctAnswer": "Honiara",
         "possibleAnswers": ["Suva", "Apia", "Port Vila"]
     },
     {
         "id": 428,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Tuvalu?",
         "correctAnswer": "Funafuti",
         "possibleAnswers": ["Nuku'alofa", "Majuro", "Port Vila"]
     },
     {
         "id": 429,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Georgia?",
         "correctAnswer": "Tbilisi",
         "possibleAnswers": ["Ereván", "Bakú", "Astana"]
     },
     {
         "id": 430,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Vanuatu?",
         "correctAnswer": "Port Vila",
         "possibleAnswers": ["Suva", "Apia", "Honiara"]
     },
     {
         "id": 431,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Rwanda?",
         "correctAnswer": "Kigali",
         "possibleAnswers": ["Kampala", "Bujumbura", "Nairobi"]
     },
     {
         "id": 432,
-        "topic": "Geografía",
+        "topic": "Geografia",
         "question": "¿Cuál es la capital de Burundi?",
         "correctAnswer": "Bujumbura",
         "possibleAnswers": ["Kampala", "Kigali", "Nairobi"]
+    },
+    {
+        "id": 433,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del helio?",
+        "correctAnswer": "He",
+        "possibleAnswers": ["H", "Li", "Be"]
+    },
+    {
+        "id": 434,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del silicio?",
+        "correctAnswer": "Si",
+        "possibleAnswers": ["Se", "Sn", "Sb"]
+    },
+    {
+        "id": 435,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del potasio?",
+        "correctAnswer": "K",
+        "possibleAnswers": ["P", "Pt", "Kr"]
+    },
+    {
+        "id": 436,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del plomo?",
+        "correctAnswer": "Pb",
+        "possibleAnswers": ["Li", "Po", "Pd"]
+    },
+    {
+        "id": 437,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del cobalto?",
+        "correctAnswer": "Co",
+        "possibleAnswers": ["Ca", "Cu", "Cd"]
+    },
+    {
+        "id": 438,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del sodio?",
+        "correctAnswer": "Na",
+        "possibleAnswers": ["Ne", "Ni", "N"]
+    },
+    {
+        "id": 439,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del titanio?",
+        "correctAnswer": "Ti",
+        "possibleAnswers": ["Te", "Ta", "Tb"]
+    },
+    {
+        "id": 440,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del xenón?",
+        "correctAnswer": "Xe",
+        "possibleAnswers": ["Xa", "Xo", "Xu"]
+    },
+    {
+        "id": 441,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del azufre?",
+        "correctAnswer": "S",
+        "possibleAnswers": ["A", "Au", "Ag"]
+    },
+    {
+        "id": 442,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del berilio?",
+        "correctAnswer": "Be",
+        "possibleAnswers": ["Br", "Ba", "B"]
+    },
+    {
+        "id": 443,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del radón?",
+        "correctAnswer": "Rn",
+        "possibleAnswers": ["Ro", "Ra", "Rd"]
+    },
+    {
+        "id": 444,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del níquel?",
+        "correctAnswer": "Ni",
+        "possibleAnswers": ["Na", "Ne", "Nu"]
+    },
+    {
+        "id": 445,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del hierro?",
+        "correctAnswer": "Fe",
+        "possibleAnswers": ["Hr", "Hi", "Ho"]
+    },
+    {
+        "id": 446,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del tungsteno?",
+        "correctAnswer": "W",
+        "possibleAnswers": ["Tn", "Tu", "Ts"]
+    },
+    {
+        "id": 447,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del boro?",
+        "correctAnswer": "B",
+        "possibleAnswers": ["Br", "Ba", "Be"]
+    },
+    {
+        "id": 448,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del bromo?",
+        "correctAnswer": "Br",
+        "possibleAnswers": ["Ba", "Be", "B"]
+    },
+    {
+        "id": 449,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del cromo?",
+        "correctAnswer": "Cr",
+        "possibleAnswers": ["Cl", "Co", "Ca"]
+    },
+    {
+        "id": 450,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del cloro?",
+        "correctAnswer": "Cl",
+        "possibleAnswers": ["Cr", "Co", "Ca"]
+    },
+    {
+        "id": 451,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del bario?",
+        "correctAnswer": "Ba",
+        "possibleAnswers": ["Br", "Be", "B"]
+    },
+    {
+        "id": 452,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del cesio?",
+        "correctAnswer": "Cs",
+        "possibleAnswers": ["Th", "Li", "Ga"]
+    },
+    {
+        "id": 453,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del torio?",
+        "correctAnswer": "Th",
+        "possibleAnswers": ["Cs", "Li", "Ga"]
+    },
+    {
+        "id": 454,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del litio?",
+        "correctAnswer": "Li",
+        "possibleAnswers": ["Cs", "Th", "Ga"]
+    },
+    {
+        "id": 455,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del galio?",
+        "correctAnswer": "Ga",
+        "possibleAnswers": ["Cs", "Th", "Li"]
+    },
+    {
+        "id": 456,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del vanadio?",
+        "correctAnswer": "V",
+        "possibleAnswers": ["Cs", "Th", "Li"]
+    },
+    {
+        "id": 457,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del radio?",
+        "correctAnswer": "Ra",
+        "possibleAnswers": ["Cs", "Th", "Li"]
+    },
+    {
+        "id": 458,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del cadmio?",
+        "correctAnswer": "Cd",
+        "possibleAnswers": ["Ag", "Rn", "Rb"]
+    },
+    {
+        "id": 459,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del radón?",
+        "correctAnswer": "Rn",
+        "possibleAnswers": ["Cd", "Ag", "Rb"]
+    },
+    {
+        "id": 460,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del rubidio?",
+        "correctAnswer": "Rb",
+        "possibleAnswers": ["Cd", "Ag", "Rn"]
+    },
+    {
+        "id": 461,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del paladio?",
+        "correctAnswer": "Pd",
+        "possibleAnswers": ["Cd", "Ag", "Rn"]
+    },
+    {
+        "id": 462,
+        "topic": "Ciencia",
+        "question": "¿Cuál es el símbolo químico del telurio?",
+        "correctAnswer": "Te",
+        "possibleAnswers": ["Teo", "Tea", "Ter"]
+    },
+    {
+        "id": 463,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película El Padrino?",
+        "correctAnswer": "Francis Ford Coppola",
+        "possibleAnswers": ["Martin Scorsese", "Steven Spielberg", "Quentin Tarantino"]
+    },
+    {
+        "id": 464,
+        "topic": "Cine",
+        "question": "¿Cuál es la película de ciencia ficción en la que Keanu Reeves interpreta a Neo?",
+        "correctAnswer": "Matrix",
+        "possibleAnswers": ["Blade Runner", "Inception", "The Terminator"]
+    },
+    {
+        "id": 465,
+        "topic": "Cine",
+        "question": "¿En qué película Quentin Tarantino dirigió a Uma Thurman como La Novia?",
+        "correctAnswer": "Kill Bill",
+        "possibleAnswers": ["Pulp Fiction", "Reservoir Dogs", "Django Unchained"]
+    },
+    {
+        "id": 466,
+        "topic": "Cine",
+        "question": "¿Cuál es la película animada de Pixar sobre un ratón que quiere ser chef?",
+        "correctAnswer": "Ratatouille",
+        "possibleAnswers": ["Toy Story", "Up", "Cars"]
+    },
+    {
+        "id": 467,
+        "topic": "Cine",
+        "question": "¿Quién interpretó a Jack en la película Titanic?",
+        "correctAnswer": "Leonardo DiCaprio",
+        "possibleAnswers": ["Brad Pitt", "Tom Hanks", "Johnny Depp"]
+    },
+    {
+        "id": 468,
+        "topic": "Cine",
+        "question": "¿Cuál es la película de ciencia ficción en la que un astronauta se enfrenta a una inteligencia artificial llamada HAL 9000?",
+        "correctAnswer": "2001 Una odisea del espacio",
+        "possibleAnswers": ["Blade Runner", "Star Wars", "The Matrix"]
+    },
+    {
+        "id": 469,
+        "topic": "Cine",
+        "question": "¿Quién interpretó a Tony Stark en la franquicia de películas de Iron Man y Los Vengadores?",
+        "correctAnswer": "Robert Downey Jr",
+        "possibleAnswers": ["Chris Evans", "Mark Ruffalo", "Chris Hemsworth"]
+    },
+    {
+        "id": 470,
+        "topic": "Cine",
+        "question": "¿Cuál es la película dirigida por Christopher Nolan que se centra en los sueños y la realidad?",
+        "correctAnswer": "Origen",
+        "possibleAnswers": ["El Caballero de la Noche", "Interestelar", "Memento"]
+    },
+    {
+        "id": 471,
+        "topic": "Cine",
+        "question": "¿Quién interpretó a Katniss Everdeen en la serie de películas 'Los juegos del hambre'?",
+        "correctAnswer": "Jennifer Lawrence",
+        "possibleAnswers": ["Emma Watson", "Scarlett Johansson", "Anne Hathaway"]
+    },
+    {
+        "id": 472,
+        "topic": "Cine",
+        "question": "¿Qué película de Quentin Tarantino que se desarrolla en una cabaña de montaña durante una tormenta de nieve?",
+        "correctAnswer": "Los odiosos ocho",
+        "possibleAnswers": ["Pulp Fiction", "Kill Bill", "Reservoir Dogs"]
+    },
+    {
+        "id": 473,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista principal de la banda Queen?",
+        "correctAnswer": "Brian May",
+        "possibleAnswers": ["Jimmy Page", "Jimi Hendrix", "David Gilmour"]
+    },
+    {
+        "id": 474,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista de la banda The Beatles?",
+        "correctAnswer": "George Harrison",
+        "possibleAnswers": ["John Lennon", "Paul McCartney", "Ringo Starr"]
+    },
+    {
+        "id": 475,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista líder de la banda Pink Floyd?",
+        "correctAnswer": "David Gilmour",
+        "possibleAnswers": ["Roger Waters", "Syd Barrett", "Nick Mason"]
+    },
+    {
+        "id": 476,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista principal de la banda Guns N' Roses?",
+        "correctAnswer": "Slash",
+        "possibleAnswers": ["Axl Rose", "Duff McKagan", "Izzy Stradlin"]
+    },
+    {
+        "id": 477,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista de la banda The Rolling Stones?",
+        "correctAnswer": "Keith Richards",
+        "possibleAnswers": ["Mick Jagger", "Ronnie Wood", "Charlie Watts"]
+    },
+    {
+        "id": 478,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista principal de la banda Led Zeppelin?",
+        "correctAnswer": "Jimmy Page",
+        "possibleAnswers": ["Robert Plant", "John Bonham", "John Paul Jones"]
+    },
+    {
+        "id": 479,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista fundador de la banda de rock AC/DC?",
+        "correctAnswer": "Angus Young",
+        "possibleAnswers": ["Brian Johnson", "Malcolm Young", "Cliff Williams"]
+    },
+    {
+        "id": 480,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista principal de la banda Nirvana?",
+        "correctAnswer": "Kurt Cobain",
+        "possibleAnswers": ["Krist Novoselic", "Dave Grohl", "Pat Smear"]
+    },
+    {
+        "id": 481,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista de la banda The Jimi Hendrix Experience?",
+        "correctAnswer": "Jimi Hendrix",
+        "possibleAnswers": ["Noel Redding", "Mitch Mitchell", "Billy Cox"]
+    },
+    {
+        "id": 482,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista líder de la banda Black Sabbath?",
+        "correctAnswer": "Tony Iommi",
+        "possibleAnswers": ["Ozzy Osbourne", "Geezer Butler", "Bill Ward"]
+    },
+    {
+        "id": 483,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista principal de la banda Cream?",
+        "correctAnswer": "Eric Clapton",
+        "possibleAnswers": ["Ginger Baker", "Jack Bruce", "Jimmy Page"]
+    },
+    {
+        "id": 484,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista líder de la banda Van Halen?",
+        "correctAnswer": "Eddie Van Halen",
+        "possibleAnswers": ["David Lee Roth", "Michael Anthony", "Alex Van Halen"]
+    },
+    {
+        "id": 484,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista principal de la banda Metallica?",
+        "correctAnswer": "Kirk Hammett",
+        "possibleAnswers": ["James Hetfield", "Lars Ulrich", "Robert Trujillo"]
+    },
+    {
+        "id": 485,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista líder de la banda Red Hot Chili Peppers?",
+        "correctAnswer": "John Frusciante",
+        "possibleAnswers": ["Anthony Kiedis", "Flea", "Chad Smith"]
+    },
+    {
+        "id": 486,
+        "topic": "Musica",
+        "question": "¿Quién fue el guitarrista principal de la banda The Who?",
+        "correctAnswer": "Pete Townshend",
+        "possibleAnswers": ["Roger Daltrey", "John Entwistle", "Keith Moon"]
+    },
+    {
+        "id": 487,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda The Doors?",
+        "correctAnswer": "Ray Manzarek",
+        "possibleAnswers": ["Jim Morrison", "John Densmore", "Robbie Krieger"]
+    },
+    {
+        "id": 488,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda Pink Floyd?",
+        "correctAnswer": "Richard Wright",
+        "possibleAnswers": ["Roger Waters", "David Gilmour", "Nick Mason"]
+    },
+    {
+        "id": 489,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda Deep Purple conocido por su virtuoso solo en 'Smoke on the Water'?",
+        "correctAnswer": "Jon Lord",
+        "possibleAnswers": ["Ian Gillan", "Ritchie Blackmore", "Roger Glover"]
+    },
+    {
+        "id": 490,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda Queen?",
+        "correctAnswer": "Freddie Mercury",
+        "possibleAnswers": ["Brian May", "John Deacon", "Roger Taylor"]
+    },
+    {
+        "id": 491,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista y miembro fundador de la banda Yes?",
+        "correctAnswer": "Tony Kaye",
+        "possibleAnswers": ["Jon Anderson", "Chris Squire", "Alan White"]
+    },
+    {
+        "id": 492,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda Genesis y luego continuó una exitosa carrera en solitario?",
+        "correctAnswer": "Phil Collins",
+        "possibleAnswers": ["Peter Gabriel", "Tony Banks", "Mike Rutherford"]
+    },
+    {
+        "id": 493,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda Electric Light Orchestra (ELO) conocido por su estilo único?",
+        "correctAnswer": "Richard Tandy",
+        "possibleAnswers": ["Jeff Lynne", "Bev Bevan", "Kelly Groucutt"]
+    },
+    {
+        "id": 494,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda Supertramp y coescribió muchas de sus canciones más conocidas?",
+        "correctAnswer": "Roger Hodgson",
+        "possibleAnswers": ["Rick Davies", "John Helliwell", "Dougie Thomson"]
+    },
+    {
+        "id": 495,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda The Beach Boys y contribuyó significativamente a su sonido distintivo?",
+        "correctAnswer": "Brian Wilson",
+        "possibleAnswers": ["Mike Love", "Al Jardine", "Carl Wilson"]
+    },
+    {
+        "id": 496,
+        "topic": "Musica",
+        "question": "¿Quién fue el tecladista de la banda The Rolling Stones durante muchos años y coescribió algunas de sus canciones más famosas?",
+        "correctAnswer": "Chuck Leavell",
+        "possibleAnswers": ["Mick Jagger", "Keith Richards", "Charlie Watts"]
+    },
+    {
+        "id": 497,
+        "topic": "Musica",
+        "question": "¿Quién es el tecladista de la banda de metal progresivo Dream Theater?",
+        "correctAnswer": "Jordan Rudess",
+        "possibleAnswers": ["John Petrucci", "Mike Portnoy", "James LaBrie"]
+    },
+    {
+        "id": 498,
+        "topic": "Musica",
+        "question": "¿Quién es el guitarrista de la banda de metal progresivo Dream Theater?",
+        "correctAnswer": "John Petrucci",
+        "possibleAnswers": ["Jordan Rudess", "Mike Portnoy", "James LaBrie"]
+    },
+    {
+        "id": 499,
+        "topic": "Musica",
+        "question": "¿Quién es el baterista de la banda de metal progresivo Dream Theater?",
+        "correctAnswer": "Mike Mangini",
+        "possibleAnswers": ["Jordan Rudess", "John Petrucci", "James LaBrie"]
+    },
+    {
+        "id": 500,
+        "topic": "Musica",
+        "question": "¿Quién es el cantante de la banda de metal progresivo Dream Theater?",
+        "correctAnswer": "James LaBrie",
+        "possibleAnswers": ["Jordan Rudess", "John Petrucci", "Mike Mangini"]
     }
-
+    
+    
+    
+    
 ]

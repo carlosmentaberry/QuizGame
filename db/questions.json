@@ -1170,7 +1170,7 @@
     },
     {
         "id":167,
-        "topic": "Cultura_General",
+        "topic": "Cine",
         "question":"¿Quién dirigió El Lobo de Wall Street?",
         "correctAnswer": "Martin Scorsese",
         "possibleAnswers": ["Quentin Tarantino","Francis Ford Coppola","Cristopher Nolan"]
@@ -2602,6 +2602,433 @@
         "question": "¿Cuál es la montaña más alta del mundo?",
         "correctAnswer": "El Monte Everest",
         "possibleAnswers": ["El Kilimanjaro", "El Aconcagua", "El Monte McKinley"]
+    },
+    {
+        "id": 373,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la pelicula Avatar?",
+        "correctAnswer": "James Cameron",
+        "possibleAnswers": ["Steven Spielberg", "Christopher Nolan", "Peter Jackson"]
+    },
+    {
+        "id": 374,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la pelicula The lord of the rings?",
+        "correctAnswer": "Peter Jackson",
+        "possibleAnswers": ["Steven Spielberg", "Christopher Nolan", "James Cameron"]
+    },
+    {
+        "id": 375,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Titanic?",
+        "correctAnswer": "James Cameron",
+        "possibleAnswers": ["Christopher Nolan", "Peter Jackson", "David Fincher"]
+    },
+    {
+        "id": 376,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la pelicula The hobbit?",
+        "correctAnswer": "Peter Jackson",
+        "possibleAnswers": ["Steven Spielberg", "Christopher Nolan", "James Cameron"]
+    },
+    {
+        "id": 377,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película El Padrino?",
+        "correctAnswer": "Francis Ford Coppola",
+        "possibleAnswers": ["Martin Scorsese", "Steven Spielberg", "Quentin Tarantino"]
+    },
+    {
+        "id": 378,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Forrest Gump?",
+        "correctAnswer": "Robert Zemeckis",
+        "possibleAnswers": ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg"]
+    },
+    {
+        "id": 379,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Pulp Fiction?",
+        "correctAnswer": "Quentin Tarantino",
+        "possibleAnswers": ["Martin Scorsese", "Francis Ford Coppola", "Steven Spielberg"]
+    },
+    {
+        "id": 379,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Kill Bill?",
+        "correctAnswer": "Quentin Tarantino",
+        "possibleAnswers": ["Martin Scorsese", "Francis Ford Coppola", "Steven Spielberg"]
+    },
+    {
+        "id": 380,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película El Resplandor?",
+        "correctAnswer": "Stanley Kubrick",
+        "possibleAnswers": ["Alfred Hitchcock", "Francis Ford Coppola", "Steven Spielberg"]
+    },
+    {
+        "id": 381,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película The Matrix?",
+        "correctAnswer": "Lana y Lilly Wachowskis",
+        "possibleAnswers": ["Steven Spielberg", "James Cameron", "Christopher Nolan"]
+    },
+    {
+        "id": 382,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Jurassic Park?",
+        "correctAnswer": "Steven Spielberg",
+        "possibleAnswers": ["James Cameron", "Ridley Scott", "George Lucas"]
+    },
+    {
+        "id": 383,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película E.T. the Extra-Terrestrial?",
+        "correctAnswer": "Steven Spielberg",
+        "possibleAnswers": ["James Cameron", "Ridley Scott", "George Lucas"]
+    },
+    {
+        "id": 384,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la saga de películas Star Wars?",
+        "correctAnswer": "George Lucas",
+        "possibleAnswers": ["James Cameron", "Ridley Scott", "Steven Spielberg"]
+    },
+    {
+        "id": 385,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Gladiador?",
+        "correctAnswer": "Ridley Scott",
+        "possibleAnswers": ["Peter Jackson", "Martin Scorsese", "Quentin Tarantino"]
+    },
+    {
+        "id": 385,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Inception?",
+        "correctAnswer": "Christopher Nolan",
+        "possibleAnswers": ["Peter Jackson", "Martin Scorsese", "Quentin Tarantino"]
+    },
+    {
+        "id": 386,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Watchmen?",
+        "correctAnswer": "Zack Snyder",
+        "possibleAnswers": ["Christopher Nolan", "Martin Scorsese", "Steven Spielberg"]
+    },
+    {
+        "id": 387,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Taxi Driver?",
+        "correctAnswer": "Martin Scorsese",
+        "possibleAnswers": ["Alfred Hitchcock", "Francis Ford Coppola", "Steven Spielberg"]
+    },
+    {
+        "id": 389,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película 300?",
+        "correctAnswer": "Zack Snyder",
+        "possibleAnswers": ["Christopher Nolan", "Martin Scorsese", "Steven Spielberg"]
+    },
+    {
+        "id": 390,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Man of Steel - El Hombre de Acero?",
+        "correctAnswer": "Zack Snyder",
+        "possibleAnswers": ["Joss Whedon", "Martin Scorsese", "James Cameron"]
+    },
+    {
+        "id": 391,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Watchmen?",
+        "correctAnswer": "Zack Snyder",
+        "possibleAnswers": ["Christopher Nolan", "Martin Scorsese", "Steven Spielberg"]
+    },
+    {
+        "id": 392,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Dawn of the Dead - El Amanecer de los Muertos?",
+        "correctAnswer": "Zack Snyder",
+        "possibleAnswers": ["George Romero", "James Cameron", "David Fincher"]
+    },
+    {
+        "id": 393,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la película Sucker Punch?",
+        "correctAnswer": "Zack Snyder",
+        "possibleAnswers": ["Quentin Tarantino", "Steven Spielberg", "Martin Scorsese"]
+    },
+    {
+        "id": 394,
+        "topic": "Cine",
+        "question": "¿Quién dirigió la mayoría de las películas de Harry Potter?",
+        "correctAnswer": "David Yates",
+        "possibleAnswers": ["Steven Spielberg", "Christopher Nolan", "Martin Scorsese"]
+    },
+    {
+        "id": 395,
+        "topic": "Cine",
+        "question": "De los siguientes actores, ¿cuál NO ha interpretado al Joker en una película?",
+        "correctAnswer": "Danny DeVito",
+        "possibleAnswers": ["Heath Ledger", "Joaquin Phoenix", "Jack Nicholson", "Jared Leto"]
+    },
+    {
+        "id": 396,
+        "topic": "Cine",
+        "question": "¿Cuál de los siguientes actores NO interpretó a Superman?",
+        "correctAnswer": "Christian Bale",
+        "possibleAnswers": ["Henry Cavill", "Brandon Routh", "Christopher Reeve"]
+    },
+    {
+        "id": 397,
+        "topic": "Cine",
+        "question": "¿Cuál de los siguientes actores NO interpretó a Spiderman?",
+        "correctAnswer": "Chris Hemsworth",
+        "possibleAnswers": ["Tom Holland", "Andrew Garfield", "Tobey Maguire"]
+    },
+    {
+        "id": 398,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Sudáfrica?",
+        "correctAnswer": "Pretoria",
+        "possibleAnswers": ["Ciudad del Cabo", "Johannesburgo", "Durban"]
+    },
+    {
+        "id": 399,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Chile?",
+        "correctAnswer": "Santiago",
+        "possibleAnswers": ["Lima", "Montevideo", "Quito"]
+    },
+    {
+        "id": 400,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Canadá?",
+        "correctAnswer": "Ottawa",
+        "possibleAnswers": ["Toronto", "Montreal", "Vancouver"]
+    },
+    {
+        "id": 401,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de China?",
+        "correctAnswer": "Pekin",
+        "possibleAnswers": ["Shanghai", "Hong Kong", "Guangzhou"]
+    },
+    {
+        "id": 402,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Brasil?",
+        "correctAnswer": "Brasilia",
+        "possibleAnswers": ["Río de Janeiro", "Sao Paulo", "Buenos Aires"]
+    },
+    {
+        "id": 403,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Portugal?",
+        "correctAnswer": "Lisboa",
+        "possibleAnswers": ["Madrid", "Barcelona", "Oporto"]
+    },
+    {
+        "id": 404,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Corea del Sur?",
+        "correctAnswer": "Seul",
+        "possibleAnswers": ["Tokio", "Pekin", "Busan"]
+    },
+    {
+        "id": 405,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Egipto?",
+        "correctAnswer": "El Cairo",
+        "possibleAnswers": ["Alejandría", "Luxor", "Giza"]
+    },
+    {
+        "id": 406,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Namibia?",
+        "correctAnswer": "Windhoek",
+        "possibleAnswers": ["Tripoli", "Scopge", "Bursa"]
+    },
+    {
+        "id": 407,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Noruega?",
+        "correctAnswer": "Oslo",
+        "possibleAnswers": ["Estocolmo", "Copenhague", "Helsinki"]
+    },
+    {
+        "id": 408,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Perú?",
+        "correctAnswer": "Lima",
+        "possibleAnswers": ["Quito", "La Paz", "Asunción"]
+    },
+    {
+        "id": 409,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Colombia?",
+        "correctAnswer": "Bogotá",
+        "possibleAnswers": ["Caracas", "Lima", "Quito"]
+    },
+    {
+        "id": 410,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Alemania?",
+        "correctAnswer": "Berlin",
+        "possibleAnswers": ["Munich", "Hamburgo", "Francfort"]
+    },
+    {
+        "id": 411,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Grecia?",
+        "correctAnswer": "Atenas",
+        "possibleAnswers": ["Salonica", "Heraklion", "Patras"]
+    },
+    {
+        "id": 412,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Austria?",
+        "correctAnswer": "Viena",
+        "possibleAnswers": ["Salzburgo", "Graz", "Linz"]
+    },
+    {
+        "id": 413,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Marruecos?",
+        "correctAnswer": "Rabat",
+        "possibleAnswers": ["Casablanca", "Tánger", "Fez"]
+    },
+    {
+        "id": 414,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Irlanda?",
+        "correctAnswer": "Dublín",
+        "possibleAnswers": ["Cork", "Galway", "Belfast"]
+    },
+    {
+        "id": 415,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Nueva Zelanda?",
+        "correctAnswer": "Wellington",
+        "possibleAnswers": ["Auckland", "Christchurch", "Dunedin"]
+    },
+    {
+        "id": 416,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Polonia?",
+        "correctAnswer": "Varsovia",
+        "possibleAnswers": ["Cracovia", "Wrocław", "Gdansk"]
+    },
+    {
+        "id": 417,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de Israel?",
+        "correctAnswer": "Jerusalen",
+        "possibleAnswers": ["Tel Aviv", "Haifa", "Eilat"]
+    },
+    {
+        "id": 418,
+        "topic": "Geografia",
+        "question": "¿Cuál es la capital de India?",
+        "correctAnswer": "Nueva Delhi",
+        "possibleAnswers": ["Bombay", "Bangalore", "Calcuta"]
+    },
+    {
+        "id": 419,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Mozambique?",
+        "correctAnswer": "Maputo",
+        "possibleAnswers": ["Lusaka", "Harare", "Pretoria"]
+    },
+    {
+        "id": 420,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Nauru?",
+        "correctAnswer": "Yaren",
+        "possibleAnswers": ["Tarawa", "Funafuti", "Honiara"]
+    },
+    {
+        "id": 421,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Filipinas?",
+        "correctAnswer": "Manila",
+        "possibleAnswers": ["Bangkok", "Hanoi", "Kuala Lumpur"]
+    },
+    {
+        "id": 422,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Nepal?",
+        "correctAnswer": "Katmandú",
+        "possibleAnswers": ["Dhaka", "Thimphu", "Kabul"]
+    },
+    {
+        "id": 423,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Mauricio?",
+        "correctAnswer": "Port Louis",
+        "possibleAnswers": ["Victoria", "Antananarivo", "Saint-Denis"]
+    },
+    {
+        "id": 424,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Papúa Nueva Guinea?",
+        "correctAnswer": "Port Moresby",
+        "possibleAnswers": ["Suva", "Honiara", "Funafuti"]
+    },
+    {
+        "id": 425,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Fiji?",
+        "correctAnswer": "Suva",
+        "possibleAnswers": ["Apia", "Honiara", "Port Moresby"]
+    },
+    {
+        "id": 426,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Vanuatu?",
+        "correctAnswer": "Port Vila",
+        "possibleAnswers": ["Suva", "Nuku'alofa", "Majuro"]
+    },
+    {
+        "id": 427,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de las Islas Salomón?",
+        "correctAnswer": "Honiara",
+        "possibleAnswers": ["Suva", "Apia", "Port Vila"]
+    },
+    {
+        "id": 428,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Tuvalu?",
+        "correctAnswer": "Funafuti",
+        "possibleAnswers": ["Nuku'alofa", "Majuro", "Port Vila"]
+    },
+    {
+        "id": 429,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Georgia?",
+        "correctAnswer": "Tbilisi",
+        "possibleAnswers": ["Ereván", "Bakú", "Astana"]
+    },
+    {
+        "id": 430,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Vanuatu?",
+        "correctAnswer": "Port Vila",
+        "possibleAnswers": ["Suva", "Apia", "Honiara"]
+    },
+    {
+        "id": 431,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Rwanda?",
+        "correctAnswer": "Kigali",
+        "possibleAnswers": ["Kampala", "Bujumbura", "Nairobi"]
+    },
+    {
+        "id": 432,
+        "topic": "Geografía",
+        "question": "¿Cuál es la capital de Burundi?",
+        "correctAnswer": "Bujumbura",
+        "possibleAnswers": ["Kampala", "Kigali", "Nairobi"]
     }
-    
+
 ]
